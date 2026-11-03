@@ -1,0 +1,36 @@
+name: Update mod releases
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'release/mc/**/*.jar'
+      - 'tools/sync_releases.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gakspack-releases
+  cancel-in-progress: false
+
+jobs:
+  update-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Validate releases and refresh manifests
+        run: python3 tools/sync_releases.py --write
+      - name: Publish manifest changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add release/mc/*/version.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GaksPack release manifests"
+            git push origin HEAD:main
+          fi
