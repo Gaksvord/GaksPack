@@ -450,6 +450,456 @@
       "size": 1207,
       "added": "2026-10-28",
       "preview": "previews/windcharge_gold.png"
+    },
+    {
+      "id": "windcharge_lime",
+      "category": "windcharge",
+      "name": "Lime",
+      "sha256": "4bbb79ee85d79e996847096e61548e23e5435d792ee2d18837da7bf0d6363d36",
+      "size": 1202,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_lime.png"
+    },
+    {
+      "id": "windcharge_aqua",
+      "category": "windcharge",
+      "name": "Aqua",
+      "sha256": "89b82937aa4cfd65c6704a9dea774da49313dcbb599c8eb70e499e9d87bab8a4",
+      "size": 1209,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_aqua.png"
+    },
+    {
+      "id": "windcharge_blue",
+      "category": "windcharge",
+      "name": "Blue",
+      "sha256": "896a8aa27562dbc38f9335e6c9bbd4fef8437d3fad086a08fb58febf7b225cf7",
+      "size": 1203,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_blue.png"
+    },
+    {
+      "id": "windcharge_purple",
+      "category": "windcharge",
+      "name": "Purple",
+      "sha256": "b4228f31624dce70e66d2cf253d58fbb42ded3bdc02c1faeee3061736d7be974",
+      "size": 1209,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_purple.png"
+    },
+    {
+      "id": "windcharge_pink",
+      "category": "windcharge",
+      "name": "Pink",
+      "sha256": "7d8a9cf64e8b160e39823c5cb4793209f7b7a2b0f7deb7609b31175ac63d05f7",
+      "size": 1205,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_pink.png"
+    },
+    {
+      "id": "windcharge_black",
+      "category": "windcharge",
+      "name": "Black",
+      "sha256": "9c3957144adcae7754df02906e378623a3b74dcd2940c4068a883bef915cde0f",
+      "size": 1189,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_black.png"
+    },
+    {
+      "id": "windcharge_white",
+      "category": "windcharge",
+      "name": "White",
+      "sha256": "070b16be5825cc5aac624e95103b104c5c7f5ebba6ad5e290fdb09759964b119",
+      "size": 1204,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_white.png"
+    },
+    {
+      "id": "windcharge_void",
+      "category": "windcharge",
+      "name": "Void",
+      "sha256": "a675c42ce9d1cf3c5af4b6a4cd73333fde90cc16b2694e1f477dd5cc6bef9b4a",
+      "size": 1191,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_void.png"
+    },
+    {
+      "id": "windcharge_fire",
+      "category": "windcharge",
+      "name": "Fire",
+      "sha256": "852f707447adf0d1d4de8537343b707f8c6e8ef4d63c7e22b0fbea232ac706ad",
+      "size": 1167,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_fire.png"
+    },
+    {
+      "id": "windcharge_ice",
+      "category": "windcharge",
+      "name": "Ice",
+      "sha256": "969c35038f56e35c8d9e06dd22a2729fb704220670c4a345767a87129378cbd2",
+      "size": 1156,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_ice.png"
+    },
+    {
+      "id": "windcharge_toxic",
+      "category": "windcharge",
+      "name": "Toxic",
+      "sha256": "40ce0d50c0007622ca7ec330451f71d6855c220f60a3912cc9f6277518b69e49",
+      "size": 1208,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_toxic.png"
+    },
+    {
+      "id": "windcharge_lava",
+      "category": "windcharge",
+      "name": "Lava",
+      "sha256": "e532be19af0c50912347b179afc32839e3f3b6b8d1afb0d3349ce3fcc64a8a25",
+      "size": 1205,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_lava.png"
+    },
+    {
+      "id": "windcharge_sunset",
+      "category": "windcharge",
+      "name": "Sunset",
+      "sha256": "8ab50f0c55ac50f89d54b4b5b611aa4cc197c2ef674a1f718e67b3afab72465a",
+      "size": 1213,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_sunset.png"
+    },
+    {
+      "id": "windcharge_ocean",
+      "category": "windcharge",
+      "name": "Ocean",
+      "sha256": "0ae6e07ea7eaa0ec13134070331dd70d780be24dded09558819a4eefc7bf7cdb",
+      "size": 1201,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_ocean.png"
+    },
+    {
+      "id": "windcharge_galaxy",
+      "category": "windcharge",
+      "name": "Galaxy",
+      "sha256": "b65e3231c51205c28d0904318d4cd58836d7f4613b86bfc0597e31765442009b",
+      "size": 1334,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_galaxy.png"
+    },
+    {
+      "id": "windcharge_rainbow",
+      "category": "windcharge",
+      "name": "Rainbow",
+      "sha256": "cf866d5eac0044994c04ed810b926cda8ca00ca57f1da39d16ec2289193daec3",
+      "size": 1857,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_rainbow.png"
+    },
+    {
+      "id": "windcharge_candy",
+      "category": "windcharge",
+      "name": "Candy",
+      "sha256": "d3429bf49dfa2a1fcce560f48bf32c9fac403de9a379cd65d5fbb4ecd412bc9f",
+      "size": 1325,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_candy.png"
+    },
+    {
+      "id": "windcharge_neon",
+      "category": "windcharge",
+      "name": "Neon",
+      "sha256": "f94b77a160dc11a827b7135160e393f8ac39fecec1fbf7b33a1b2488fe5d9a8a",
+      "size": 1196,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_neon.png"
+    },
+    {
+      "id": "fire_gubi_fortnite7",
+      "category": "fire",
+      "name": "gubi fortnite7",
+      "sha256": "8fd45eabd1f4f6920527b6e6eca9e73d1f31e266831b41b3e3f9cbeb49cffb51",
+      "size": 4296,
+      "added": "2026-10-27",
+      "preview": "previews/fire_gubi_fortnite7.png"
+    },
+    {
+      "id": "totem_gubi_fortnite7",
+      "category": "totem",
+      "name": "gubi fortnite7",
+      "sha256": "1f863bdd8730ad3e49bcea0dd66c2ea05f514505af08521a7db2c40c12d778e2",
+      "size": 1104,
+      "added": "2026-10-27",
+      "preview": "previews/totem_gubi_fortnite7.png"
+    },
+    {
+      "id": "rails_orchard_x_syn_overlay",
+      "category": "rails",
+      "name": "orchard x syn overlay",
+      "sha256": "b0dbb5e54b21842da57de895248096adef0dc45e122ed9ff8af64fdc68d105dc",
+      "size": 5637,
+      "added": "2026-10-27",
+      "preview": "previews/rails_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "xpbottle_aquaplus",
+      "category": "xpbottle",
+      "name": "AquaPlus",
+      "sha256": "dd4ba0000cd39e7a9fc707f54136a74387363d47724187cc546d16a743e1d5e9",
+      "size": 2119,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_aquaplus.png"
+    },
+    {
+      "id": "xpbottle_lavander",
+      "category": "xpbottle",
+      "name": "Lavander",
+      "sha256": "932ec28e990beb094597befdac983b6b900069c9e95dc4c3eda9a10bf7da6efa",
+      "size": 807,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_lavander.png"
+    },
+    {
+      "id": "xpbottle_blck",
+      "category": "xpbottle",
+      "name": "Blck",
+      "sha256": "10d44f51b72bff6ad014b9776d053ddd74c38730cdfeaf33153e908aa5d5a9a8",
+      "size": 1474,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_blck.png"
+    },
+    {
+      "id": "crystal_gubi_fortnite7_1",
+      "category": "crystal",
+      "name": "gubi fortnite7 1",
+      "sha256": "c18317bf7118e71d3b05f736364fcf2368c9ce0993bbb04a6e9247a2792e9d5f",
+      "size": 20020,
+      "added": "2026-10-26",
+      "preview": "previews/crystal_gubi_fortnite7_1.png"
+    },
+    {
+      "id": "crystal_halloween",
+      "category": "crystal",
+      "name": "Halloween",
+      "sha256": "254587f6670d3be0f7e578e1e4d292f5bae2643769b05e7944adbb3a8766dbd3",
+      "size": 7516,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_halloween.png"
+    },
+    {
+      "id": "crystal_o3kar_purple",
+      "category": "crystal",
+      "name": "O3kar Purple",
+      "sha256": "fefab1b25499512cfcd8fe6f545983060ee36f06166586c07a9ff248e8cfaa5c",
+      "size": 3675,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_o3kar_purple.png"
+    },
+    {
+      "id": "crystal_swetsy_whiteee",
+      "category": "crystal",
+      "name": "Swetsy whiteee",
+      "sha256": "77ad139024ddc090fc8a239ea2a7af6ebac1177289abb1b2294fb035e337eab0",
+      "size": 13656,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_swetsy_whiteee.png"
+    },
+    {
+      "id": "anchor_light_purple",
+      "category": "anchor",
+      "name": "Light Purple",
+      "sha256": "bbcd5961b8bcf3af01f31d0f19b8c37db838516accec5e0206f41a5377ecba69",
+      "size": 7587,
+      "added": "2026-10-25",
+      "preview": "previews/anchor_light_purple.png"
+    },
+    {
+      "id": "armor_halloween",
+      "category": "armor",
+      "name": "Halloween",
+      "sha256": "d43d389961de88f5b4ef956f64d0dc77cef41c0abf74a3c0cf1f83d19a0872a7",
+      "size": 9137,
+      "added": "2026-10-25",
+      "preview": "previews/armor_halloween.png"
+    },
+    {
+      "id": "armor_lavander_1_21_11",
+      "category": "armor",
+      "name": "Lavander 1.21.11",
+      "sha256": "5512f76cb372aebebf71d133d6d9c21edbff041664587b660d6fff41329b2a83",
+      "size": 11989,
+      "added": "2026-10-25",
+      "preview": "previews/armor_lavander_1_21_11.png"
+    },
+    {
+      "id": "armor_rulers",
+      "category": "armor",
+      "name": "Rulers",
+      "sha256": "c903e98356d42e530627f9f898fe816e4577baa906495c14e9137e74c0304785",
+      "size": 28271,
+      "added": "2026-10-25",
+      "preview": "previews/armor_rulers.png"
+    },
+    {
+      "id": "armor_monsterwhite",
+      "category": "armor",
+      "name": "MonsterWhite",
+      "sha256": "7aa67bc5d39d90ea194a5d203e5122629829c5dac3de58ff96c52d8a1fd4f679",
+      "size": 6733,
+      "added": "2026-10-25",
+      "preview": "previews/armor_monsterwhite.png"
+    },
+    {
+      "id": "sword_daquavious_purple",
+      "category": "sword",
+      "name": "daquavious purple",
+      "sha256": "e67cd647d88d100b723077e6bfd89b9e1c2d1ff96c53cc5fa39cf8a6388b9fad",
+      "size": 2342,
+      "added": "2026-10-25",
+      "preview": "previews/sword_daquavious_purple.png"
+    },
+    {
+      "id": "sword_kesu_main_qblast_pink_recolor",
+      "category": "sword",
+      "name": "kesu main qblast pink recolor",
+      "sha256": "a833a82016df04d62c90057ec0306c03ca41ca8ae8545ebfd70749696d15bbbb",
+      "size": 708,
+      "added": "2026-10-25",
+      "preview": "previews/sword_kesu_main_qblast_pink_recolor.png"
+    },
+    {
+      "id": "sword_rulers",
+      "category": "sword",
+      "name": "Rulers",
+      "sha256": "8c3543401ef37dfc0623c096f3895a6482d932b48ce29f67cea5906d8952069e",
+      "size": 3699,
+      "added": "2026-10-25",
+      "preview": "previews/sword_rulers.png"
+    },
+    {
+      "id": "pickaxe_rulers",
+      "category": "pickaxe",
+      "name": "Rulers",
+      "sha256": "23e00ddcc07026781b76d758a22bed6ac8bea81767f0c27f221e0901d996a2b7",
+      "size": 3554,
+      "added": "2026-10-25",
+      "preview": "previews/pickaxe_rulers.png"
+    },
+    {
+      "id": "pickaxe_melody_pack",
+      "category": "pickaxe",
+      "name": "Melody Pack",
+      "sha256": "fac11e88d43c28d35737deae1190dcd1618550a1e41202e8a7a1e8d972cc2e05",
+      "size": 1413,
+      "added": "2026-10-25",
+      "preview": "previews/pickaxe_melody_pack.png"
+    },
+    {
+      "id": "axe_halloween",
+      "category": "axe",
+      "name": "Halloween",
+      "sha256": "13ec7bf7defbe907a4ea4fce5530c5c5cfbb39363f4f281630da6c4b5f69eca6",
+      "size": 1021,
+      "added": "2026-10-25",
+      "preview": "previews/axe_halloween.png"
+    },
+    {
+      "id": "totem_halloween",
+      "category": "totem",
+      "name": "Halloween",
+      "sha256": "c50eb6cedc3b27e481c7aa8d35f618347b338acd5b685a37eb6ab7d6f7800d81",
+      "size": 625,
+      "added": "2026-10-25",
+      "preview": "previews/totem_halloween.png"
+    },
+    {
+      "id": "gap_halloween",
+      "category": "gap",
+      "name": "Halloween",
+      "sha256": "85009f094cb48efe922a558fa28d154a143f60e56007296a0d2ea2cccb374978",
+      "size": 1047,
+      "added": "2026-10-25",
+      "preview": "previews/gap_halloween.png"
+    },
+    {
+      "id": "sky_rulers",
+      "category": "sky",
+      "name": "Rulers",
+      "sha256": "b3dfa96e43d34450b4756f65db8d395ceb841746081224b862fcdf69a881c846",
+      "size": 9773146,
+      "added": "2026-10-25",
+      "preview": "previews/sky_rulers.png"
+    },
+    {
+      "id": "sky_spongebob_pack",
+      "category": "sky",
+      "name": "SpongeBob Pack",
+      "sha256": "976b66b1b4271e6988da929186a40ff4cd165e56cd2b8c723e5f96d35cfc1932",
+      "size": 627051,
+      "added": "2026-10-25",
+      "preview": "previews/sky_spongebob_pack.png"
+    },
+    {
+      "id": "mace_halloween",
+      "category": "mace",
+      "name": "Halloween",
+      "sha256": "ece0b7ff5c840c26a4d0dd415ed9d60bed94ddb0238fd00fc343c4888ae17e51",
+      "size": 4595,
+      "added": "2026-10-25",
+      "preview": "previews/mace_halloween.png"
+    },
+    {
+      "id": "mace_melody_pack",
+      "category": "mace",
+      "name": "Melody Pack",
+      "sha256": "3bd1def0172fd14ba8678fe78c18e18e1fde088b3b67c98c924fae75dc10dce9",
+      "size": 6593,
+      "added": "2026-10-25",
+      "preview": "previews/mace_melody_pack.png"
+    },
+    {
+      "id": "trident_doly_50000",
+      "category": "trident",
+      "name": "Doly 50000",
+      "sha256": "038973eefbbd09dca129711a9fa32e3b8916c3fc13c83bb404cb9dcad6219b1d",
+      "size": 1467,
+      "added": "2026-10-25",
+      "preview": "previews/trident_doly_50000.png"
+    },
+    {
+      "id": "tntcart_mexgrey",
+      "category": "tntcart",
+      "name": "mexgrey",
+      "sha256": "92ea8c8079f44779ca1cd07f38073b15d51d6e097423f5f989d47d54e1f7221f",
+      "size": 3999,
+      "added": "2026-10-25",
+      "preview": "previews/tntcart_mexgrey.png"
+    },
+    {
+      "id": "xpbottle_duolingorework",
+      "category": "xpbottle",
+      "name": "DuoLingoRework",
+      "sha256": "b05ddd7c651407b489ed76c2de96e5bf758f367a1078c6d9457eb3d87def730e",
+      "size": 812,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_duolingorework.png"
+    },
+    {
+      "id": "xpbottle_halloween",
+      "category": "xpbottle",
+      "name": "Halloween",
+      "sha256": "ac7e5bc86edcd7d7e4d9d02023887acb3ef14b98132daf430a8cad9f57e5d880",
+      "size": 629,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_halloween.png"
+    },
+    {
+      "id": "xpbottle_miku_clear_vision",
+      "category": "xpbottle",
+      "name": "Miku Clear Vision",
+      "sha256": "2192ed5ef0eca8f0beb4981a2abe13235928c2c62dadc69a2ef4dc98a797733d",
+      "size": 1459,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_miku_clear_vision.png"
     }
   ],
   "categories": [
