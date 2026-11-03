@@ -1,6 +1,5034 @@
-Traceback (most recent call last):
-  File "<stdin>", line 2, in <module>
-  File "C:\Users\User\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1251.py", line 19, in encode
-    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
-           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-UnicodeEncodeError: 'charmap' codec can't encode character '\u2321' in position 34793: character maps to <undefined>
+{
+  "version": 2,
+  "styles": [
+    {
+      "id": "crystal_lennon_priv",
+      "category": "crystal",
+      "name": "lennon priv",
+      "sha256": "7e80ee9b80329697b080c88fe768482b2f466b5e7fdde2dcd65e244010286f2f",
+      "size": 19940,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_lennon_priv.png"
+    },
+    {
+      "id": "crystal_o6o_isrxpxnts_private_v2",
+      "category": "crystal",
+      "name": "o6o ISrxpxnts Private v2",
+      "sha256": "165c096cb0908cdacbda0e743c2a39b4afb2ba69e4492a767806249c37ae7b6f",
+      "size": 1287,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_o6o_isrxpxnts_private_v2.png"
+    },
+    {
+      "id": "crystal_golfeh_blue",
+      "category": "crystal",
+      "name": "Golfeh Blue",
+      "sha256": "ce9cb47bc0cfaec13e25efd7579bca048dcfa7ac174216aa6b2b2a1b43d961c9",
+      "size": 3040,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_golfeh_blue.png"
+    },
+    {
+      "id": "crystal_purple_private_edit",
+      "category": "crystal",
+      "name": "Purple Private Edit",
+      "sha256": "d1276c6bc5e8f3bd1bba617c40217a72e533497c4673ca889e3c3bdd1947ca10",
+      "size": 4631,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_purple_private_edit.png"
+    },
+    {
+      "id": "crystal_ggravpriavte",
+      "category": "crystal",
+      "name": "GGravPriavte",
+      "sha256": "e8fb42c95426dd326f8c5acd2574fc618aca2d1d13ae2c6b3c022ad64bf76a52",
+      "size": 4118,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_ggravpriavte.png"
+    },
+    {
+      "id": "crystal_killa_s_lightmode",
+      "category": "crystal",
+      "name": "killa's lightmode",
+      "sha256": "7921000a30d072d0fe15dbdbb496dc73fadb4012457a7ef50afaf4fa1450d421",
+      "size": 3807,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_killa_s_lightmode.png"
+    },
+    {
+      "id": "crystal_blck",
+      "category": "crystal",
+      "name": "Blck",
+      "sha256": "adcab862f7c3f57130f2d90bb9983c572d9c5431958624d6c3d723c8cafd1cf3",
+      "size": 3188,
+      "added": "2026-10-31",
+      "preview": "previews/crystal_blck.png"
+    },
+    {
+      "id": "anchor_kyfes",
+      "category": "anchor",
+      "name": "Kyfes",
+      "sha256": "3a82ba0e2c5ae9c7e660dd2d91d0401471e6e522eae68823c6649163a31ce515",
+      "size": 17647,
+      "added": "2026-10-31",
+      "preview": "previews/anchor_kyfes.png"
+    },
+    {
+      "id": "anchor_steams_yellow_edit",
+      "category": "anchor",
+      "name": "Steams Yellow Edit",
+      "sha256": "43cb14429908918cbb5594c5fc15e2e4e272c50eade3d10d4f9dfebcd565c194",
+      "size": 6844,
+      "added": "2026-10-31",
+      "preview": "previews/anchor_steams_yellow_edit.png"
+    },
+    {
+      "id": "anchor_kesie_bulb",
+      "category": "anchor",
+      "name": "Kesie Bulb",
+      "sha256": "7e1619e3ec6be1c0a83fd1ae2d1f5a1ce49436dc8eb2aa79dfa2f3ff6fdcfe14",
+      "size": 9224,
+      "added": "2026-10-31",
+      "preview": "previews/anchor_kesie_bulb.png"
+    },
+    {
+      "id": "obsidian_blck",
+      "category": "obsidian",
+      "name": "Blck",
+      "sha256": "e7c7e83d68344565aeb0ed30b122da925f771f821b5d2452040e2f7eced922c5",
+      "size": 2108,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_blck.png"
+    },
+    {
+      "id": "obsidian_zinc",
+      "category": "obsidian",
+      "name": "Zinc",
+      "sha256": "cc15d519263cb415a6cd10715f7a5e8362356b72e6dd5c90c2f43574c3a09259",
+      "size": 668,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_zinc.png"
+    },
+    {
+      "id": "obsidian_purple_private_edit",
+      "category": "obsidian",
+      "name": "Purple Private Edit",
+      "sha256": "a82b57f6ee72beb090069c37d5c0f1ee33d450f1212cb79b56ab55a9c6f50d2a",
+      "size": 793,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_purple_private_edit.png"
+    },
+    {
+      "id": "obsidian_kyfes",
+      "category": "obsidian",
+      "name": "Kyfes",
+      "sha256": "0243256d2b3535abaeace878d9b718d57ea45c82dcc1e9c0c998663b89e8e276",
+      "size": 4536,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_kyfes.png"
+    },
+    {
+      "id": "obsidian_purplfault_private",
+      "category": "obsidian",
+      "name": "purplfault private",
+      "sha256": "892cf05ad330e3f4380c21ff1c698c61a950d7672b7a9bca660054ff677d6216",
+      "size": 512,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_purplfault_private.png"
+    },
+    {
+      "id": "obsidian_1",
+      "category": "obsidian",
+      "name": "1",
+      "sha256": "54cc960b5e90faa14361a43dcf7e5ce33ee13441b826e143e4e760095a3849de",
+      "size": 74013,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_1.png"
+    },
+    {
+      "id": "obsidian_lavander_1_21_11",
+      "category": "obsidian",
+      "name": "Lavander 1.21.11",
+      "sha256": "70f7f985c3064bac0bdf93c4164feca71cd1ab5c05d17e653408c59ad44f3430",
+      "size": 1405,
+      "added": "2026-10-31",
+      "preview": "previews/obsidian_lavander_1_21_11.png"
+    },
+    {
+      "id": "glowstone_shade_black",
+      "category": "glowstone",
+      "name": "Shade Black",
+      "sha256": "2f44bb5f9afb3ae664deb3bdc8191ad2189350e94f92d6ffd89e656b439fa382",
+      "size": 702,
+      "added": "2026-10-31",
+      "preview": "previews/glowstone_shade_black.png"
+    },
+    {
+      "id": "glowstone_shade_blue",
+      "category": "glowstone",
+      "name": "Shade Blue",
+      "sha256": "b54bb8bdef2e0606bf3f794e902e7c010daaf3b10e994c5590df657db4028707",
+      "size": 702,
+      "added": "2026-10-31",
+      "preview": "previews/glowstone_shade_blue.png"
+    },
+    {
+      "id": "glowstone_kesie_blueberrybutlighter",
+      "category": "glowstone",
+      "name": "Kesie BlueBerryButLighter",
+      "sha256": "b5e8808a567cb1afb5b2dc9bdec6079237b92dde12511e57e5fc2270faf4fb28",
+      "size": 1304,
+      "added": "2026-10-31",
+      "preview": "previews/glowstone_kesie_blueberrybutlighter.png"
+    },
+    {
+      "id": "armor_purpite_private",
+      "category": "armor",
+      "name": "Purpite Private",
+      "sha256": "d58f41d534550a12cee4068ab4a4fd22c64e2e9e74bcf8bf1b253919a847d1ea",
+      "size": 21877,
+      "added": "2026-10-31",
+      "preview": "previews/armor_purpite_private.png"
+    },
+    {
+      "id": "armor_purpslight",
+      "category": "armor",
+      "name": "PurpsLight",
+      "sha256": "cbe0d3711e09a29e6952cf71bf12f8822d6e6e6f9ccf2769e185011b43ace46b",
+      "size": 22560,
+      "added": "2026-10-31",
+      "preview": "previews/armor_purpslight.png"
+    },
+    {
+      "id": "armor_jackify_private",
+      "category": "armor",
+      "name": "Jackify Private",
+      "sha256": "023413c1d7f9b7e0374a27bac3543fb34bb970c831b8a7101f6e01365ea902c5",
+      "size": 63021,
+      "added": "2026-10-31",
+      "preview": "previews/armor_jackify_private.png"
+    },
+    {
+      "id": "sword_spectral",
+      "category": "sword",
+      "name": "Spectral",
+      "sha256": "d000bafc146082a54bf9490fea786aa9cdf25110997519d3b6bbf04e39a41047",
+      "size": 2361,
+      "added": "2026-10-31",
+      "preview": "previews/sword_spectral.png"
+    },
+    {
+      "id": "sword_kesu_main",
+      "category": "sword",
+      "name": "Kesu Main",
+      "sha256": "056a979850c3522d10354e8bc8c9673d6bad8a4a741b3069eb3bfa40517bf0f3",
+      "size": 704,
+      "added": "2026-10-31",
+      "preview": "previews/sword_kesu_main.png"
+    },
+    {
+      "id": "fire_lavendercat",
+      "category": "fire",
+      "name": "lavendercat",
+      "sha256": "e9aa2aabaf355ca1d6f88fdd81a827b2751947e967fc93d8b6fad7a332690ae9",
+      "size": 6272,
+      "added": "2026-10-31",
+      "preview": "previews/fire_lavendercat.png"
+    },
+    {
+      "id": "fire_kingroxxy_s_pink_dlvaunta_recolour",
+      "category": "fire",
+      "name": "kingroxxy's pink dlvaunta recolour",
+      "sha256": "fe9b0e842ced651bb7e858331e9396bb1f159feb473dccfd76be68eb1c9ce2ff",
+      "size": 1238,
+      "added": "2026-10-31",
+      "preview": "previews/fire_kingroxxy_s_pink_dlvaunta_recolour.png"
+    },
+    {
+      "id": "xpbottle_steams_yellow_edit",
+      "category": "xpbottle",
+      "name": "Steams Yellow Edit",
+      "sha256": "719f1996029ef745885fed3cf0e8ed136150149974555b36437a84c981f233ff",
+      "size": 675,
+      "added": "2026-10-31",
+      "preview": "previews/xpbottle_steams_yellow_edit.png"
+    },
+    {
+      "id": "rails_16x16_legacy_edit",
+      "category": "rails",
+      "name": "16x16 LEGACY EDIT",
+      "sha256": "ed1affdb7c3fb71cdb9934d51938f5099da7d692884a545194765215ab967f95",
+      "size": 5391,
+      "added": "2026-10-29",
+      "preview": "previews/rails_16x16_legacy_edit.png"
+    },
+    {
+      "id": "rails_monochromepvp",
+      "category": "rails",
+      "name": "monochromepvp",
+      "sha256": "c4006c750155cd2e10942dd3bec41612fd880445fd1de98eb1532da0f7d1a464",
+      "size": 4769,
+      "added": "2026-10-29",
+      "preview": "previews/rails_monochromepvp.png"
+    },
+    {
+      "id": "tntcart_nebula",
+      "category": "tntcart",
+      "name": "Nebula",
+      "sha256": "85b04f119576e4e99c5cecae91b322286d03840ccfecf8ca9c9c42b7e64a700a",
+      "size": 13812,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_nebula.png"
+    },
+    {
+      "id": "tntcart_helios_private_cupcakebox",
+      "category": "tntcart",
+      "name": "helios private cupcakebox",
+      "sha256": "ce7e2b17b458948d1d2e55fc87d93553869a776424feb90cd12cef9a8cac7fdd",
+      "size": 8581,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_helios_private_cupcakebox.png"
+    },
+    {
+      "id": "tntcart_orchard_x_syn_overlay",
+      "category": "tntcart",
+      "name": "orchard x syn overlay",
+      "sha256": "fc0be915f1018698b5231eed699275fd4cc293880eee0ea9141c6532ca7bbe72",
+      "size": 4745,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "tntcart_jasper",
+      "category": "tntcart",
+      "name": "JASPER",
+      "sha256": "514faf427527e5fecf11b060f27a3ee7086e8c3cfd9d234b2509cd4291c8b6ae",
+      "size": 3859,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_jasper.png"
+    },
+    {
+      "id": "tntcart_pink_scence",
+      "category": "tntcart",
+      "name": "Pink Scence",
+      "sha256": "61eb5ff53099a65a9a4c75ced47d39ca81f26dc7a60dfcea54c833f316ec85f3",
+      "size": 2633,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_pink_scence.png"
+    },
+    {
+      "id": "tntcart_doge_privatev2_edit",
+      "category": "tntcart",
+      "name": "Doge PrivateV2 edit",
+      "sha256": "458237e827d4d021344b834181aa0e08d8fb22de4fb146ed8885a3234c23120d",
+      "size": 10860,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_doge_privatev2_edit.png"
+    },
+    {
+      "id": "tntcart_crystalanchor_private",
+      "category": "tntcart",
+      "name": "Crystalanchor Private",
+      "sha256": "f1bdf81654f2bbe50c67159f20d46e24a540a3a505cc708aaad52485b734e7c3",
+      "size": 2998,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_crystalanchor_private.png"
+    },
+    {
+      "id": "tntcart_dylan_mashup_v22",
+      "category": "tntcart",
+      "name": "DYLAN Mashup v22",
+      "sha256": "365184bf90da48388ae5465f5569c1e991e40ca15a58c49a681212d246ecb518",
+      "size": 13061,
+      "added": "2026-10-29",
+      "preview": "previews/tntcart_dylan_mashup_v22.png"
+    },
+    {
+      "id": "elytra_v_pink",
+      "category": "elytra",
+      "name": "V+Pink",
+      "sha256": "04ef2b03ef61c3699a0ff97a21260217c1199867f5de9e41d0d77238278b1196",
+      "size": 1652,
+      "added": "2026-10-29",
+      "preview": "previews/elytra_v_pink.png"
+    },
+    {
+      "id": "elytra_kesie_optimal",
+      "category": "elytra",
+      "name": "Kesie Optimal",
+      "sha256": "f5e61e0349ff58959f68fbada79877cd75449def882047daa5f64501a93e9331",
+      "size": 2208,
+      "added": "2026-10-29",
+      "preview": "previews/elytra_kesie_optimal.png"
+    },
+    {
+      "id": "elytra_daquavious",
+      "category": "elytra",
+      "name": "Daquavious",
+      "sha256": "95ad45047c816d5a3ad2004cede82339d30760994c8e27d4dc9f6f4aa597da2f",
+      "size": 1334,
+      "added": "2026-10-29",
+      "preview": "previews/elytra_daquavious.png"
+    },
+    {
+      "id": "elytra_emily_edit",
+      "category": "elytra",
+      "name": "Emily edit",
+      "sha256": "54f8c02acd23e10b05ff4cfe5104bd7bdf970459e90910f6d6adc3f7b7318107",
+      "size": 4253,
+      "added": "2026-10-29",
+      "preview": "previews/elytra_emily_edit.png"
+    },
+    {
+      "id": "xpbottle_theos_pack_but_better",
+      "category": "xpbottle",
+      "name": "theos pack but better",
+      "sha256": "c3cdd4792be9f12d5bb06a2fe7fa3d80b5cef89595d71e8844035ff2f8838bd8",
+      "size": 1535,
+      "added": "2026-10-29",
+      "preview": "previews/xpbottle_theos_pack_but_better.png"
+    },
+    {
+      "id": "xpbottle_5lquelly_default_edit",
+      "category": "xpbottle",
+      "name": "5lQuelly default edit",
+      "sha256": "592b1e184b8a895e5e77f6ecfd258f7f140977d63c8c198c91abb4b2da203909",
+      "size": 2203,
+      "added": "2026-10-29",
+      "preview": "previews/xpbottle_5lquelly_default_edit.png"
+    },
+    {
+      "id": "xpbottle_c_lt_6_la_e_li_2_lw_9_lo_5_ln_b_l100_s",
+      "category": "xpbottle",
+      "name": "\u0015c\u0015lT\u00156\u0015la\u0015e\u0015li\u00152\u0015lw\u00159\u0015lo\u00155\u0015ln \u0015b\u0015l100 S",
+      "sha256": "deb4b441ab4f167b20e702264ccd2b304899fc098558365385b6087566dfc7dd",
+      "size": 1426,
+      "added": "2026-10-29",
+      "preview": "previews/xpbottle_c_lt_6_la_e_li_2_lw_9_lo_5_ln_b_l100_s.png"
+    },
+    {
+      "id": "xpbottle_resourcepacks",
+      "category": "xpbottle",
+      "name": "resourcepacks",
+      "sha256": "d58b29abf1d64ad6dc5b8a1fb9800212acf9d5016fd8a127fef32d21cdc27214",
+      "size": 777,
+      "added": "2026-10-29",
+      "preview": "previews/xpbottle_resourcepacks.png"
+    },
+    {
+      "id": "inventory_all_black",
+      "category": "inventory",
+      "name": "All Black",
+      "sha256": "724357011bce09a5a9d7c33d642f6dd7e9d8131eb81c8db5bab5b900a4cfd127",
+      "size": 1739,
+      "added": "2026-10-29",
+      "preview": "previews/inventory_all_black.png"
+    },
+    {
+      "id": "windcharge_red",
+      "category": "windcharge",
+      "name": "Red",
+      "sha256": "0c66874638d4f9fe2c372bdda2d73ec006389a5e3c53d6142863067c509f011c",
+      "size": 1207,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_red.png"
+    },
+    {
+      "id": "windcharge_orange",
+      "category": "windcharge",
+      "name": "Orange",
+      "sha256": "5460eb728b7f30b0eae696ea31512a07934f2f70fdbed69bb6d940e6388dc9c4",
+      "size": 1209,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_orange.png"
+    },
+    {
+      "id": "windcharge_gold",
+      "category": "windcharge",
+      "name": "Gold",
+      "sha256": "ff8fcf98261657312bcdcc7148110f8063809fad998c12367a8c81692867d5a1",
+      "size": 1207,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_gold.png"
+    },
+    {
+      "id": "windcharge_lime",
+      "category": "windcharge",
+      "name": "Lime",
+      "sha256": "4bbb79ee85d79e996847096e61548e23e5435d792ee2d18837da7bf0d6363d36",
+      "size": 1202,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_lime.png"
+    },
+    {
+      "id": "windcharge_aqua",
+      "category": "windcharge",
+      "name": "Aqua",
+      "sha256": "89b82937aa4cfd65c6704a9dea774da49313dcbb599c8eb70e499e9d87bab8a4",
+      "size": 1209,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_aqua.png"
+    },
+    {
+      "id": "windcharge_blue",
+      "category": "windcharge",
+      "name": "Blue",
+      "sha256": "896a8aa27562dbc38f9335e6c9bbd4fef8437d3fad086a08fb58febf7b225cf7",
+      "size": 1203,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_blue.png"
+    },
+    {
+      "id": "windcharge_purple",
+      "category": "windcharge",
+      "name": "Purple",
+      "sha256": "b4228f31624dce70e66d2cf253d58fbb42ded3bdc02c1faeee3061736d7be974",
+      "size": 1209,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_purple.png"
+    },
+    {
+      "id": "windcharge_pink",
+      "category": "windcharge",
+      "name": "Pink",
+      "sha256": "7d8a9cf64e8b160e39823c5cb4793209f7b7a2b0f7deb7609b31175ac63d05f7",
+      "size": 1205,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_pink.png"
+    },
+    {
+      "id": "windcharge_black",
+      "category": "windcharge",
+      "name": "Black",
+      "sha256": "9c3957144adcae7754df02906e378623a3b74dcd2940c4068a883bef915cde0f",
+      "size": 1189,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_black.png"
+    },
+    {
+      "id": "windcharge_white",
+      "category": "windcharge",
+      "name": "White",
+      "sha256": "070b16be5825cc5aac624e95103b104c5c7f5ebba6ad5e290fdb09759964b119",
+      "size": 1204,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_white.png"
+    },
+    {
+      "id": "windcharge_void",
+      "category": "windcharge",
+      "name": "Void",
+      "sha256": "a675c42ce9d1cf3c5af4b6a4cd73333fde90cc16b2694e1f477dd5cc6bef9b4a",
+      "size": 1191,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_void.png"
+    },
+    {
+      "id": "windcharge_fire",
+      "category": "windcharge",
+      "name": "Fire",
+      "sha256": "852f707447adf0d1d4de8537343b707f8c6e8ef4d63c7e22b0fbea232ac706ad",
+      "size": 1167,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_fire.png"
+    },
+    {
+      "id": "windcharge_ice",
+      "category": "windcharge",
+      "name": "Ice",
+      "sha256": "969c35038f56e35c8d9e06dd22a2729fb704220670c4a345767a87129378cbd2",
+      "size": 1156,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_ice.png"
+    },
+    {
+      "id": "windcharge_toxic",
+      "category": "windcharge",
+      "name": "Toxic",
+      "sha256": "40ce0d50c0007622ca7ec330451f71d6855c220f60a3912cc9f6277518b69e49",
+      "size": 1208,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_toxic.png"
+    },
+    {
+      "id": "windcharge_lava",
+      "category": "windcharge",
+      "name": "Lava",
+      "sha256": "e532be19af0c50912347b179afc32839e3f3b6b8d1afb0d3349ce3fcc64a8a25",
+      "size": 1205,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_lava.png"
+    },
+    {
+      "id": "windcharge_sunset",
+      "category": "windcharge",
+      "name": "Sunset",
+      "sha256": "8ab50f0c55ac50f89d54b4b5b611aa4cc197c2ef674a1f718e67b3afab72465a",
+      "size": 1213,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_sunset.png"
+    },
+    {
+      "id": "windcharge_ocean",
+      "category": "windcharge",
+      "name": "Ocean",
+      "sha256": "0ae6e07ea7eaa0ec13134070331dd70d780be24dded09558819a4eefc7bf7cdb",
+      "size": 1201,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_ocean.png"
+    },
+    {
+      "id": "windcharge_galaxy",
+      "category": "windcharge",
+      "name": "Galaxy",
+      "sha256": "b65e3231c51205c28d0904318d4cd58836d7f4613b86bfc0597e31765442009b",
+      "size": 1334,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_galaxy.png"
+    },
+    {
+      "id": "windcharge_rainbow",
+      "category": "windcharge",
+      "name": "Rainbow",
+      "sha256": "cf866d5eac0044994c04ed810b926cda8ca00ca57f1da39d16ec2289193daec3",
+      "size": 1857,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_rainbow.png"
+    },
+    {
+      "id": "windcharge_candy",
+      "category": "windcharge",
+      "name": "Candy",
+      "sha256": "d3429bf49dfa2a1fcce560f48bf32c9fac403de9a379cd65d5fbb4ecd412bc9f",
+      "size": 1325,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_candy.png"
+    },
+    {
+      "id": "windcharge_neon",
+      "category": "windcharge",
+      "name": "Neon",
+      "sha256": "f94b77a160dc11a827b7135160e393f8ac39fecec1fbf7b33a1b2488fe5d9a8a",
+      "size": 1196,
+      "added": "2026-10-28",
+      "preview": "previews/windcharge_neon.png"
+    },
+    {
+      "id": "fire_gubi_fortnite7",
+      "category": "fire",
+      "name": "gubi fortnite7",
+      "sha256": "8fd45eabd1f4f6920527b6e6eca9e73d1f31e266831b41b3e3f9cbeb49cffb51",
+      "size": 4296,
+      "added": "2026-10-27",
+      "preview": "previews/fire_gubi_fortnite7.png"
+    },
+    {
+      "id": "totem_gubi_fortnite7",
+      "category": "totem",
+      "name": "gubi fortnite7",
+      "sha256": "1f863bdd8730ad3e49bcea0dd66c2ea05f514505af08521a7db2c40c12d778e2",
+      "size": 1104,
+      "added": "2026-10-27",
+      "preview": "previews/totem_gubi_fortnite7.png"
+    },
+    {
+      "id": "rails_orchard_x_syn_overlay",
+      "category": "rails",
+      "name": "orchard x syn overlay",
+      "sha256": "b0dbb5e54b21842da57de895248096adef0dc45e122ed9ff8af64fdc68d105dc",
+      "size": 5637,
+      "added": "2026-10-27",
+      "preview": "previews/rails_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "xpbottle_aquaplus",
+      "category": "xpbottle",
+      "name": "AquaPlus",
+      "sha256": "dd4ba0000cd39e7a9fc707f54136a74387363d47724187cc546d16a743e1d5e9",
+      "size": 2119,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_aquaplus.png"
+    },
+    {
+      "id": "xpbottle_lavander",
+      "category": "xpbottle",
+      "name": "Lavander",
+      "sha256": "932ec28e990beb094597befdac983b6b900069c9e95dc4c3eda9a10bf7da6efa",
+      "size": 807,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_lavander.png"
+    },
+    {
+      "id": "xpbottle_blck",
+      "category": "xpbottle",
+      "name": "Blck",
+      "sha256": "10d44f51b72bff6ad014b9776d053ddd74c38730cdfeaf33153e908aa5d5a9a8",
+      "size": 1474,
+      "added": "2026-10-27",
+      "preview": "previews/xpbottle_blck.png"
+    },
+    {
+      "id": "crystal_gubi_fortnite7_1",
+      "category": "crystal",
+      "name": "gubi fortnite7 1",
+      "sha256": "c18317bf7118e71d3b05f736364fcf2368c9ce0993bbb04a6e9247a2792e9d5f",
+      "size": 20020,
+      "added": "2026-10-26",
+      "preview": "previews/crystal_gubi_fortnite7_1.png"
+    },
+    {
+      "id": "crystal_halloween",
+      "category": "crystal",
+      "name": "Halloween",
+      "sha256": "254587f6670d3be0f7e578e1e4d292f5bae2643769b05e7944adbb3a8766dbd3",
+      "size": 7516,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_halloween.png"
+    },
+    {
+      "id": "crystal_o3kar_purple",
+      "category": "crystal",
+      "name": "O3kar Purple",
+      "sha256": "fefab1b25499512cfcd8fe6f545983060ee36f06166586c07a9ff248e8cfaa5c",
+      "size": 3675,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_o3kar_purple.png"
+    },
+    {
+      "id": "crystal_swetsy_whiteee",
+      "category": "crystal",
+      "name": "Swetsy whiteee",
+      "sha256": "77ad139024ddc090fc8a239ea2a7af6ebac1177289abb1b2294fb035e337eab0",
+      "size": 13656,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_swetsy_whiteee.png"
+    },
+    {
+      "id": "anchor_light_purple",
+      "category": "anchor",
+      "name": "Light Purple",
+      "sha256": "bbcd5961b8bcf3af01f31d0f19b8c37db838516accec5e0206f41a5377ecba69",
+      "size": 7587,
+      "added": "2026-10-25",
+      "preview": "previews/anchor_light_purple.png"
+    },
+    {
+      "id": "armor_halloween",
+      "category": "armor",
+      "name": "Halloween",
+      "sha256": "d43d389961de88f5b4ef956f64d0dc77cef41c0abf74a3c0cf1f83d19a0872a7",
+      "size": 9137,
+      "added": "2026-10-25",
+      "preview": "previews/armor_halloween.png"
+    },
+    {
+      "id": "armor_lavander_1_21_11",
+      "category": "armor",
+      "name": "Lavander 1.21.11",
+      "sha256": "5512f76cb372aebebf71d133d6d9c21edbff041664587b660d6fff41329b2a83",
+      "size": 11989,
+      "added": "2026-10-25",
+      "preview": "previews/armor_lavander_1_21_11.png"
+    },
+    {
+      "id": "armor_rulers",
+      "category": "armor",
+      "name": "Rulers",
+      "sha256": "c903e98356d42e530627f9f898fe816e4577baa906495c14e9137e74c0304785",
+      "size": 28271,
+      "added": "2026-10-25",
+      "preview": "previews/armor_rulers.png"
+    },
+    {
+      "id": "armor_monsterwhite",
+      "category": "armor",
+      "name": "MonsterWhite",
+      "sha256": "7aa67bc5d39d90ea194a5d203e5122629829c5dac3de58ff96c52d8a1fd4f679",
+      "size": 6733,
+      "added": "2026-10-25",
+      "preview": "previews/armor_monsterwhite.png"
+    },
+    {
+      "id": "sword_daquavious_purple",
+      "category": "sword",
+      "name": "daquavious purple",
+      "sha256": "e67cd647d88d100b723077e6bfd89b9e1c2d1ff96c53cc5fa39cf8a6388b9fad",
+      "size": 2342,
+      "added": "2026-10-25",
+      "preview": "previews/sword_daquavious_purple.png"
+    },
+    {
+      "id": "sword_kesu_main_qblast_pink_recolor",
+      "category": "sword",
+      "name": "kesu main qblast pink recolor",
+      "sha256": "a833a82016df04d62c90057ec0306c03ca41ca8ae8545ebfd70749696d15bbbb",
+      "size": 708,
+      "added": "2026-10-25",
+      "preview": "previews/sword_kesu_main_qblast_pink_recolor.png"
+    },
+    {
+      "id": "sword_rulers",
+      "category": "sword",
+      "name": "Rulers",
+      "sha256": "8c3543401ef37dfc0623c096f3895a6482d932b48ce29f67cea5906d8952069e",
+      "size": 3699,
+      "added": "2026-10-25",
+      "preview": "previews/sword_rulers.png"
+    },
+    {
+      "id": "pickaxe_rulers",
+      "category": "pickaxe",
+      "name": "Rulers",
+      "sha256": "23e00ddcc07026781b76d758a22bed6ac8bea81767f0c27f221e0901d996a2b7",
+      "size": 3554,
+      "added": "2026-10-25",
+      "preview": "previews/pickaxe_rulers.png"
+    },
+    {
+      "id": "pickaxe_melody_pack",
+      "category": "pickaxe",
+      "name": "Melody Pack",
+      "sha256": "fac11e88d43c28d35737deae1190dcd1618550a1e41202e8a7a1e8d972cc2e05",
+      "size": 1413,
+      "added": "2026-10-25",
+      "preview": "previews/pickaxe_melody_pack.png"
+    },
+    {
+      "id": "axe_halloween",
+      "category": "axe",
+      "name": "Halloween",
+      "sha256": "13ec7bf7defbe907a4ea4fce5530c5c5cfbb39363f4f281630da6c4b5f69eca6",
+      "size": 1021,
+      "added": "2026-10-25",
+      "preview": "previews/axe_halloween.png"
+    },
+    {
+      "id": "totem_halloween",
+      "category": "totem",
+      "name": "Halloween",
+      "sha256": "c50eb6cedc3b27e481c7aa8d35f618347b338acd5b685a37eb6ab7d6f7800d81",
+      "size": 625,
+      "added": "2026-10-25",
+      "preview": "previews/totem_halloween.png"
+    },
+    {
+      "id": "gap_halloween",
+      "category": "gap",
+      "name": "Halloween",
+      "sha256": "85009f094cb48efe922a558fa28d154a143f60e56007296a0d2ea2cccb374978",
+      "size": 1047,
+      "added": "2026-10-25",
+      "preview": "previews/gap_halloween.png"
+    },
+    {
+      "id": "sky_rulers",
+      "category": "sky",
+      "name": "Rulers",
+      "sha256": "b3dfa96e43d34450b4756f65db8d395ceb841746081224b862fcdf69a881c846",
+      "size": 9773146,
+      "added": "2026-10-25",
+      "preview": "previews/sky_rulers.png"
+    },
+    {
+      "id": "sky_spongebob_pack",
+      "category": "sky",
+      "name": "SpongeBob Pack",
+      "sha256": "976b66b1b4271e6988da929186a40ff4cd165e56cd2b8c723e5f96d35cfc1932",
+      "size": 627051,
+      "added": "2026-10-25",
+      "preview": "previews/sky_spongebob_pack.png"
+    },
+    {
+      "id": "mace_halloween",
+      "category": "mace",
+      "name": "Halloween",
+      "sha256": "ece0b7ff5c840c26a4d0dd415ed9d60bed94ddb0238fd00fc343c4888ae17e51",
+      "size": 4595,
+      "added": "2026-10-25",
+      "preview": "previews/mace_halloween.png"
+    },
+    {
+      "id": "mace_melody_pack",
+      "category": "mace",
+      "name": "Melody Pack",
+      "sha256": "3bd1def0172fd14ba8678fe78c18e18e1fde088b3b67c98c924fae75dc10dce9",
+      "size": 6593,
+      "added": "2026-10-25",
+      "preview": "previews/mace_melody_pack.png"
+    },
+    {
+      "id": "trident_doly_50000",
+      "category": "trident",
+      "name": "Doly 50000",
+      "sha256": "038973eefbbd09dca129711a9fa32e3b8916c3fc13c83bb404cb9dcad6219b1d",
+      "size": 1467,
+      "added": "2026-10-25",
+      "preview": "previews/trident_doly_50000.png"
+    },
+    {
+      "id": "tntcart_mexgrey",
+      "category": "tntcart",
+      "name": "mexgrey",
+      "sha256": "92ea8c8079f44779ca1cd07f38073b15d51d6e097423f5f989d47d54e1f7221f",
+      "size": 3999,
+      "added": "2026-10-25",
+      "preview": "previews/tntcart_mexgrey.png"
+    },
+    {
+      "id": "xpbottle_duolingorework",
+      "category": "xpbottle",
+      "name": "DuoLingoRework",
+      "sha256": "b05ddd7c651407b489ed76c2de96e5bf758f367a1078c6d9457eb3d87def730e",
+      "size": 812,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_duolingorework.png"
+    },
+    {
+      "id": "xpbottle_halloween",
+      "category": "xpbottle",
+      "name": "Halloween",
+      "sha256": "ac7e5bc86edcd7d7e4d9d02023887acb3ef14b98132daf430a8cad9f57e5d880",
+      "size": 629,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_halloween.png"
+    },
+    {
+      "id": "xpbottle_miku_clear_vision",
+      "category": "xpbottle",
+      "name": "Miku Clear Vision",
+      "sha256": "2192ed5ef0eca8f0beb4981a2abe13235928c2c62dadc69a2ef4dc98a797733d",
+      "size": 1459,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_miku_clear_vision.png"
+    },
+    {
+      "id": "xpbottle_monsterwhite",
+      "category": "xpbottle",
+      "name": "MonsterWhite",
+      "sha256": "4cd97410a4a2e8bf4b31b85e7c0ef2f2048aef833aa59dd02801d826ed7b4cb1",
+      "size": 1261,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_monsterwhite.png"
+    },
+    {
+      "id": "xpbottle_o3kar_purple",
+      "category": "xpbottle",
+      "name": "O3kar Purple",
+      "sha256": "2d85abc9666d0c6c9fc3c1d4daf96184ce624180e51521eddaf34939e2e12d96",
+      "size": 810,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_o3kar_purple.png"
+    },
+    {
+      "id": "xpbottle_daquavious_purple",
+      "category": "xpbottle",
+      "name": "daquavious purple",
+      "sha256": "20b9be4f9122e78cf1b4959cd4b6478f32ff48239081ccb164070d16bf994070",
+      "size": 1515,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_daquavious_purple.png"
+    },
+    {
+      "id": "xpbottle_melody_pack",
+      "category": "xpbottle",
+      "name": "Melody Pack",
+      "sha256": "fde4fcbc63c238398028ffc9727deaf643cdba525edbf1b969cbb0bae6241f9a",
+      "size": 2381,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_melody_pack.png"
+    },
+    {
+      "id": "xpbottle_mexgrey",
+      "category": "xpbottle",
+      "name": "mexgrey",
+      "sha256": "a6789ef6481ddd3fa4f37fd675f851ec1fff6c01fd9ff61761485a30532a2898",
+      "size": 774,
+      "added": "2026-10-25",
+      "preview": "previews/xpbottle_mexgrey.png"
+    },
+    {
+      "id": "rails_equinox",
+      "category": "rails",
+      "name": "equinox",
+      "sha256": "1eb88835441ba5d97897741b538964a22ffa50507a3e003ff2ef208bfa15d559",
+      "size": 44141,
+      "added": "2026-10-25",
+      "preview": "previews/rails_equinox.png"
+    },
+    {
+      "id": "rails_mexgrey",
+      "category": "rails",
+      "name": "mexgrey",
+      "sha256": "4e328ca5c287d4b6b6b7798726b5bf39f40d3ec394517adcc87f13c1c9fcac90",
+      "size": 6021,
+      "added": "2026-10-25",
+      "preview": "previews/rails_mexgrey.png"
+    },
+    {
+      "id": "rails_198m_doge",
+      "category": "rails",
+      "name": "198m doge",
+      "sha256": "7fcaba4bb116fbd198848481de60fe43739c0d722c538e76697cc9d99f4d31d0",
+      "size": 6186,
+      "added": "2026-10-25",
+      "preview": "previews/rails_198m_doge.png"
+    },
+    {
+      "id": "rails_kesie_optimal",
+      "category": "rails",
+      "name": "Kesie Optimal",
+      "sha256": "86daf8cfe5bb0cc89d2820375c12d0995545f3710390c11da6ec800e7015c1c9",
+      "size": 5335,
+      "added": "2026-10-25",
+      "preview": "previews/rails_kesie_optimal.png"
+    },
+    {
+      "id": "crystal_l7_version_of_v_v2",
+      "category": "crystal",
+      "name": "L7 Version of V+ V2",
+      "sha256": "f66d5ffb68c73cc5e0c7dbaf829ae5787a2d0de9a3df1ca2943851629af56fb9",
+      "size": 6236,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_l7_version_of_v_v2.png"
+    },
+    {
+      "id": "crystal_dark_crystal",
+      "category": "crystal",
+      "name": "Dark crystal",
+      "sha256": "acc32caa1ef1dea4b7bf5e554273b2f6397a0d8b9c04374c40efbcbaa08cada0",
+      "size": 3507,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_dark_crystal.png"
+    },
+    {
+      "id": "crystal_kesu_edit",
+      "category": "crystal",
+      "name": "Kesu Edit",
+      "sha256": "11a3a3f5572831b92239a0e67c157800bd8e294284384a75933d6d716b167104",
+      "size": 5218,
+      "added": "2026-10-25",
+      "preview": "previews/crystal_kesu_edit.png"
+    },
+    {
+      "id": "shield_o3kar_purple",
+      "category": "shield",
+      "name": "O3kar Purple",
+      "sha256": "cabe38b59b358b0387eaf2c4b6c60520419f99e8ebc58e548fabae074f4bd73f",
+      "size": 1956,
+      "added": "2026-10-25",
+      "preview": "previews/shield_o3kar_purple.png"
+    },
+    {
+      "id": "pearl_equinox",
+      "category": "pearl",
+      "name": "equinox",
+      "sha256": "b7f001d3730d5a3f2ac5f589ff4d530a718a560f211fcc109bd7494c01199471",
+      "size": 18321,
+      "added": "2026-10-25",
+      "preview": "previews/pearl_equinox.png"
+    },
+    {
+      "id": "anchor_blueee",
+      "category": "anchor",
+      "name": "Blueee",
+      "sha256": "1eb86ae59ea2ed3089b9532056926a7323c9386ecc52abe253cdbdb302dc36f1",
+      "size": 6043,
+      "added": "2026-10-23",
+      "preview": "previews/anchor_blueee.png"
+    },
+    {
+      "id": "crystal_f_lsakura_tweaks",
+      "category": "crystal",
+      "name": "⌡F⌡lSakura Tweaks",
+      "sha256": "6961dab45cbeef2262d7e71ff468222281301551d53194bab7d6b54d1c7eccd6",
+      "size": 2897,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_f_lsakura_tweaks.png"
+    },
+    {
+      "id": "crystal_bfaith_war_8_kopie",
+      "category": "crystal",
+      "name": "⌡bFaith War ⌡8 - Kopie",
+      "sha256": "24de5e42f512a194cb48c081bbbf47752d282d732cbf21856b5ca907592813e6",
+      "size": 10767,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_bfaith_war_8_kopie.png"
+    },
+    {
+      "id": "crystal_14lm_pwiwate",
+      "category": "crystal",
+      "name": "14lm Pwiwate",
+      "sha256": "1d0259aae623167fac919bd349e8451e7a62d341fb5700398a2ae05fe3cbfca2",
+      "size": 5225,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_14lm_pwiwate.png"
+    },
+    {
+      "id": "crystal_aiimgod_purple_new",
+      "category": "crystal",
+      "name": "AiimGod Purple New",
+      "sha256": "4e7ca0f2a86e1653e95d0f58dd2fe3662fc701f6e7e57a36366ae114755e4723",
+      "size": 4460,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_aiimgod_purple_new.png"
+    },
+    {
+      "id": "crystal_2crick_private",
+      "category": "crystal",
+      "name": "2Crick Private",
+      "sha256": "44b967f4bf2570308215b35384719d0b4ede064d6f9ae1a0977d11e313444627",
+      "size": 13296,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_2crick_private.png"
+    },
+    {
+      "id": "crystal_198m_blackie",
+      "category": "crystal",
+      "name": "198M Blackie",
+      "sha256": "dd1cffc969f9b34e932712eac82869f9afe935950fb1b8e72292c86e074220d6",
+      "size": 22137,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_198m_blackie.png"
+    },
+    {
+      "id": "crystal_black_blue",
+      "category": "crystal",
+      "name": "Black Blue",
+      "sha256": "fc6d9c95417052b63d83120c028657dc0f9daf57af3495f0a636d00dbbb64d07",
+      "size": 5618,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_black_blue.png"
+    },
+    {
+      "id": "crystal_iamverox",
+      "category": "crystal",
+      "name": "IamVerox",
+      "sha256": "abf8298a8ab43cf239917459ff07292fd02a483bb80a9f6aa686ec7b5af97e47",
+      "size": 5352,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_iamverox.png"
+    },
+    {
+      "id": "crystal_napicc_pack",
+      "category": "crystal",
+      "name": "Napicc Pack",
+      "sha256": "c0a3199bdea7b7735fa163fa75c097a12a042978bce551c52b51109dd16914bd",
+      "size": 6021,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_napicc_pack.png"
+    },
+    {
+      "id": "crystal_rizzler_classic",
+      "category": "crystal",
+      "name": "Rizzler Classic",
+      "sha256": "7454c73c119bfc974c257e912f2af781829d39fcad5b407e9dd6999fd332079b",
+      "size": 5501,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_rizzler_classic.png"
+    },
+    {
+      "id": "crystal_tedde_remade",
+      "category": "crystal",
+      "name": "Tedde Remade",
+      "sha256": "ad45858aa2a504f7a14fe946a6209f166ae2235bc9d2336fa4d31ad9bcd1ac57",
+      "size": 3044,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_tedde_remade.png"
+    },
+    {
+      "id": "crystal_usecws_clean_overlay",
+      "category": "crystal",
+      "name": "UseCws Clean Overlay",
+      "sha256": "223f061f350ff3c90c815d62e34daf2e56c755c58d2488ca47934c702ffa5a02",
+      "size": 2406,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/crystal_usecws_clean_overlay.png"
+    },
+    {
+      "id": "anchor_swetsys_blue_mashup",
+      "category": "anchor",
+      "name": "Swetsys blue mashup",
+      "sha256": "4f7259b8b1b63a24a413edeb2ce0b26042e04a6ba917da8a12e344f7fefa3a4c",
+      "size": 6772,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/anchor_swetsys_blue_mashup.png"
+    },
+    {
+      "id": "anchor_souls_private",
+      "category": "anchor",
+      "name": "Souls Private",
+      "sha256": "8d234ea391416df6cc22ad5241b0c22ac7e7e279d484df5471705bff97dc5b14",
+      "size": 75476,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/anchor_souls_private.png"
+    },
+    {
+      "id": "anchor_rizzler_classic",
+      "category": "anchor",
+      "name": "Rizzler Classic",
+      "sha256": "2499c5202281c219a9586f75614a8b590249ac3063826270b36040352bb47c95",
+      "size": 22556,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/anchor_rizzler_classic.png"
+    },
+    {
+      "id": "anchor_blue_ayri",
+      "category": "anchor",
+      "name": "Blue Ayri",
+      "sha256": "6bb70ade405c895b8f2d53e7f5f0a2043d5fdafae5fd5d877154f31b5cf0d169",
+      "size": 8624,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/anchor_blue_ayri.png"
+    },
+    {
+      "id": "anchor_flwuffless",
+      "category": "anchor",
+      "name": "flWuffless",
+      "sha256": "0ed2ac41a6206948c5360c5ee1df34ccd9fb7516fadb0bd4a85dee40027209e4",
+      "size": 50345,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/anchor_flwuffless.png"
+    },
+    {
+      "id": "obsidian_veroxsibbi",
+      "category": "obsidian",
+      "name": "veroxsibbi",
+      "sha256": "36c44ce3dadb1c7da736e58500b955c25fe0b9a4d36eab0a6833b873e34bfcb4",
+      "size": 3062,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_veroxsibbi.png"
+    },
+    {
+      "id": "obsidian_gakspack_primed_up",
+      "category": "obsidian",
+      "name": "GaksPack Primed Up",
+      "sha256": "cd5d1f3c33249f98cd262084284f7b2d19d65a510c9cd39177b3b54ea6a4a738",
+      "size": 987,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_gakspack_primed_up.png"
+    },
+    {
+      "id": "obsidian_gubi_fortnite7",
+      "category": "obsidian",
+      "name": "gubi fortnite7",
+      "sha256": "ee28076b1544b66556bbd3831401412a4f9043bf816830335ed1e41215564011",
+      "size": 548,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_gubi_fortnite7.png"
+    },
+    {
+      "id": "obsidian_ituspremade",
+      "category": "obsidian",
+      "name": "ituspremade",
+      "sha256": "e3ad8fc34cdbf6e917c83641aea41f3cb18afb695c8ae2fcb76645c2c4e77f61",
+      "size": 482,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_ituspremade.png"
+    },
+    {
+      "id": "obsidian_aiimgod_gakspack_s_x",
+      "category": "obsidian",
+      "name": "AiimGod GaksPack S*x",
+      "sha256": "295d51c06cc0d4bca5272f3cf5311fa9393f3d414c50bb4a506f412a9d2933b9",
+      "size": 1088,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_aiimgod_gakspack_s_x.png"
+    },
+    {
+      "id": "obsidian_x32bluewar",
+      "category": "obsidian",
+      "name": "x32bluewar",
+      "sha256": "1239e514003500887cc7deeb65c66a8f042dff1880d5ee9c35eab2eb84854f90",
+      "size": 1803,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_x32bluewar.png"
+    },
+    {
+      "id": "obsidian_evantii2",
+      "category": "obsidian",
+      "name": "Evantii2",
+      "sha256": "37382bf2af8b3607beddd941306915b1bc03192c79a22a30d9290b0e87e911e0",
+      "size": 726,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_evantii2.png"
+    },
+    {
+      "id": "obsidian_5autorizz",
+      "category": "obsidian",
+      "name": "5AutoRizz",
+      "sha256": "03ac424193e4acbec11987a09ac1aa8ea747ebbfc86b6dc299f421926625a43b",
+      "size": 1170,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/obsidian_5autorizz.png"
+    },
+    {
+      "id": "glowstone_doge_private_v2_remade",
+      "category": "glowstone",
+      "name": "Doge Private V2 REMADE",
+      "sha256": "b98091c6c1b043fbb8ea3febc872d04a6954ec742c55d158d839baf611f65832",
+      "size": 2219,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/glowstone_doge_private_v2_remade.png"
+    },
+    {
+      "id": "glowstone_blue_by_aiimgod",
+      "category": "glowstone",
+      "name": "Blue by AiimGod",
+      "sha256": "55721b0504204312571a92bf6a2a683571bc19b5f774ce418fd263f716fe9d0d",
+      "size": 928,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/glowstone_blue_by_aiimgod.png"
+    },
+    {
+      "id": "glowstone_opa_wewox_pwivate",
+      "category": "glowstone",
+      "name": "Opa Wewox Pwivate",
+      "sha256": "60902c3332f5e6c77b6275eae4cdcf20d515f1c3cfcf6d59c9fe14264967ee10",
+      "size": 1340,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/glowstone_opa_wewox_pwivate.png"
+    },
+    {
+      "id": "glowstone_default_hd_128x_demo_1_8_2_1",
+      "category": "glowstone",
+      "name": "Default HD 128x Demo 1.8.2.1",
+      "sha256": "a7441eee34f97609dae20d54a49136c6f9cabb863720030b22a290f8e13e5557",
+      "size": 6416,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/glowstone_default_hd_128x_demo_1_8_2_1.png"
+    },
+    {
+      "id": "armor_7_lxpz_f_lwhite",
+      "category": "armor",
+      "name": "⌡7⌡lxPz ⌡f⌡lWhite",
+      "sha256": "9b8fe140035ac1b187bd494bc89e8fac6a793a7154b109280349fc067339b999",
+      "size": 11168,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_7_lxpz_f_lwhite.png"
+    },
+    {
+      "id": "armor_doge_private_v2_remade",
+      "category": "armor",
+      "name": "Doge Private V2 REMADE",
+      "sha256": "887113d64fecb306ab77026d442dfeb680f026964eef59673636b7087d971d79",
+      "size": 53214,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_doge_private_v2_remade.png"
+    },
+    {
+      "id": "armor_advan_private",
+      "category": "armor",
+      "name": "Advan Private",
+      "sha256": "b1da0c97c66e73180cab0800d5161ac6e219ba3bebf67b865e4fc1d30180199d",
+      "size": 13483,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_advan_private.png"
+    },
+    {
+      "id": "armor_d_l_a_c_e",
+      "category": "armor",
+      "name": "⌡d L a c e",
+      "sha256": "ced793a26099755ef572df9b38b50cfc820526b4b82ebb53aca0ccfb4c596910",
+      "size": 29421,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_d_l_a_c_e.png"
+    },
+    {
+      "id": "armor_souls_private",
+      "category": "armor",
+      "name": "Souls Private",
+      "sha256": "e84932b51dab26395c605b7889bf6ea4f835eb0ae73f6db0f586877a8f1d7813",
+      "size": 12623,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_souls_private.png"
+    },
+    {
+      "id": "armor_6_xicz_mashup",
+      "category": "armor",
+      "name": "⌡6⌡ xicz mashup",
+      "sha256": "610f85844d0af1e3a9043c2392f8c5fdaf06cd5d351d94c6a803b1beac64c28a",
+      "size": 18087,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/armor_6_xicz_mashup.png"
+    },
+    {
+      "id": "sword_fruit_pack_kopie",
+      "category": "sword",
+      "name": "Fruit Pack - Kopie",
+      "sha256": "f85c863a56c2a73ffb6133a6092f884d099a101f39225225e0b7394a0e151dd8",
+      "size": 435070,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_fruit_pack_kopie.png"
+    },
+    {
+      "id": "sword_f_lsakura_tweaks",
+      "category": "sword",
+      "name": "⌡F⌡lSakura Tweaks",
+      "sha256": "3b68fd2837a0ee81bdd0d443bbfec61458e755c6f2396a7f7c79264d06b647cd",
+      "size": 10528,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_f_lsakura_tweaks.png"
+    },
+    {
+      "id": "sword_6_l_ovanilla_e_l_o",
+      "category": "sword",
+      "name": "⌡6⌡l⌡oVANILLA ⌡e⌡l⌡o+",
+      "sha256": "325c7f811874fe70c3c10add840ec87a07b19063958abfb95df3bfa6f3144cb9",
+      "size": 1186,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_6_l_ovanilla_e_l_o.png"
+    },
+    {
+      "id": "sword_7_5_lein_4_lclient",
+      "category": "sword",
+      "name": "⌡7!#⌡5⌡lEin⌡4⌡lClient",
+      "sha256": "1123babf62d8c9a35a2e1692aedbb361770c277e3217c0b450cda88ea1995935",
+      "size": 30346,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_7_5_lein_4_lclient.png"
+    },
+    {
+      "id": "sword_the_best_lifesteal_smp_texture_pack_1_19",
+      "category": "sword",
+      "name": "The BEST Lifesteal SMP Texture pack 1.19",
+      "sha256": "1ddd64afbc09975f86ddf1cda2b24a4a7b48b550b7ef4fe60c5545720ea1aed8",
+      "size": 1980,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_the_best_lifesteal_smp_texture_pack_1_19.png"
+    },
+    {
+      "id": "sword_aiimgod_pro",
+      "category": "sword",
+      "name": "AiimGod Pro",
+      "sha256": "b4b934f119f0baa4a8fe64c8b78f540d07e073d315716772dbafc1c9140de870",
+      "size": 4611,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_aiimgod_pro.png"
+    },
+    {
+      "id": "sword_dragneel",
+      "category": "sword",
+      "name": "Dragneel",
+      "sha256": "af11c1a5b037d8fb2afe8962e48855a5a8dc82c0450df9d3817126b87386967c",
+      "size": 13917,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sword_dragneel.png"
+    },
+    {
+      "id": "pickaxe_dpastelic_v3_7",
+      "category": "pickaxe",
+      "name": "⌡dPastelic v3 ⌡7",
+      "sha256": "ffedc7870382812c2f1b99b9c1f7f5fcf34dea1e13022a60c12a9a040e038de5",
+      "size": 16100,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_dpastelic_v3_7.png"
+    },
+    {
+      "id": "pickaxe_alpha_16x",
+      "category": "pickaxe",
+      "name": "alpha 16x",
+      "sha256": "aba2709dc69d954a40adb3dfb14458368a8002c234beedc46108c814096413c0",
+      "size": 2383,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_alpha_16x.png"
+    },
+    {
+      "id": "pickaxe_fortnite_pack",
+      "category": "pickaxe",
+      "name": "Fortnite Pack",
+      "sha256": "75772635c2edae511f158d60628f0481a82c89f474841ea2f508313f4ce315cf",
+      "size": 17660,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_fortnite_pack.png"
+    },
+    {
+      "id": "pickaxe_doge_private_v2_remade",
+      "category": "pickaxe",
+      "name": "Doge Private V2 REMADE",
+      "sha256": "47c4d19471c06592e72ba46b68488db2cd9cfa6fdc0c3ed75e9b42fb3ef550d5",
+      "size": 3467,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_doge_private_v2_remade.png"
+    },
+    {
+      "id": "pickaxe_f_lsakura_tweaks",
+      "category": "pickaxe",
+      "name": "⌡F⌡lSakura Tweaks",
+      "sha256": "492f1a8d8f657e3c23a77e237d3c935aa83b2c1d34261bc92bb9921f59a233b9",
+      "size": 11414,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_f_lsakura_tweaks.png"
+    },
+    {
+      "id": "pickaxe_7_lxpz_f_lwhite",
+      "category": "pickaxe",
+      "name": "⌡7⌡lxPz ⌡f⌡lWhite",
+      "sha256": "a05867a3f7099d6098de2440273fe1b98373c12c4ba7c5272d3b782540c5eff9",
+      "size": 1487,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pickaxe_7_lxpz_f_lwhite.png"
+    },
+    {
+      "id": "totem_bfaith_war_8_kopie",
+      "category": "totem",
+      "name": "⌡bFaith War ⌡8 - Kopie",
+      "sha256": "f36e6bcbed03e10b76d64cfc93b5abf00401f44f24385dddd734e9eee5f6f6d8",
+      "size": 2634,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_bfaith_war_8_kopie.png"
+    },
+    {
+      "id": "axe_f_lsakura_tweaks",
+      "category": "axe",
+      "name": "⌡F⌡lSakura Tweaks",
+      "sha256": "f2658251ce574859fbe6421eaa8e0d0e3e567831f132b26a095804ee41ec3385",
+      "size": 9808,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/axe_f_lsakura_tweaks.png"
+    },
+    {
+      "id": "totem_2crick_private",
+      "category": "totem",
+      "name": "2Crick Private",
+      "sha256": "a0e3b2984f653470b849bb51f0053c33395e53e6018b127e82fc6d74d316ecc6",
+      "size": 3636,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_2crick_private.png"
+    },
+    {
+      "id": "totem_blizypack",
+      "category": "totem",
+      "name": "BlizyPack",
+      "sha256": "bddfc1dd80b7ab81e91c0081a7617e5b435e8b2c31a82c03b75204ead342f644",
+      "size": 3507,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_blizypack.png"
+    },
+    {
+      "id": "totem_aiimgod",
+      "category": "totem",
+      "name": "AiimGod",
+      "sha256": "a3e80c25739949db77bae8eea05399e69d27df7e3c03aafa75e49cb8c1b804df",
+      "size": 1104,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_aiimgod.png"
+    },
+    {
+      "id": "totem_grey_pack_aiimgod",
+      "category": "totem",
+      "name": "Grey Pack AiimGod",
+      "sha256": "25e6468d3a7ed7c08e2d90efa958df8cc00bcdc11b85fd506e5b0b4a8efd97fb",
+      "size": 1104,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_grey_pack_aiimgod.png"
+    },
+    {
+      "id": "totem_pink",
+      "category": "totem",
+      "name": "pink",
+      "sha256": "d05c16f7fc5d7587f8ce57434bf0cf9836cf40adfd4a8bdf6029270c41d2a686",
+      "size": 1104,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_pink.png"
+    },
+    {
+      "id": "totem_luan_is_a_random",
+      "category": "totem",
+      "name": "Luan is a random",
+      "sha256": "44af63116e4c8fc892c96f93595770f523af0dd416594c8cd9a8492b59ddb796",
+      "size": 1103,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_luan_is_a_random.png"
+    },
+    {
+      "id": "totem_ver0xgs",
+      "category": "totem",
+      "name": "ver0xgs",
+      "sha256": "4f42eec8adafb2d28c8d8f0a3611d58d9f197e5c331c4cd1037391c8784e0631",
+      "size": 1020,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_ver0xgs.png"
+    },
+    {
+      "id": "totem_teletuppes",
+      "category": "totem",
+      "name": "Teletuppes",
+      "sha256": "752611492b8ae9e554e7fe950ae61dbdde0d0330317402ee0c669d221376029b",
+      "size": 1103,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_teletuppes.png"
+    },
+    {
+      "id": "totem_gakspack_privat",
+      "category": "totem",
+      "name": "gakspack privat",
+      "sha256": "3a8b725b8a8bcbcd302907456237250f35e83e944e4dfe22a7fa72f27a4b9f8b",
+      "size": 1673,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_gakspack_privat.png"
+    },
+    {
+      "id": "totem_luan1sacirinn",
+      "category": "totem",
+      "name": "Luan1saciriNN",
+      "sha256": "7adc5470e777396e7ce73422c623d777fdc21895fe7ee4b5c1ddf0d647777d1b",
+      "size": 683,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_luan1sacirinn.png"
+    },
+    {
+      "id": "totem_aiimgod_purple_new",
+      "category": "totem",
+      "name": "AiimGod Purple New",
+      "sha256": "091262391eec727673f5e229ebdb37c0a52cace0bd7670902121c264de66857e",
+      "size": 1000,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_aiimgod_purple_new.png"
+    },
+    {
+      "id": "totem_napicc_pack",
+      "category": "totem",
+      "name": "Napicc Pack",
+      "sha256": "72124de0c8ef01c4d6a9d2c75f5f146005235da1d716658fd139859991836b83",
+      "size": 1600,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/totem_napicc_pack.png"
+    },
+    {
+      "id": "gap_5_lfallen_5_lv4",
+      "category": "gap",
+      "name": "⌡5⌡lFallen ⌡5⌡lV4",
+      "sha256": "a272e31d82a0a515d2a6b3ee88c0de6880b65431d6563534a54d4b9347213786",
+      "size": 784,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_5_lfallen_5_lv4.png"
+    },
+    {
+      "id": "gap_d_l_lavendar_cpvp_zip",
+      "category": "gap",
+      "name": "⌡d⌡l Lavendar cPvP.zip",
+      "sha256": "4b3ead1e543d2d62548ef19b8b195beaae826e5741524551b4376ed417015dcc",
+      "size": 1043,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_d_l_lavendar_cpvp_zip.png"
+    },
+    {
+      "id": "gap_aiimgod_pwivate",
+      "category": "gap",
+      "name": "AiimGod Pwivate",
+      "sha256": "cf20e439a0b66782e58e0b0aa0a570a69b39e3538311b0d9c945e9b9844728a5",
+      "size": 1383,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_aiimgod_pwivate.png"
+    },
+    {
+      "id": "gap_909_purple",
+      "category": "gap",
+      "name": "909 Purple",
+      "sha256": "2d9bab6c82c5351006c841be475ddbf873d57aecb1bb030c176260fadd175862",
+      "size": 695,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_909_purple.png"
+    },
+    {
+      "id": "gap_flipercarr",
+      "category": "gap",
+      "name": "Flipercarr",
+      "sha256": "97469e0bbd76c4872423086fe11674fd73a5ed4744f773e3dd42f50e5ae97612",
+      "size": 747,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_flipercarr.png"
+    },
+    {
+      "id": "gap_luci_private",
+      "category": "gap",
+      "name": "Luci Private",
+      "sha256": "1773ca93b8aaec4354aeae89a6ce4d82ebb0b9056a160901a41ec28779ab5598",
+      "size": 742,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_luci_private.png"
+    },
+    {
+      "id": "gap_gubi_fortnite7",
+      "category": "gap",
+      "name": "gubi fortnite7",
+      "sha256": "1182c2e1ea8696c5d3d3595ca7718a7f6b24ef56c913db664f81d20501851869",
+      "size": 760,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_gubi_fortnite7.png"
+    },
+    {
+      "id": "gap_purple_edit",
+      "category": "gap",
+      "name": "Purple Edit",
+      "sha256": "03bf22780da46dc3966b6fb7b29c81fd36b5ce3f69b4c83a7afe3be964036c74",
+      "size": 734,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_purple_edit.png"
+    },
+    {
+      "id": "gap_tostertobi_the_nn",
+      "category": "gap",
+      "name": "TosterTobi The NN",
+      "sha256": "d8dfe0b0ad08898e0c22ac9abedd23629fce6ebb1ea76df08a6eedf7e2530ddd",
+      "size": 809,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/gap_tostertobi_the_nn.png"
+    },
+    {
+      "id": "pearl_14lm_pwiwate",
+      "category": "pearl",
+      "name": "14lm Pwiwate",
+      "sha256": "ec9aaf4007abc986d6507462888767a3d1bc5c707c905292617aa3c92da91582",
+      "size": 599,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_14lm_pwiwate.png"
+    },
+    {
+      "id": "pearl_black_white_new",
+      "category": "pearl",
+      "name": "Black White New",
+      "sha256": "c7a2d1bc901dde16101b2b9161ded47180f6f8c934ce82b9d81593247004ee4a",
+      "size": 622,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_black_white_new.png"
+    },
+    {
+      "id": "pearl_nqouir",
+      "category": "pearl",
+      "name": "Nqouir",
+      "sha256": "4c52aba1d192f44e83bb62e5182488fa77960fddac2eb1f07fc0ce5db059395b",
+      "size": 1308,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_nqouir.png"
+    },
+    {
+      "id": "pearl_veroxsibbi",
+      "category": "pearl",
+      "name": "veroxsibbi",
+      "sha256": "0958a90e4292b0226e54eb25a3113fd4d703d892bb08b6baabb8002c677e813e",
+      "size": 875,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_veroxsibbi.png"
+    },
+    {
+      "id": "pearl_zurial0g",
+      "category": "pearl",
+      "name": "Zurial0G",
+      "sha256": "c7dd515bc09d09fc7c99354a9031f877a8e605b1d4949d9fdb6e3633d2b30dd1",
+      "size": 711,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_zurial0g.png"
+    },
+    {
+      "id": "pearl_tightfault_1_19_v1_8",
+      "category": "pearl",
+      "name": "Tightfault-1.19-v1.8",
+      "sha256": "1062c00393fc79b088b9794a2a50c25066bb529864d3213e0800fa222240d55b",
+      "size": 968,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_tightfault_1_19_v1_8.png"
+    },
+    {
+      "id": "pearl_pokemon_blue",
+      "category": "pearl",
+      "name": "Pokemon Blue",
+      "sha256": "8a7a5b393e10e610ff8d5e4690436aad5fc494216c9b7788c0e96df05a489fb1",
+      "size": 76897,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_pokemon_blue.png"
+    },
+    {
+      "id": "pearl_gubi_fortnite7",
+      "category": "pearl",
+      "name": "gubi fortnite7",
+      "sha256": "b3366b87d5bf56cd92db7e6929b54a2da58764bd75ee39cb9f66f85f7c9bc575",
+      "size": 601,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_gubi_fortnite7.png"
+    },
+    {
+      "id": "pearl_kesie_optimal",
+      "category": "pearl",
+      "name": "Kesie Optimal",
+      "sha256": "8efbfdcf1af717e523968ca573844d3f4ae5d612ffa0727d47203d111eabfa13",
+      "size": 1052,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_kesie_optimal.png"
+    },
+    {
+      "id": "pearl_helpmesoft_remaik_pack",
+      "category": "pearl",
+      "name": "helpmesoft remaik pack",
+      "sha256": "6817fa7a750c251fbd496ba3c20c9367bfee1d713ff8300415d8233387fed942",
+      "size": 2355,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_helpmesoft_remaik_pack.png"
+    },
+    {
+      "id": "pearl_dpastelic_v3_7",
+      "category": "pearl",
+      "name": "⌡dPastelic v3 ⌡7",
+      "sha256": "67c997f51c56d82010f5f768961aa287692bdde9a56122fc2cb1743fb3fbf694",
+      "size": 3221,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_dpastelic_v3_7.png"
+    },
+    {
+      "id": "pearl_souls_private",
+      "category": "pearl",
+      "name": "Souls Private",
+      "sha256": "de0419336b68b4a085cfe42fc38af1aaf0c709a51af831d630ee8275495a25db",
+      "size": 3519,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/pearl_souls_private.png"
+    },
+    {
+      "id": "fire_swetsys_blue_mashup",
+      "category": "fire",
+      "name": "Swetsys blue mashup",
+      "sha256": "a121eec6f00d07b0b58533a15002db2d0cc553efc9f0f1dd125d76c6ab9979dd",
+      "size": 2020,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_swetsys_blue_mashup.png"
+    },
+    {
+      "id": "fire_5_mlavendervamp",
+      "category": "fire",
+      "name": "⌡5⌡mLavenderVamp",
+      "sha256": "d4c0fbc1e486d77b75c1b19ba6cd52ee17a86e24cb718eec967824624e876d36",
+      "size": 7870,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_5_mlavendervamp.png"
+    },
+    {
+      "id": "fire_verox",
+      "category": "fire",
+      "name": "VEROX",
+      "sha256": "0418b3ea92ae84a90a5a710016d406b2b8e5003dfd644a4dc9b97f7e40ca04cd",
+      "size": 9617,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_verox.png"
+    },
+    {
+      "id": "fire_aiimgod",
+      "category": "fire",
+      "name": "AiimGod",
+      "sha256": "7a404f00556c037465bd1af47575424697a8fc7e7c1bb3cbc5f6a19b353097a7",
+      "size": 3968,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_aiimgod.png"
+    },
+    {
+      "id": "fire_verogs_marloww_totem_blue",
+      "category": "fire",
+      "name": "Verogs Marloww totem blue",
+      "sha256": "5481c7da1b236c5b81b94c63c14f93d459df194ebbafc11550a896f5f4caca44",
+      "size": 5076,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_verogs_marloww_totem_blue.png"
+    },
+    {
+      "id": "fire_gakspack_privat",
+      "category": "fire",
+      "name": "gakspack privat",
+      "sha256": "9fab7d8f8610863c39cd1470fbaf0e1792114f030ad8ec97909af96069c5b513",
+      "size": 5342,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/fire_gakspack_privat.png"
+    },
+    {
+      "id": "hotbar_pnk_remake_aiimgod",
+      "category": "hotbar",
+      "name": "pnk remake AiimGod",
+      "sha256": "1d0b63c1e95005b19c12849b69d836d63b30ddb5a85031530edf98c0219e0b82",
+      "size": 21176,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/hotbar_pnk_remake_aiimgod.png"
+    },
+    {
+      "id": "sky_2crick_private",
+      "category": "sky",
+      "name": "2Crick Private",
+      "sha256": "ec98584ae122bf78b5261780d341c928ad383ad1c12b1d9fb7157f01750b0c6c",
+      "size": 7956136,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sky_2crick_private.png"
+    },
+    {
+      "id": "sky_pokemon_blue",
+      "category": "sky",
+      "name": "Pokemon Blue",
+      "sha256": "d7e79fd97865f5946c8dc39f3b60cd6232cac019e2ff97547811a4f447b01b22",
+      "size": 4893862,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/sky_pokemon_blue.png"
+    },
+    {
+      "id": "stone_veroxsibbi",
+      "category": "stone",
+      "name": "veroxsibbi",
+      "sha256": "e03f5d4d37e3ae6faf136858d44b8ff575e8c572dd0014887b5112af9924582b",
+      "size": 683,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/stone_veroxsibbi.png"
+    },
+    {
+      "id": "deepslate_dragneel",
+      "category": "deepslate",
+      "name": "Dragneel",
+      "sha256": "691e2c3fc18626fa1078c7f45c70ae5325555c6a9cbf698103e49a5e6d91cf63",
+      "size": 35506,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/deepslate_dragneel.png"
+    },
+    {
+      "id": "deepslate_veroxsibbi",
+      "category": "deepslate",
+      "name": "veroxsibbi",
+      "sha256": "4218b6b60d19affe8b47e557f9cea28c38eaae04b43aafd329807e798ae678dc",
+      "size": 1321,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/deepslate_veroxsibbi.png"
+    },
+    {
+      "id": "inventory_l_0black_l_f_lwhite",
+      "category": "inventory",
+      "name": "⌡l⌡0BLACK ⌡l& ⌡f⌡lWHITE",
+      "sha256": "620625a620c21c981d3357d9d620bd84f7e4c60c38766e8790263a91e6c696ab",
+      "size": 71877,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/inventory_l_0black_l_f_lwhite.png"
+    },
+    {
+      "id": "inventory_dpastelic_v3_7",
+      "category": "inventory",
+      "name": "⌡dPastelic v3 ⌡7",
+      "sha256": "e330e1d9b49b84fca6f5d526e87e0c883b5322f0db6472d69efe320f34d80bf6",
+      "size": 563692,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/inventory_dpastelic_v3_7.png"
+    },
+    {
+      "id": "inventory_d_l_a_c_e",
+      "category": "inventory",
+      "name": "⌡d L a c e",
+      "sha256": "5d07b7911b713f87fe2c7aa0eaa838c0d80707a0f9a0b6f1807da78589b9f577",
+      "size": 153927,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/inventory_d_l_a_c_e.png"
+    },
+    {
+      "id": "inventory_asd",
+      "category": "inventory",
+      "name": "asd",
+      "sha256": "67d4c34ff909321e1dd89123de192c5f099bc66dfa3137012447f1d90b587ba8",
+      "size": 2481,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/inventory_asd.png"
+    },
+    {
+      "id": "inventory_124",
+      "category": "inventory",
+      "name": "124",
+      "sha256": "fc857c6d7601e436f99b60788bfad77697c2e9b05994439a878ae2b821f79987",
+      "size": 86867,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/inventory_124.png"
+    },
+    {
+      "id": "shield_b_ipasha_e_lpack",
+      "category": "shield",
+      "name": "⌡b⌡IPasha⌡e⌡lPack",
+      "sha256": "5fa628d00adbeeed314172e1560728d0bf3863a9e87a69346a3df3009fad563c",
+      "size": 924,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/shield_b_ipasha_e_lpack.png"
+    },
+    {
+      "id": "shield_sigma",
+      "category": "shield",
+      "name": "sigma",
+      "sha256": "0b053a23a6f0b7508bf5f1237675af2543b33165efb22f69e01e7fbdcb8421d7",
+      "size": 4205,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/shield_sigma.png"
+    },
+    {
+      "id": "mace_kesie_optimal",
+      "category": "mace",
+      "name": "Kesie Optimal",
+      "sha256": "c39c3ed13f22e7f35a9f15d0cb0c02432a46dd910a4b03695d3188a4b1ddc0e1",
+      "size": 1116,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/mace_kesie_optimal.png"
+    },
+    {
+      "id": "cobweb_x32bluewar",
+      "category": "cobweb",
+      "name": "x32bluewar",
+      "sha256": "795a6c8d64585f195ee2491dea5da7d8511b5ccfd889afd75ec94be7507d2479",
+      "size": 782,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/cobweb_x32bluewar.png"
+    },
+    {
+      "id": "cobweb_islam_pack",
+      "category": "cobweb",
+      "name": "islam pack",
+      "sha256": "eda4837640a52cc9a3fa13dab57fd690a13c233311896b4bf916db072514bdf0",
+      "size": 504,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/cobweb_islam_pack.png"
+    },
+    {
+      "id": "trident_islam_pack",
+      "category": "trident",
+      "name": "islam pack",
+      "sha256": "bedfefdd30dc9d20b7973be8ce673a1f1763f7681a9b7b6d923bf00154e64c36",
+      "size": 1201,
+      "added": "2026-10-23",
+      "by": "aiimgod",
+      "preview": "previews/trident_islam_pack.png"
+    },
+    {
+      "id": "anchor_grey_remade_by_swetsy",
+      "category": "anchor",
+      "name": "Grey Remade by Swetsy",
+      "sha256": "b07a4b4195ab8b9e0b14d8e2b38f7e8874df63973508b674bc2170c575541799",
+      "size": 20025,
+      "added": "2026-10-19",
+      "preview": "previews/anchor_grey_remade_by_swetsy.png"
+    },
+    {
+      "id": "anchor_o6o_isrxpxnts_private_v2",
+      "category": "anchor",
+      "name": "o6o ISrxpxnts Private v2",
+      "sha256": "2696f5cae1f27d4342b499b4cd72c6f4353e6f374b3f39c14c35df7f943f9fab",
+      "size": 20862,
+      "added": "2026-10-19",
+      "preview": "previews/anchor_o6o_isrxpxnts_private_v2.png"
+    },
+    {
+      "id": "spear_bone",
+      "category": "spear",
+      "name": "Bone",
+      "sha256": "1b479b80704ebddf7241dd43c37367fa8a5500ccf892d41e02495abfa27930e6",
+      "size": 7475,
+      "added": "2026-10-17",
+      "preview": "previews/spear_bone.png"
+    },
+    {
+      "id": "spear_candy_cane",
+      "category": "spear",
+      "name": "Candy Cane",
+      "sha256": "dcca9153fd54f4e9cf4c60211304de066a9c6878d56f304e5d06c7ca6174fd52",
+      "size": 7760,
+      "added": "2026-10-17",
+      "preview": "previews/spear_candy_cane.png"
+    },
+    {
+      "id": "spear_crimson",
+      "category": "spear",
+      "name": "Crimson",
+      "sha256": "507879b6a26f3932921da918f4e2f7f006ef773fb638801ccf5ce90abb7ab6b9",
+      "size": 7333,
+      "added": "2026-10-17",
+      "preview": "previews/spear_crimson.png"
+    },
+    {
+      "id": "spear_electric",
+      "category": "spear",
+      "name": "Electric",
+      "sha256": "4f9d44d9b58e04bfecb9ebe1961b0f59509b3aa2e9d0c0a9c4f351c16339152d",
+      "size": 21859,
+      "added": "2026-10-17",
+      "preview": "previews/spear_electric.png"
+    },
+    {
+      "id": "spear_ember",
+      "category": "spear",
+      "name": "Ember",
+      "sha256": "2c3f1b582ff565832fe6c6057044509891bb7f9755161597934faaba29796cfe",
+      "size": 18235,
+      "added": "2026-10-17",
+      "preview": "previews/spear_ember.png"
+    },
+    {
+      "id": "spear_emerald",
+      "category": "spear",
+      "name": "Emerald",
+      "sha256": "538708a77e9df7ddb2aeecaec9ae7b1846b8d25ef184a18425c53b1b0fcda590",
+      "size": 7694,
+      "added": "2026-10-17",
+      "preview": "previews/spear_emerald.png"
+    },
+    {
+      "id": "spear_frost",
+      "category": "spear",
+      "name": "Frost",
+      "sha256": "9d81a20b5040b03de2b1476234eb1ac5e073adf8c67d3255b2862a8b472a653d",
+      "size": 7837,
+      "added": "2026-10-17",
+      "preview": "previews/spear_frost.png"
+    },
+    {
+      "id": "spear_frostbite",
+      "category": "spear",
+      "name": "Frostbite",
+      "sha256": "a5791503d518fba47fb40c09418008a1b7ccb2e6a1af55288cf77cf92baf92bf",
+      "size": 56353,
+      "added": "2026-10-17",
+      "preview": "previews/spear_frostbite.png"
+    },
+    {
+      "id": "spear_galaxy",
+      "category": "spear",
+      "name": "Galaxy",
+      "sha256": "89813e2971a678e4537b860268ad22387c58de801edbd57723cbf95ce554b283",
+      "size": 43735,
+      "added": "2026-10-17",
+      "preview": "previews/spear_galaxy.png"
+    },
+    {
+      "id": "spear_haunted",
+      "category": "spear",
+      "name": "Haunted",
+      "sha256": "256d07d6a750fd6f12296cd31f28eed747b342ceec31eff995f040f70f2c0108",
+      "size": 39796,
+      "added": "2026-10-17",
+      "preview": "previews/spear_haunted.png"
+    },
+    {
+      "id": "spear_heartbeat",
+      "category": "spear",
+      "name": "Heartbeat",
+      "sha256": "2f4832fd30d9f88b4f8065c807531978e813892e6110a7cde417168488b85d5d",
+      "size": 71486,
+      "added": "2026-10-17",
+      "preview": "previews/spear_heartbeat.png"
+    },
+    {
+      "id": "spear_magma",
+      "category": "spear",
+      "name": "Magma",
+      "sha256": "f0cf0df5efd335575e49eb8deb39e67e3d4617205b262114f710880988719c14",
+      "size": 8032,
+      "added": "2026-10-17",
+      "preview": "previews/spear_magma.png"
+    },
+    {
+      "id": "spear_neon",
+      "category": "spear",
+      "name": "Neon",
+      "sha256": "84c8ae424fa90eadbf623fd7c64019c07009b2cc317aae77eae683414fe8d21e",
+      "size": 7451,
+      "added": "2026-10-17",
+      "preview": "previews/spear_neon.png"
+    },
+    {
+      "id": "spear_plasma",
+      "category": "spear",
+      "name": "Plasma",
+      "sha256": "60b979dfade4fe8f188ad6f903eac24b98c39b58b5d0e80f440377d465c988bd",
+      "size": 44561,
+      "added": "2026-10-17",
+      "preview": "previews/spear_plasma.png"
+    },
+    {
+      "id": "spear_pumpkin",
+      "category": "spear",
+      "name": "Pumpkin",
+      "sha256": "3211dac51b3f2437dc48dde5c2b413b0bc3509f69db7541d5b0125e1a74ae6b2",
+      "size": 16951,
+      "added": "2026-10-17",
+      "preview": "previews/spear_pumpkin.png"
+    },
+    {
+      "id": "spear_rainbow",
+      "category": "spear",
+      "name": "Rainbow",
+      "sha256": "2def4217f81438795bbf4a8d236e33b19554e2705d4e349224827e262fa4c1c1",
+      "size": 63184,
+      "added": "2026-10-17",
+      "preview": "previews/spear_rainbow.png"
+    },
+    {
+      "id": "spear_royal_gold",
+      "category": "spear",
+      "name": "Royal Gold",
+      "sha256": "d9c07687b7c379a476ac2319301b581505ef59c93d072a8247cefd165a31236f",
+      "size": 7776,
+      "added": "2026-10-17",
+      "preview": "previews/spear_royal_gold.png"
+    },
+    {
+      "id": "spear_sakura",
+      "category": "spear",
+      "name": "Sakura",
+      "sha256": "3069c53326bb08ce21f56b6dbcdf3099c88df83608b74e1f7a435c3da1ab8c98",
+      "size": 7745,
+      "added": "2026-10-17",
+      "preview": "previews/spear_sakura.png"
+    },
+    {
+      "id": "spear_shadow_flame",
+      "category": "spear",
+      "name": "Shadow Flame",
+      "sha256": "f1679b13f7333edcbf3aabfb68e9c417331ac30f754f914e5fd80afa2654b18b",
+      "size": 33779,
+      "added": "2026-10-17",
+      "preview": "previews/spear_shadow_flame.png"
+    },
+    {
+      "id": "spear_toxic",
+      "category": "spear",
+      "name": "Toxic",
+      "sha256": "bbf4117ca606ae96f096bbbf8bf9d6cb6838b341f618c1760813b623e1982578",
+      "size": 34056,
+      "added": "2026-10-17",
+      "preview": "previews/spear_toxic.png"
+    },
+    {
+      "id": "spear_void_aura",
+      "category": "spear",
+      "name": "Void Aura",
+      "sha256": "8e3da27908631ce28088c8c251ea8fa1f6da38b398b000af87152bf408fb9e16",
+      "size": 52199,
+      "added": "2026-10-17",
+      "preview": "previews/spear_void_aura.png"
+    },
+    {
+      "id": "spear_void",
+      "category": "spear",
+      "name": "Void",
+      "sha256": "81ed6661d538f7538401155b95db723b0cc6b1a32e0afcf936119f004cca433a",
+      "size": 7327,
+      "added": "2026-10-17",
+      "preview": "previews/spear_void.png"
+    },
+    {
+      "id": "mace_bone",
+      "category": "mace",
+      "name": "Bone",
+      "sha256": "e8c4043ebbc7103aeda027de21741a90a7e5e62018a93d13dc7fe2f528962676",
+      "size": 1392,
+      "added": "2026-10-17",
+      "preview": "previews/mace_bone.png"
+    },
+    {
+      "id": "mace_crimson",
+      "category": "mace",
+      "name": "Crimson",
+      "sha256": "39b586ccd1776ecdd9f108e9091c5ca5b6b0e063c2036db9e394b741a8801d2e",
+      "size": 1386,
+      "added": "2026-10-17",
+      "preview": "previews/mace_crimson.png"
+    },
+    {
+      "id": "mace_electric",
+      "category": "mace",
+      "name": "Electric",
+      "sha256": "3888dae9758be4b59218caca5ae050500aa5586c12d95c714c54bb8c03d8a639",
+      "size": 2418,
+      "added": "2026-10-17",
+      "preview": "previews/mace_electric.png"
+    },
+    {
+      "id": "mace_ember",
+      "category": "mace",
+      "name": "Ember",
+      "sha256": "741d452156e788120d224a9d31386453bb21bc2452d58b580922f621883130d0",
+      "size": 2177,
+      "added": "2026-10-17",
+      "preview": "previews/mace_ember.png"
+    },
+    {
+      "id": "mace_emerald",
+      "category": "mace",
+      "name": "Emerald",
+      "sha256": "8a6a7de4938fad0eea895d3cef3f22b43298f0dafb27ba0b9dcb9ddac9cb2d3c",
+      "size": 1379,
+      "added": "2026-10-17",
+      "preview": "previews/mace_emerald.png"
+    },
+    {
+      "id": "mace_frost",
+      "category": "mace",
+      "name": "Frost",
+      "sha256": "a236307f6514a4a4fd0af028fda65265eadc56c73390301d4cb5bf8397f869b9",
+      "size": 1379,
+      "added": "2026-10-17",
+      "preview": "previews/mace_frost.png"
+    },
+    {
+      "id": "mace_galaxy",
+      "category": "mace",
+      "name": "Galaxy",
+      "sha256": "e422ecaf0792fa2af811dade0b3cf65a3f8ffc61eade8285573ed6f36d8d94b0",
+      "size": 3562,
+      "added": "2026-10-17",
+      "preview": "previews/mace_galaxy.png"
+    },
+    {
+      "id": "mace_haunted",
+      "category": "mace",
+      "name": "Haunted",
+      "sha256": "70425a5b7dcde11a91850ed55aaa887b21e85a9fe88d0ef139d77eed229312d0",
+      "size": 3623,
+      "added": "2026-10-17",
+      "preview": "previews/mace_haunted.png"
+    },
+    {
+      "id": "mace_heartbeat",
+      "category": "mace",
+      "name": "Heartbeat",
+      "sha256": "8656370579944ab5364284cb1b50b21e49c2a9565e36091e6f716f21f2e176cc",
+      "size": 5077,
+      "added": "2026-10-17",
+      "preview": "previews/mace_heartbeat.png"
+    },
+    {
+      "id": "mace_magma",
+      "category": "mace",
+      "name": "Magma",
+      "sha256": "f79a664ca2a51ff391675814591316008ef16a365182b99c22caa3d621ad382d",
+      "size": 1407,
+      "added": "2026-10-17",
+      "preview": "previews/mace_magma.png"
+    },
+    {
+      "id": "mace_neon",
+      "category": "mace",
+      "name": "Neon",
+      "sha256": "bf4917dbac86303213dd7cb5997c8b92027864f34523dc8ad75774ef786f4873",
+      "size": 1147,
+      "added": "2026-10-17",
+      "preview": "previews/mace_neon.png"
+    },
+    {
+      "id": "mace_plasma",
+      "category": "mace",
+      "name": "Plasma",
+      "sha256": "26177856e2de931c0911fff09287bfc199c9b2048fb28ea469693ee5caffe9ac",
+      "size": 4582,
+      "added": "2026-10-17",
+      "preview": "previews/mace_plasma.png"
+    },
+    {
+      "id": "mace_pumpkin",
+      "category": "mace",
+      "name": "Pumpkin",
+      "sha256": "6f9263d91527bd5a1f124387c2e0644a5b7a2fc5b35c70f725aa559e8ea26865",
+      "size": 2103,
+      "added": "2026-10-17",
+      "preview": "previews/mace_pumpkin.png"
+    },
+    {
+      "id": "mace_rainbow",
+      "category": "mace",
+      "name": "Rainbow",
+      "sha256": "d808f0901cf8b775b4583e1a6437eb6b83a852025fad773e457d9c31bcf6e0b4",
+      "size": 6168,
+      "added": "2026-10-17",
+      "preview": "previews/mace_rainbow.png"
+    },
+    {
+      "id": "mace_royal_gold",
+      "category": "mace",
+      "name": "Royal Gold",
+      "sha256": "291b630e6db39a28587ff3ad6649f67d55c4e71e76767bba4051e6aa98e24550",
+      "size": 1391,
+      "added": "2026-10-17",
+      "preview": "previews/mace_royal_gold.png"
+    },
+    {
+      "id": "mace_sakura",
+      "category": "mace",
+      "name": "Sakura",
+      "sha256": "bcdd8a6042112c902c9f4bcccd174fa991a51bd3d51fc7e0a7e052927f626c41",
+      "size": 1372,
+      "added": "2026-10-17",
+      "preview": "previews/mace_sakura.png"
+    },
+    {
+      "id": "mace_shadow_flame",
+      "category": "mace",
+      "name": "Shadow Flame",
+      "sha256": "cd72e12420ac6de94b2030bb5d79dc77368a365b0ff9244766ca7bd4a8e335e8",
+      "size": 2963,
+      "added": "2026-10-17",
+      "preview": "previews/mace_shadow_flame.png"
+    },
+    {
+      "id": "mace_toxic",
+      "category": "mace",
+      "name": "Toxic",
+      "sha256": "ced7432ce53221eafb0b0a1334b08a9e021fe58e3bcc8da212e13f8163a284e4",
+      "size": 3387,
+      "added": "2026-10-17",
+      "preview": "previews/mace_toxic.png"
+    },
+    {
+      "id": "mace_void_aura",
+      "category": "mace",
+      "name": "Void Aura",
+      "sha256": "64252623bfed63c961f568ba96c2ccb8b18822ee89b8529240f3525535c60414",
+      "size": 3480,
+      "added": "2026-10-17",
+      "preview": "previews/mace_void_aura.png"
+    },
+    {
+      "id": "mace_void",
+      "category": "mace",
+      "name": "Void",
+      "sha256": "604a505a3376950e85d4314cb9d24e591e4d60abc4de0f7f31e555d096dab015",
+      "size": 1386,
+      "added": "2026-10-17",
+      "preview": "previews/mace_void.png"
+    },
+    {
+      "id": "trident_bone",
+      "category": "trident",
+      "name": "Bone",
+      "sha256": "8c48c480f4b9254e5d7eaa368c013a4008583011277e95ac01d74c9a30340c7c",
+      "size": 1730,
+      "added": "2026-10-17",
+      "preview": "previews/trident_bone.png"
+    },
+    {
+      "id": "trident_crimson",
+      "category": "trident",
+      "name": "Crimson",
+      "sha256": "ace3d76d08ba6e4116c5d69d6a75b06930d301ea65fcc0cc0d47229960cb3f61",
+      "size": 1751,
+      "added": "2026-10-17",
+      "preview": "previews/trident_crimson.png"
+    },
+    {
+      "id": "trident_ember",
+      "category": "trident",
+      "name": "Ember",
+      "sha256": "9ed0e8475f61f6d4b5eb80ee1db1b9f721f97a22ad05dff9590921c01602968b",
+      "size": 1802,
+      "added": "2026-10-17",
+      "preview": "previews/trident_ember.png"
+    },
+    {
+      "id": "trident_emerald",
+      "category": "trident",
+      "name": "Emerald",
+      "sha256": "8c283aaee11a42a8d904d144d21ddd09f36139efe7b4f53660ec8233439ca4bb",
+      "size": 1785,
+      "added": "2026-10-17",
+      "preview": "previews/trident_emerald.png"
+    },
+    {
+      "id": "trident_frost",
+      "category": "trident",
+      "name": "Frost",
+      "sha256": "e0de500c28c243c15ce7fdbe30aecb59a484ad25199d5fc8f9d04e629a1294b6",
+      "size": 1765,
+      "added": "2026-10-17",
+      "preview": "previews/trident_frost.png"
+    },
+    {
+      "id": "trident_galaxy",
+      "category": "trident",
+      "name": "Galaxy",
+      "sha256": "e6a4e1fa9bc567efac92a42a039bee9cb5674e32d6c864a300c4fae8b24b46d9",
+      "size": 1900,
+      "added": "2026-10-17",
+      "preview": "previews/trident_galaxy.png"
+    },
+    {
+      "id": "trident_haunted",
+      "category": "trident",
+      "name": "Haunted",
+      "sha256": "53e545feba368eb360058ccac9e097425f810c40834e5a5c85392b12db06db62",
+      "size": 1758,
+      "added": "2026-10-17",
+      "preview": "previews/trident_haunted.png"
+    },
+    {
+      "id": "trident_heartbeat",
+      "category": "trident",
+      "name": "Heartbeat",
+      "sha256": "bc61ba99f17d45b1c8af9d0a53b8feb43eb786b281c036bc5016bf84f85ba52f",
+      "size": 1764,
+      "added": "2026-10-17",
+      "preview": "previews/trident_heartbeat.png"
+    },
+    {
+      "id": "trident_magma",
+      "category": "trident",
+      "name": "Magma",
+      "sha256": "57245ac80aeadeaa8353cdc4ae4854152feb063cf71a4fcb4b220c3f081b33f8",
+      "size": 1825,
+      "added": "2026-10-17",
+      "preview": "previews/trident_magma.png"
+    },
+    {
+      "id": "trident_neon",
+      "category": "trident",
+      "name": "Neon",
+      "sha256": "123344844d95ab8c5e00987e6ff4a38e675d4bd9a37099145f55d1e077e3c92c",
+      "size": 1624,
+      "added": "2026-10-17",
+      "preview": "previews/trident_neon.png"
+    },
+    {
+      "id": "trident_plasma",
+      "category": "trident",
+      "name": "Plasma",
+      "sha256": "ad18f81d2d9f0813158f3cc7b82c0aa5fbb27a509041da60822abce6e96a3088",
+      "size": 1875,
+      "added": "2026-10-17",
+      "preview": "previews/trident_plasma.png"
+    },
+    {
+      "id": "trident_pumpkin",
+      "category": "trident",
+      "name": "Pumpkin",
+      "sha256": "2fef83882ca733c7283caa311dab6624585a5776724474ba1ee295e05533d1d7",
+      "size": 1906,
+      "added": "2026-10-17",
+      "preview": "previews/trident_pumpkin.png"
+    },
+    {
+      "id": "trident_rainbow",
+      "category": "trident",
+      "name": "Rainbow",
+      "sha256": "111ce90da025c958e86fcd1eb6c716f7e42599f83a8a2df53af0de4034fd2a53",
+      "size": 1892,
+      "added": "2026-10-17",
+      "preview": "previews/trident_rainbow.png"
+    },
+    {
+      "id": "trident_royal_gold",
+      "category": "trident",
+      "name": "Royal Gold",
+      "sha256": "891f58dd7eba82689fc81a931dc3826ce7f1a6f334c8beb32cc02c1c7a495a1a",
+      "size": 1806,
+      "added": "2026-10-17",
+      "preview": "previews/trident_royal_gold.png"
+    },
+    {
+      "id": "trident_sakura",
+      "category": "trident",
+      "name": "Sakura",
+      "sha256": "0a3621f642b4cb4b9116b0e651ba5c7e60b4fac058c99c04c11a2b211179309c",
+      "size": 1767,
+      "added": "2026-10-17",
+      "preview": "previews/trident_sakura.png"
+    },
+    {
+      "id": "trident_shadow_flame",
+      "category": "trident",
+      "name": "Shadow Flame",
+      "sha256": "a015347bdb814da2d1ba609b8b195134364a1eca2db56652c2e872586d7f5c6f",
+      "size": 1838,
+      "added": "2026-10-17",
+      "preview": "previews/trident_shadow_flame.png"
+    },
+    {
+      "id": "trident_toxic",
+      "category": "trident",
+      "name": "Toxic",
+      "sha256": "4837c9ad05127466498d4c06fe71c44735d60acb1246df788d29d99c774a71c5",
+      "size": 1726,
+      "added": "2026-10-17",
+      "preview": "previews/trident_toxic.png"
+    },
+    {
+      "id": "trident_void",
+      "category": "trident",
+      "name": "Void",
+      "sha256": "11f42b23f836bcf4f78a93a0a2e4bc4a9a69fcd0d2d9dfbd023be36057f6986b",
+      "size": 1744,
+      "added": "2026-10-17",
+      "preview": "previews/trident_void.png"
+    },
+    {
+      "id": "anchor_candycrystals_remasterd",
+      "category": "anchor",
+      "name": "CandyCrystals Remasterd",
+      "sha256": "09afec49a79d2b4e564bba6b8530a39b02444b805187d5739bcef33f9ace0ab1",
+      "size": 27526,
+      "added": "2026-10-13",
+      "preview": "previews/anchor_candycrystals_remasterd.png"
+    },
+    {
+      "id": "fire_kesie_block_overlay",
+      "category": "fire",
+      "name": "Kesie block overlay",
+      "sha256": "231d78868775175f5a79d6f406a10ee6c8b0e0ba229bc313220e76549d5e75ac",
+      "size": 5025,
+      "added": "2026-10-13",
+      "preview": "previews/fire_kesie_block_overlay.png"
+    },
+    {
+      "id": "fire_aria_private",
+      "category": "fire",
+      "name": "aria private",
+      "sha256": "a3bedc834ff7a1ad9ffe3b72d137194f2057876fce6bbba5ba27bab279383e64",
+      "size": 1686,
+      "added": "2026-10-13",
+      "preview": "previews/fire_aria_private.png"
+    },
+    {
+      "id": "sky_blossom",
+      "category": "sky",
+      "name": "Blossom",
+      "sha256": "5a0986244b8a03872ac816d50c18b11d78cba4328532a58ba7398488f12203b4",
+      "size": 15499535,
+      "added": "2026-10-13",
+      "preview": "previews/sky_blossom.png"
+    },
+    {
+      "id": "trident_orchard_x_syn_overlay",
+      "category": "trident",
+      "name": "orchard x syn overlay",
+      "sha256": "9ba8228a9bb03dc935ae2961ba6e9e94ea5d69676d3b4b6ee378b4199c6d37f2",
+      "size": 965,
+      "added": "2026-10-13",
+      "preview": "previews/trident_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "axe_blossom",
+      "category": "axe",
+      "name": "Blossom",
+      "sha256": "03fb976a8c87f3aa8ef3f8f53adefb3cd973d01b3c0756bd9e73a3bf88bd3c82",
+      "size": 3704,
+      "added": "2026-10-10",
+      "preview": "previews/axe_blossom.png"
+    },
+    {
+      "id": "axe_dragneel",
+      "category": "axe",
+      "name": "Dragneel",
+      "sha256": "f70a8a4e5988a8dccf6435901a3980e957daef699a247f06fa163bc8e2ac747f",
+      "size": 2476,
+      "added": "2026-10-10",
+      "preview": "previews/axe_dragneel.png"
+    },
+    {
+      "id": "axe_kesu_main",
+      "category": "axe",
+      "name": "Kesu Main",
+      "sha256": "5a6e4e10885f62617f524d7921913da54077c12cdd56b93aee9ee1c042dd546c",
+      "size": 648,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kesu_main.png"
+    },
+    {
+      "id": "axe_sunset_priv",
+      "category": "axe",
+      "name": "Sunset Priv",
+      "sha256": "c9092cbe85f05d391fad38d604dd343663179c71cff1f8f8386d7d4e5e9e34ce",
+      "size": 2399,
+      "added": "2026-10-10",
+      "preview": "previews/axe_sunset_priv.png"
+    },
+    {
+      "id": "axe_vaunta_mashup_ii",
+      "category": "axe",
+      "name": "Vaunta Mashup II",
+      "sha256": "e74eb718fc8302359c60cbd11a9d638059d49f502b660ef4a7c05ec5ee1f1aae",
+      "size": 635,
+      "added": "2026-10-10",
+      "preview": "previews/axe_vaunta_mashup_ii.png"
+    },
+    {
+      "id": "axe_vaunta_blue",
+      "category": "axe",
+      "name": "vaunta blue",
+      "sha256": "0a3c8276e9e0ec7a24a4c17b84ee32f863b03adaf52f59baa0dee56c7b45575b",
+      "size": 635,
+      "added": "2026-10-10",
+      "preview": "previews/axe_vaunta_blue.png"
+    },
+    {
+      "id": "axe_vanilla_edit_16x",
+      "category": "axe",
+      "name": "Vanilla Edit 16x",
+      "sha256": "83d978a2db3a6fbde29f158500ba4f2e9070d6bdc87d915c92623f85fbbbb37c",
+      "size": 2756,
+      "added": "2026-10-10",
+      "preview": "previews/axe_vanilla_edit_16x.png"
+    },
+    {
+      "id": "axe_midnight",
+      "category": "axe",
+      "name": "Midnight",
+      "sha256": "ad6b0c8f280798e8c94d8d4659c8980d7bb65abbb5ee36b32eab7a5ddb6e23fd",
+      "size": 15604,
+      "added": "2026-10-10",
+      "preview": "previews/axe_midnight.png"
+    },
+    {
+      "id": "axe_bombies_lavender_private",
+      "category": "axe",
+      "name": "Bombies Lavender Private",
+      "sha256": "c4b5483b1589ef4428148abc1f4c7f19cbb7923291206cdc3702ff020f7d18ff",
+      "size": 2693,
+      "added": "2026-10-10",
+      "preview": "previews/axe_bombies_lavender_private.png"
+    },
+    {
+      "id": "axe_dylan_mashup_v22",
+      "category": "axe",
+      "name": "DYLAN Mashup v22",
+      "sha256": "46d2071d997284160d8bb30d5a55a04d7facb20b3fd29c378ee63031ba6c2ae2",
+      "size": 6210,
+      "added": "2026-10-10",
+      "preview": "previews/axe_dylan_mashup_v22.png"
+    },
+    {
+      "id": "axe_16x16_legacy_edit",
+      "category": "axe",
+      "name": "16x16 LEGACY EDIT",
+      "sha256": "898453d480192df6f19cd46188ee1fbe9d6e902bd7f5cf032b9a97ff3fcffb0d",
+      "size": 2874,
+      "added": "2026-10-10",
+      "preview": "previews/axe_16x16_legacy_edit.png"
+    },
+    {
+      "id": "axe_blck",
+      "category": "axe",
+      "name": "Blck",
+      "sha256": "834ef5a7166b65d6cbf2f3c0754bf4a6a3c16df639e8145e162430cb1699b9c8",
+      "size": 758,
+      "added": "2026-10-10",
+      "preview": "previews/axe_blck.png"
+    },
+    {
+      "id": "axe_penguinz",
+      "category": "axe",
+      "name": "Penguinz",
+      "sha256": "db0fd118622a14296b74069764274299041e383f3530385db403580dcf1cd095",
+      "size": 2400,
+      "added": "2026-10-10",
+      "preview": "previews/axe_penguinz.png"
+    },
+    {
+      "id": "axe_pink_scence",
+      "category": "axe",
+      "name": "Pink Scence",
+      "sha256": "50974a5259a994063a572be65e2d5ec014a976826d2e8b07054045a800e2fa57",
+      "size": 3267,
+      "added": "2026-10-10",
+      "preview": "previews/axe_pink_scence.png"
+    },
+    {
+      "id": "axe_scenery",
+      "category": "axe",
+      "name": "Scenery",
+      "sha256": "41ca7a85ca43d53786229dfbd61c4ca9f78c665d7486b6b646813b534c705b14",
+      "size": 2544,
+      "added": "2026-10-10",
+      "preview": "previews/axe_scenery.png"
+    },
+    {
+      "id": "axe_spectral",
+      "category": "axe",
+      "name": "Spectral",
+      "sha256": "ed08f3e9994a00b7b145367be94c1ef9b5a7f17f3d18840f51b3670354441adf",
+      "size": 2375,
+      "added": "2026-10-10",
+      "preview": "previews/axe_spectral.png"
+    },
+    {
+      "id": "axe_zinc",
+      "category": "axe",
+      "name": "Zinc",
+      "sha256": "bdc8996cd25810d841bbca52096beb34da5e6a0718d906c3c6474619cb1e859d",
+      "size": 2546,
+      "added": "2026-10-10",
+      "preview": "previews/axe_zinc.png"
+    },
+    {
+      "id": "axe_testmaster11_blue_edit",
+      "category": "axe",
+      "name": "Testmaster11 Blue Edit",
+      "sha256": "8afab6128bc569f352100a0910f5f92f32013dac2883ca457e95355bb961d3ae",
+      "size": 701,
+      "added": "2026-10-10",
+      "preview": "previews/axe_testmaster11_blue_edit.png"
+    },
+    {
+      "id": "axe_testmaster11_green_edit",
+      "category": "axe",
+      "name": "Testmaster11 Green Edit",
+      "sha256": "9eec82e16e07c0d7adf9841ea51f5c9cf3a623c5641feb2a74508ec3ff9978ef",
+      "size": 696,
+      "added": "2026-10-10",
+      "preview": "previews/axe_testmaster11_green_edit.png"
+    },
+    {
+      "id": "axe_testmaster11_red_edit",
+      "category": "axe",
+      "name": "Testmaster11 Red Edit",
+      "sha256": "29049b6a5aa012377b36af7011584671edcebfab829052c6c9b47c2c11153a13",
+      "size": 701,
+      "added": "2026-10-10",
+      "preview": "previews/axe_testmaster11_red_edit.png"
+    },
+    {
+      "id": "axe_cupcakebox_priv",
+      "category": "axe",
+      "name": "cupcakebox priv",
+      "sha256": "ad04122f97b53cf103667367035ca93b1752c47dbd2c55473800ee7c163b0f27",
+      "size": 1557,
+      "added": "2026-10-10",
+      "preview": "previews/axe_cupcakebox_priv.png"
+    },
+    {
+      "id": "axe_mashup",
+      "category": "axe",
+      "name": "mashup",
+      "sha256": "2a3ecec326272edcae8dc7c9ed38b17115132a60ec0fff81911b63537224f0fd",
+      "size": 885,
+      "added": "2026-10-10",
+      "preview": "previews/axe_mashup.png"
+    },
+    {
+      "id": "axe_steams_yellow_edit",
+      "category": "axe",
+      "name": "Steams Yellow Edit",
+      "sha256": "90865efc3e19beaaacbe2bbc369fd992c0beda1da63fde427aedf325bb8e26ce",
+      "size": 686,
+      "added": "2026-10-10",
+      "preview": "previews/axe_steams_yellow_edit.png"
+    },
+    {
+      "id": "axe_purplfault_private",
+      "category": "axe",
+      "name": "purplfault private",
+      "sha256": "104b19f7c77f71bbcc46056b574e1268792ebfa93246f2f46a7d7fe4f4b7e89f",
+      "size": 624,
+      "added": "2026-10-10",
+      "preview": "previews/axe_purplfault_private.png"
+    },
+    {
+      "id": "axe_forchid",
+      "category": "axe",
+      "name": "Forchid",
+      "sha256": "93612d6749d89b4992a9a297222d5299765cb46c43600c0044a98fa9f7a96827",
+      "size": 11709,
+      "added": "2026-10-10",
+      "preview": "previews/axe_forchid.png"
+    },
+    {
+      "id": "axe_jasper",
+      "category": "axe",
+      "name": "JASPER",
+      "sha256": "344022d09e4c7c7c8b7c469c76093006c6689b207967185a9de1f1527503f122",
+      "size": 4200,
+      "added": "2026-10-10",
+      "preview": "previews/axe_jasper.png"
+    },
+    {
+      "id": "axe_sigma",
+      "category": "axe",
+      "name": "sigma",
+      "sha256": "1fd7dfdf0502c4a94226c8b62eb41f87d64bf746652e04995169d77244cadc50",
+      "size": 4503,
+      "added": "2026-10-10",
+      "preview": "previews/axe_sigma.png"
+    },
+    {
+      "id": "axe_cowartedpink",
+      "category": "axe",
+      "name": "CowartedPink",
+      "sha256": "b64c56034222f49e95e13f1fd23cbac524e327bd8ebdd7a1a42d0e21a07d3a2d",
+      "size": 800,
+      "added": "2026-10-10",
+      "preview": "previews/axe_cowartedpink.png"
+    },
+    {
+      "id": "axe_doge_private_v2_edit",
+      "category": "axe",
+      "name": "Doge Private V2 Edit",
+      "sha256": "d0bdaac1ab2f0ecfb077f9b651c9393ceaf3ad716f13b4ecbac7e24dbada2218",
+      "size": 3775,
+      "added": "2026-10-10",
+      "preview": "previews/axe_doge_private_v2_edit.png"
+    },
+    {
+      "id": "axe_nebula",
+      "category": "axe",
+      "name": "Nebula",
+      "sha256": "79064b8b39c08527b31c545239d7ea809e7d58985fda1c261f38722c9b5ca004",
+      "size": 12779,
+      "added": "2026-10-10",
+      "preview": "previews/axe_nebula.png"
+    },
+    {
+      "id": "axe_purple_private_edit",
+      "category": "axe",
+      "name": "Purple Private Edit",
+      "sha256": "4ed577adf52622568dc7cf939d53419f84c7c5b262430a3b4710c6e25a50cbef",
+      "size": 1068,
+      "added": "2026-10-10",
+      "preview": "previews/axe_purple_private_edit.png"
+    },
+    {
+      "id": "axe_kyfes",
+      "category": "axe",
+      "name": "Kyfes",
+      "sha256": "54c1b912494c89e981cc6841ae66827e5a8f48187a95693d369c2abcc56dac1a",
+      "size": 4530,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kyfes.png"
+    },
+    {
+      "id": "axe_spookd_remake",
+      "category": "axe",
+      "name": "Spookd Remake",
+      "sha256": "dc24c52cbac0472f571b3e9d102366084c90f3fb117152efceba651446e65f81",
+      "size": 4631,
+      "added": "2026-10-10",
+      "preview": "previews/axe_spookd_remake.png"
+    },
+    {
+      "id": "axe_tryh4rdd_red_default",
+      "category": "axe",
+      "name": "TryH4rdd Red Default",
+      "sha256": "d862c859d309c8eb86181ccd06ea64dd6821f64aae104dd7f8e98af148d72f9f",
+      "size": 676,
+      "added": "2026-10-10",
+      "preview": "previews/axe_tryh4rdd_red_default.png"
+    },
+    {
+      "id": "axe_v_pink",
+      "category": "axe",
+      "name": "V+Pink",
+      "sha256": "3670f2983763f37a78d18557db8812fc2153d1907a2563ca76219dc1c2d076bd",
+      "size": 4475,
+      "added": "2026-10-10",
+      "preview": "previews/axe_v_pink.png"
+    },
+    {
+      "id": "axe_candycrystals_remasterd",
+      "category": "axe",
+      "name": "CandyCrystals Remasterd",
+      "sha256": "60274eb1c494aaa634a120de45f40e60233e88b61d6c9393ef4f5f05b03c8169",
+      "size": 4550,
+      "added": "2026-10-10",
+      "preview": "previews/axe_candycrystals_remasterd.png"
+    },
+    {
+      "id": "axe_clear_vision_grey",
+      "category": "axe",
+      "name": "Clear Vision Grey",
+      "sha256": "5cc8b8c63a3354d6ecfe6210087e5cccd04a81c2b4f97965de6bdd35512b2a3b",
+      "size": 2155,
+      "added": "2026-10-10",
+      "preview": "previews/axe_clear_vision_grey.png"
+    },
+    {
+      "id": "axe_crey_private",
+      "category": "axe",
+      "name": "Crey private",
+      "sha256": "341204b3f2322c1669ff5573027adba5b6eadb4f647ad920f549218b89cb101c",
+      "size": 15628,
+      "added": "2026-10-10",
+      "preview": "previews/axe_crey_private.png"
+    },
+    {
+      "id": "axe_digs_simple",
+      "category": "axe",
+      "name": "Digs Simple",
+      "sha256": "1a415ba94177080d47329db85f307e8347cd915a2ff967636cfab6ff30bd1284",
+      "size": 3524,
+      "added": "2026-10-10",
+      "preview": "previews/axe_digs_simple.png"
+    },
+    {
+      "id": "axe_doge_private_v2",
+      "category": "axe",
+      "name": "Doge Private V2",
+      "sha256": "baffc052d77e560c9ec05db819246be768e30692259679793ded7b61ba909cbd",
+      "size": 2533,
+      "added": "2026-10-10",
+      "preview": "previews/axe_doge_private_v2.png"
+    },
+    {
+      "id": "axe_emily_edit",
+      "category": "axe",
+      "name": "Emily edit",
+      "sha256": "8022d0bd09087e2ed0d77c81806ed3bd75b3c2ac4efdff56bdcf2d01a4533d59",
+      "size": 2371,
+      "added": "2026-10-10",
+      "preview": "previews/axe_emily_edit.png"
+    },
+    {
+      "id": "axe_faithful_32x",
+      "category": "axe",
+      "name": "Faithful 32x",
+      "sha256": "3033a1037801a7dabe6c9502a6c6752ecf5e5d08e6eac7e446389c2945095c07",
+      "size": 3359,
+      "added": "2026-10-10",
+      "preview": "previews/axe_faithful_32x.png"
+    },
+    {
+      "id": "axe_clevantii_pack_234",
+      "category": "axe",
+      "name": "clEvantii Pack 234",
+      "sha256": "9545c482de904d20f93841a3b4ba1e59506f29722de080515199d7e7e9f05ff8",
+      "size": 746,
+      "added": "2026-10-10",
+      "preview": "previews/axe_clevantii_pack_234.png"
+    },
+    {
+      "id": "axe_hyp3r_v2",
+      "category": "axe",
+      "name": "Hyp3r V2",
+      "sha256": "522bb738c14e803756febbe4e40e771c1ba141bfee10088a4441f5aec9bc55d3",
+      "size": 2533,
+      "added": "2026-10-10",
+      "preview": "previews/axe_hyp3r_v2.png"
+    },
+    {
+      "id": "axe_kesie_blueberry",
+      "category": "axe",
+      "name": "Kesie BlueBerry",
+      "sha256": "14806b521c59f31a8c4af3b445900c1305aad070689ec2389d83c2a49e275ea7",
+      "size": 795,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kesie_blueberry.png"
+    },
+    {
+      "id": "axe_kesie_blueberrybutlighter",
+      "category": "axe",
+      "name": "Kesie BlueBerryButLighter",
+      "sha256": "fa3b542e340bc005123d0fbc4baa89949df230c433239129cf3ddc4d5b9263ef",
+      "size": 1076,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kesie_blueberrybutlighter.png"
+    },
+    {
+      "id": "axe_kesie_optimal",
+      "category": "axe",
+      "name": "Kesie Optimal",
+      "sha256": "c8256b7e4ac7e72fcc6e32270c2ac6de3a0bfc11cc4f5360c0ea4df0e4b5fdbb",
+      "size": 1957,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kesie_optimal.png"
+    },
+    {
+      "id": "axe_kesie_lavender",
+      "category": "axe",
+      "name": "Kesie Lavender",
+      "sha256": "d917e6a6584cabbb74c46b1c4110ccfd4b11695ea1cc43ea7146a29a01950d48",
+      "size": 662,
+      "added": "2026-10-10",
+      "preview": "previews/axe_kesie_lavender.png"
+    },
+    {
+      "id": "axe_cakefault",
+      "category": "axe",
+      "name": "CakeFault",
+      "sha256": "9f1abc088aa15076d3f8018253f10d2cd9d86c94d7e4282a6c64150d37f40e92",
+      "size": 2331,
+      "added": "2026-10-10",
+      "preview": "previews/axe_cakefault.png"
+    },
+    {
+      "id": "axe_you_s33_pink",
+      "category": "axe",
+      "name": "You S33 Pink",
+      "sha256": "508b0651b6e7858886ed70dabbe7b848a58016b8a18e2aa92aeb032931022ac5",
+      "size": 1169,
+      "added": "2026-10-10",
+      "preview": "previews/axe_you_s33_pink.png"
+    },
+    {
+      "id": "axe_snowfault",
+      "category": "axe",
+      "name": "Snowfault",
+      "sha256": "4ea7b5b1d0c74638099834fa66c5599f548748eab1454433771feda0023d2737",
+      "size": 7976,
+      "added": "2026-10-10",
+      "preview": "previews/axe_snowfault.png"
+    },
+    {
+      "id": "axe_capy_exe",
+      "category": "axe",
+      "name": "Capy.exe",
+      "sha256": "a7fe2b5d5658f969cc4e93ae803f9a00e920de1b24b60699cd044395326ce499",
+      "size": 27606,
+      "added": "2026-10-10",
+      "preview": "previews/axe_capy_exe.png"
+    },
+    {
+      "id": "axe_idosids",
+      "category": "axe",
+      "name": "IdosIDs",
+      "sha256": "e977674796239172917e994a196c35a024263f43f286f00fc5cb90c264106b07",
+      "size": 4427,
+      "added": "2026-10-10",
+      "preview": "previews/axe_idosids.png"
+    },
+    {
+      "id": "axe_purpite_private",
+      "category": "axe",
+      "name": "Purpite Private",
+      "sha256": "f71defa72fe3a284468a75ee9e2e2be79de81e20edc9b82e4d11f3ae373e2aeb",
+      "size": 2906,
+      "added": "2026-10-10",
+      "preview": "previews/axe_purpite_private.png"
+    },
+    {
+      "id": "axe_purpslight",
+      "category": "axe",
+      "name": "PurpsLight",
+      "sha256": "1919218199a54a16376e85f7b9ae264f37678b4bcf380a79095fd4414ff5343b",
+      "size": 2999,
+      "added": "2026-10-10",
+      "preview": "previews/axe_purpslight.png"
+    },
+    {
+      "id": "axe_sixuii_tweaks",
+      "category": "axe",
+      "name": "Sixuii Tweaks",
+      "sha256": "0ebd9b67cb3195bc4b643b2337158e111602dade50ecd01a4a012b1e24acc231",
+      "size": 5585,
+      "added": "2026-10-10",
+      "preview": "previews/axe_sixuii_tweaks.png"
+    },
+    {
+      "id": "axe_vanilla_enhanced",
+      "category": "axe",
+      "name": "Vanilla Enhanced",
+      "sha256": "59dc09baa96c8d81e15817c488f87f442d26ede77d18fc9da05195cfed605189",
+      "size": 1339,
+      "added": "2026-10-10",
+      "preview": "previews/axe_vanilla_enhanced.png"
+    },
+    {
+      "id": "axe_the6legend_revamp",
+      "category": "axe",
+      "name": "The6Legend Revamp",
+      "sha256": "09e06d62307d72809064485e1e5d30b5b39ecc462e20a12542ec33510eb80dd8",
+      "size": 3261,
+      "added": "2026-10-10",
+      "preview": "previews/axe_the6legend_revamp.png"
+    },
+    {
+      "id": "axe_colden_e100",
+      "category": "axe",
+      "name": "colden-e100",
+      "sha256": "eccc41ed92d4cbd168df6f87b5bf7220e2fb533c1d25afd3e91ef565992ddf96",
+      "size": 21669,
+      "added": "2026-10-10",
+      "preview": "previews/axe_colden_e100.png"
+    },
+    {
+      "id": "axe_helios_private_cupcakebox",
+      "category": "axe",
+      "name": "helios private cupcakebox",
+      "sha256": "467e97e0eb956cd96145fad74ddb668295aed102c80831eda4661ea517c77103",
+      "size": 11473,
+      "added": "2026-10-10",
+      "preview": "previews/axe_helios_private_cupcakebox.png"
+    },
+    {
+      "id": "axe_orchard_x_syn_overlay",
+      "category": "axe",
+      "name": "orchard x syn overlay",
+      "sha256": "1d4df2a9dc2b968b198470e0a8ec82f9483311b712cf0229675ae2059c166daf",
+      "size": 2424,
+      "added": "2026-10-10",
+      "preview": "previews/axe_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "axe_taurt_blue",
+      "category": "axe",
+      "name": "taurt blue",
+      "sha256": "def2b7efc1294f4ae731e51182ee8237ff018b20b9b137d64698638cf5da5c41",
+      "size": 2794,
+      "added": "2026-10-10",
+      "preview": "previews/axe_taurt_blue.png"
+    },
+    {
+      "id": "axe_theos_pack_but_better",
+      "category": "axe",
+      "name": "theos pack but better",
+      "sha256": "271bb9fadf091045a3f44f7fe571b1142a48124f222d17351131cbe2bbd9ea0b",
+      "size": 1008,
+      "added": "2026-10-10",
+      "preview": "previews/axe_theos_pack_but_better.png"
+    },
+    {
+      "id": "axe_lavendercat",
+      "category": "axe",
+      "name": "lavendercat",
+      "sha256": "049e4c30f84aa9242d7c65417da652e24de553ebcdf1d67f899f8f3e71af0c64",
+      "size": 3380,
+      "added": "2026-10-10",
+      "preview": "previews/axe_lavendercat.png"
+    },
+    {
+      "id": "totem_auraexp_blu_pack",
+      "category": "totem",
+      "name": "Auraexp blu pack",
+      "sha256": "27f33ac2ee00f289439b8f1a31557be327a3f84841ba3ccee7654d6855587d8a",
+      "size": 669,
+      "added": "2026-10-10",
+      "preview": "previews/totem_auraexp_blu_pack.png"
+    },
+    {
+      "id": "totem_bloaqua",
+      "category": "totem",
+      "name": "Bloaqua",
+      "sha256": "fe05a8cb768af9ba20b27450b2f2488dcb2bdc12e2ce9027906f6a36f7d604bb",
+      "size": 1793,
+      "added": "2026-10-10",
+      "preview": "previews/totem_bloaqua.png"
+    },
+    {
+      "id": "totem_defcon_top_pack",
+      "category": "totem",
+      "name": "Defcon top pack",
+      "sha256": "3bd7354acc3fb1d2e60ff97066b1e03e9acce70174c9a3effbea9093d73aeb1e",
+      "size": 2862,
+      "added": "2026-10-10",
+      "preview": "previews/totem_defcon_top_pack.png"
+    },
+    {
+      "id": "totem_doge",
+      "category": "totem",
+      "name": "Doge",
+      "sha256": "2a6187e20ff17a5f85e6202435d16df3a0d71a916427aa28c725087393c5d30a",
+      "size": 2051,
+      "added": "2026-10-10",
+      "preview": "previews/totem_doge.png"
+    },
+    {
+      "id": "totem_faithful_32x",
+      "category": "totem",
+      "name": "Faithful 32x",
+      "sha256": "1e25bed20b480df01667cf2de0259b7b16a3338a965dc0b6d49ac3a68ad5acaf",
+      "size": 740,
+      "added": "2026-10-10",
+      "preview": "previews/totem_faithful_32x.png"
+    },
+    {
+      "id": "totem_galaxy",
+      "category": "totem",
+      "name": "Galaxy",
+      "sha256": "8538565ddb3ac73cdc912707013743ec488eeaf23f7661df55bba123d8eca4d3",
+      "size": 1618,
+      "added": "2026-10-10",
+      "preview": "previews/totem_galaxy.png"
+    },
+    {
+      "id": "totem_gold_outline",
+      "category": "totem",
+      "name": "Gold Outline",
+      "sha256": "b205055e20be4125e61e03647ed008a4a19ac0bb57f9e525e8ce000148f7fdd9",
+      "size": 887,
+      "added": "2026-10-10",
+      "preview": "previews/totem_gold_outline.png"
+    },
+    {
+      "id": "totem_ice",
+      "category": "totem",
+      "name": "Ice",
+      "sha256": "b290eeab30adb590471d4fe8d61bd2bd78e6d87aed2a735ae9dba85055356ffd",
+      "size": 3425,
+      "added": "2026-10-10",
+      "preview": "previews/totem_ice.png"
+    },
+    {
+      "id": "totem_kesu",
+      "category": "totem",
+      "name": "Kesu+",
+      "sha256": "90fc58131855e211fffd696cc6224ae6f366d4b41c583c63b43806aa9c27a1a1",
+      "size": 878,
+      "added": "2026-10-10",
+      "preview": "previews/totem_kesu.png"
+    },
+    {
+      "id": "totem_lavander_by_upwqrd",
+      "category": "totem",
+      "name": "Lavander by Upwqrd",
+      "sha256": "1f8e808080a05dcdf38508d72b705c438fa17dab695d8d5ced36ccdb659e8502",
+      "size": 930,
+      "added": "2026-10-10",
+      "preview": "previews/totem_lavander_by_upwqrd.png"
+    },
+    {
+      "id": "totem_qblast_purple",
+      "category": "totem",
+      "name": "Qblast purple",
+      "sha256": "9bba5c732712c4e8ad8976102fa3d6a960230f7c80c90ebdc7f275cd31323121",
+      "size": 2908,
+      "added": "2026-10-10",
+      "preview": "previews/totem_qblast_purple.png"
+    },
+    {
+      "id": "totem_qblastdoge",
+      "category": "totem",
+      "name": "Qblastdoge",
+      "sha256": "f4597b891aee918c8c036214cee6740da4eeb41bfcbb5fa1c80693fef756230f",
+      "size": 1738,
+      "added": "2026-10-10",
+      "preview": "previews/totem_qblastdoge.png"
+    },
+    {
+      "id": "totem_theos_pack_but_better",
+      "category": "totem",
+      "name": "Theos pack but better",
+      "sha256": "6ff521eb2328a0e03def62841d800012e6ef2511ec9f6ef981b3f617f1fdd8e3",
+      "size": 1712,
+      "added": "2026-10-10",
+      "preview": "previews/totem_theos_pack_but_better.png"
+    },
+    {
+      "id": "totem_white_totem",
+      "category": "totem",
+      "name": "White Totem",
+      "sha256": "23d7c31049d3b20cfa05ee50ac3c82f9d2c07998d10bcafd3434aad93362351f",
+      "size": 765,
+      "added": "2026-10-10",
+      "preview": "previews/totem_white_totem.png"
+    },
+    {
+      "id": "totem_killa_s_lightmode",
+      "category": "totem",
+      "name": "Killa's lightmode",
+      "sha256": "c59dc3e98035a56e193625e3b77a9a92b4e7298a823c5ebb6c3d002e91bc1d53",
+      "size": 22724,
+      "added": "2026-10-10",
+      "preview": "previews/totem_killa_s_lightmode.png"
+    },
+    {
+      "id": "anchor_need_me",
+      "category": "anchor",
+      "name": "need me",
+      "sha256": "de874b186ba20f778d20307bf35f0ad316faf9b39f6a383157164c63207d2e1c",
+      "size": 55263,
+      "added": "2026-10-09",
+      "preview": "previews/anchor_need_me.png"
+    },
+    {
+      "id": "gap_candycrystals_remasterd",
+      "category": "gap",
+      "name": "CandyCrystals Remasterd",
+      "sha256": "84a4d59b26a3fa0d2c9017ef73429d827baa0120b003c3119536554f06d76a41",
+      "size": 1442,
+      "added": "2026-10-09",
+      "preview": "previews/gap_candycrystals_remasterd.png"
+    },
+    {
+      "id": "gap_galaxy",
+      "category": "gap",
+      "name": "galaxy",
+      "sha256": "dd6b038a57d940a2f6449ab29d8534040566d492d0d78accbd93eae903c8cc56",
+      "size": 2571,
+      "added": "2026-10-09",
+      "preview": "previews/gap_galaxy.png"
+    },
+    {
+      "id": "gap_purplfault_private",
+      "category": "gap",
+      "name": "purplfault private",
+      "sha256": "0f5ddfafa7b1298e1eea36aa4feba86c0c1c3adcebc881e37758c5b6966865de",
+      "size": 1170,
+      "added": "2026-10-09",
+      "preview": "previews/gap_purplfault_private.png"
+    },
+    {
+      "id": "pearl_lavendervamp",
+      "category": "pearl",
+      "name": "LavenderVamp",
+      "sha256": "74f2deb6889d003a35d24c43abcbdc1beb4ced1f2292859c72c2a9ec48ad6dee",
+      "size": 781,
+      "added": "2026-10-09",
+      "preview": "previews/pearl_lavendervamp.png"
+    },
+    {
+      "id": "pearl_crystalanchor_private",
+      "category": "pearl",
+      "name": "Crystalanchor Private",
+      "sha256": "d1bcca7b4fee468cb03747532cc6ffa1f6bb299d1c0a28bd3aa3a78b7452aafd",
+      "size": 17461,
+      "added": "2026-10-09",
+      "preview": "previews/pearl_crystalanchor_private.png"
+    },
+    {
+      "id": "sky_starrynightskyoverlay",
+      "category": "sky",
+      "name": "StarryNightSkyOverlay",
+      "sha256": "cfbf30e6ce29ff91ef77810941989648804f727afeb15ef841eaca3cf9686d5b",
+      "size": 6624065,
+      "added": "2026-10-09",
+      "preview": "previews/sky_starrynightskyoverlay.png"
+    },
+    {
+      "id": "deepslate_purple_private_edit",
+      "category": "deepslate",
+      "name": "Purple Private Edit",
+      "sha256": "5e78f13bd6cc307b7af4106fd22cf2997a23cda820cc510cf26e0c2324742d77",
+      "size": 11933,
+      "added": "2026-10-09",
+      "preview": "previews/deepslate_purple_private_edit.png"
+    },
+    {
+      "id": "fire_gallerywalk",
+      "category": "fire",
+      "name": "gallerywalk",
+      "sha256": "5802bc9df2ae7348832a8ebbb0ce742481209ddf2887a8585a09fab303d0c76a",
+      "size": 1776,
+      "added": "2026-10-09",
+      "preview": "previews/fire_gallerywalk.png"
+    },
+    {
+      "id": "fire_dragneel",
+      "category": "fire",
+      "name": "Dragneel",
+      "sha256": "ef4a9609ff2bc72f0672054345c69a1c7835d6c19e5585ba25a84e282a45674e",
+      "size": 1464,
+      "added": "2026-10-09",
+      "preview": "previews/fire_dragneel.png"
+    },
+    {
+      "id": "armor_emily_edit",
+      "category": "armor",
+      "name": "Emily edit",
+      "sha256": "9affb2674d6bc4f4e8b1966814c7b8bc2b509663f1b533f3a84d636ca6c145ac",
+      "size": 17186,
+      "added": "2026-10-09",
+      "preview": "previews/armor_emily_edit.png"
+    },
+    {
+      "id": "armor_monkahhremake",
+      "category": "armor",
+      "name": "monkahhremake",
+      "sha256": "c7b630f665a65b949b6655ff665d0608ee7fc75245d01b83ca00325c061a4aa7",
+      "size": 46571,
+      "added": "2026-10-09",
+      "preview": "previews/armor_monkahhremake.png"
+    },
+    {
+      "id": "armor_helios_private_cupcakebox",
+      "category": "armor",
+      "name": "helios private cupcakebox",
+      "sha256": "7c878169c7c718172acd1472b6f89310a1bdc665f7c94cb72bf4917e46ca9e32",
+      "size": 84408,
+      "added": "2026-10-09",
+      "preview": "previews/armor_helios_private_cupcakebox.png"
+    },
+    {
+      "id": "inventory_purple_private_edit",
+      "category": "inventory",
+      "name": "Purple Private Edit",
+      "sha256": "0c34815e476cac7447fafc0c919bf85c2118c11da40e37b2202bea1618bb98f7",
+      "size": 3197,
+      "added": "2026-10-09",
+      "preview": "previews/inventory_purple_private_edit.png"
+    },
+    {
+      "id": "inventory_jest_priv",
+      "category": "inventory",
+      "name": "jest priv",
+      "sha256": "e78a33b6e9fcb756791b7407b0537218a9785ab7d856714dc911ccca8178eb5a",
+      "size": 94421,
+      "added": "2026-10-09",
+      "preview": "previews/inventory_jest_priv.png"
+    },
+    {
+      "id": "inventory_memetheif_private",
+      "category": "inventory",
+      "name": "MemeTheif private",
+      "sha256": "662c96269854f6fc84f78f65852ee15bbb103118989f62fb5d572a3cd35fff98",
+      "size": 57617,
+      "added": "2026-10-09",
+      "preview": "previews/inventory_memetheif_private.png"
+    },
+    {
+      "id": "shield_capy_exe",
+      "category": "shield",
+      "name": "Capy.exe",
+      "sha256": "0d1a980ec203f9afaa2ded580bba0e06b82491c8d331780616773ba046d052aa",
+      "size": 17340,
+      "added": "2026-10-09",
+      "preview": "previews/shield_capy_exe.png"
+    },
+    {
+      "id": "sky_forchid",
+      "category": "sky",
+      "name": "Forchid",
+      "sha256": "28b4ee0e026e701f862df7fde406e6442ba09542ed05181b8deb7add93ed26da",
+      "size": 17673720,
+      "added": "2026-10-09",
+      "preview": "previews/sky_forchid.png"
+    },
+    {
+      "id": "mace_phatom",
+      "category": "mace",
+      "name": "phatom",
+      "sha256": "7a5a5b3742276b4bc46caead8836eb2d0d3308c8a363e09242f771a2ab271459",
+      "size": 749,
+      "added": "2026-10-08",
+      "preview": "previews/mace_phatom.png"
+    },
+    {
+      "id": "gap_gonasfortnite",
+      "category": "gap",
+      "name": "GonasFortnite",
+      "sha256": "d21df35ba8032e38e7206549cdb65c0ec141e0046771cf74d2fd74b643bc6597",
+      "size": 1126,
+      "added": "2026-10-08",
+      "by": "gonas3434",
+      "preview": "previews/gap_gonasfortnite.png"
+    },
+    {
+      "id": "crystal_gonasfortnitecrystals",
+      "category": "crystal",
+      "name": "GonasFortniteCrystals",
+      "sha256": "e897c167d4e80ef9e3ac2150c13f6aab222e250198e3b408d2af2a293060247a",
+      "size": 6305,
+      "added": "2026-10-08",
+      "by": "gonas3434",
+      "preview": "previews/crystal_gonasfortnitecrystals.png"
+    },
+    {
+      "id": "anchor_vanillaplus_edited",
+      "category": "anchor",
+      "name": "vanillaplus edited",
+      "sha256": "1be09b15c91dc5818862e3f24c96ce4f43aedb1aef735817c25d593b2da0d58e",
+      "size": 16590,
+      "added": "2026-10-08",
+      "preview": "previews/anchor_vanillaplus_edited.png"
+    },
+    {
+      "id": "cobweb_faith_vanilla_kataxur",
+      "category": "cobweb",
+      "name": "Faith Vanilla kataxur",
+      "sha256": "e233e6d0e92d321b3474d8be7fa14812b891f545f7fb0929b8c7044a418a0b95",
+      "size": 667,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_faith_vanilla_kataxur.png"
+    },
+    {
+      "id": "cobweb_dlvaunta_default_mashup_ii",
+      "category": "cobweb",
+      "name": "dlvaunta default mashup II",
+      "sha256": "5a149a93b92fe68fc311ffccff42e3e137397b801091fc51c54173d8a5edce6d",
+      "size": 506,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_dlvaunta_default_mashup_ii.png"
+    },
+    {
+      "id": "cobweb_lavendercat",
+      "category": "cobweb",
+      "name": "lavendercat",
+      "sha256": "c4b2c874b5244522ad0c45ac831cc19c7d85a54f41f07c9ee389bee81ef6635e",
+      "size": 728,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_lavendercat.png"
+    },
+    {
+      "id": "cobweb_kataxur",
+      "category": "cobweb",
+      "name": "kataxur",
+      "sha256": "c342c6da0c5abd5c127c9ede5ffd2876bd88fa5e615bf02a4388d4eeedd9c565",
+      "size": 676,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_kataxur.png"
+    },
+    {
+      "id": "cobweb_tryh4rdd_red_default",
+      "category": "cobweb",
+      "name": "TryH4rdd Red Default",
+      "sha256": "da5892b60d19e0288dcd52f20212011a4702e3f9c6468d645d73d44ba28c2306",
+      "size": 594,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_tryh4rdd_red_default.png"
+    },
+    {
+      "id": "cobweb_kesie_lavender_copy",
+      "category": "cobweb",
+      "name": "Kesie lavender - Copy",
+      "sha256": "85dfbd4146c7dab83e65be98b0af56197d36b22708a6c384fe6f31684892b36c",
+      "size": 585,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_kesie_lavender_copy.png"
+    },
+    {
+      "id": "cobweb_orchard_x_syn_overlay",
+      "category": "cobweb",
+      "name": "orchard x syn overlay",
+      "sha256": "9a1571eb2ff4233b678d93472c2ba400028ae73687260f38f5d267acad566c0a",
+      "size": 738,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_orchard_x_syn_overlay.png"
+    },
+    {
+      "id": "cobweb_dragneel",
+      "category": "cobweb",
+      "name": "Dragneel",
+      "sha256": "d2bf8fe5e66e0e064fcbb9430a0c884ff58ec7f0972c2a60b873e7c66ddfe66d",
+      "size": 577,
+      "added": "2026-10-08",
+      "preview": "previews/cobweb_dragneel.png"
+    },
+    {
+      "id": "anchor_zen_s_vanilla_enhanced",
+      "category": "anchor",
+      "name": "Zen's Vanilla Enhanced",
+      "sha256": "be846f7902f0ab77c37633b4f2a25b6bcddc5d6a0fe58eb8d28984038cf8c72b",
+      "size": 6931,
+      "added": "2026-10-07",
+      "preview": "previews/anchor_zen_s_vanilla_enhanced.png"
+    },
+    {
+      "id": "mace_b_lsharpness_6_l_500k_final",
+      "category": "mace",
+      "name": "§b§lSharpness §6§l[500K]FINAL",
+      "sha256": "12e07d4193e7a13ebdef1cf583e8d9f6fbea847dbb648f1fb2599487241e107e",
+      "size": 4162,
+      "added": "2026-10-07",
+      "preview": "previews/mace_b_lsharpness_6_l_500k_final.png"
+    },
+    {
+      "id": "stone_vaunta_blocks",
+      "category": "stone",
+      "name": "vaunta blocks",
+      "sha256": "bc1c20a3dc6ee60c50038add9f3e7e687924bcb9ee33a192c16f55184560e6c1",
+      "size": 36174,
+      "added": "2026-10-06",
+      "preview": "previews/stone_vaunta_blocks.png"
+    },
+    {
+      "id": "deepslate_vaunta_blocks",
+      "category": "deepslate",
+      "name": "vaunta blocks",
+      "sha256": "c27c50afa5bc15cc0e72324377b35bc07fe5c472e1ef5fcff53b29097dc389a7",
+      "size": 41260,
+      "added": "2026-10-06",
+      "preview": "previews/deepslate_vaunta_blocks.png"
+    },
+    {
+      "id": "shield_crey_private",
+      "category": "shield",
+      "name": "Crey Private",
+      "sha256": "74270113b3d426397bd5b5234fbb3d83a862854cd4e1c455b4bde1f618ce8cbb",
+      "size": 50049,
+      "added": "2026-10-06",
+      "preview": "previews/shield_crey_private.png"
+    },
+    {
+      "id": "shield_clear_vision_pink_1_21",
+      "category": "shield",
+      "name": "Clear Vision Pink 1.21",
+      "sha256": "2ae79f7c44a6f27fe3fc32af7e0308e7d42516a6838f46655070bdf5092cd47e",
+      "size": 16272,
+      "added": "2026-10-06",
+      "preview": "previews/shield_clear_vision_pink_1_21.png"
+    },
+    {
+      "id": "mace_monkahhremake",
+      "category": "mace",
+      "name": "monkahhremake",
+      "sha256": "91435c0232645341e5a6eb4bb18c3e30620854ceaa4faad8fc28c1b12cb65a29",
+      "size": 2344,
+      "added": "2026-10-06",
+      "preview": "previews/mace_monkahhremake.png"
+    },
+    {
+      "id": "mace_lavander_by_upwqrd",
+      "category": "mace",
+      "name": "Lavander by Upwqrd",
+      "sha256": "7f799aa638526883d13c295c680b1ed5e442835a85e1065fbd1de4cdfd1cedb5",
+      "size": 954,
+      "added": "2026-10-06",
+      "preview": "previews/mace_lavander_by_upwqrd.png"
+    },
+    {
+      "id": "sky_drac0q_s_sky_v2",
+      "category": "sky",
+      "name": "DRAC0Q's sky v2",
+      "sha256": "7e111cc5c8dd3e6ad3e388188b53e792611ca19b19719d78b988ebaae28b0836",
+      "size": 7812534,
+      "added": "2026-10-06",
+      "preview": "previews/sky_drac0q_s_sky_v2.png"
+    },
+    {
+      "id": "sky_spectral",
+      "category": "sky",
+      "name": "Spectral",
+      "sha256": "4b11cbc7a215bc41d09910190b7406bfac1afe916e9b74f6eb22822e7ad2877e",
+      "size": 10207257,
+      "added": "2026-10-06",
+      "preview": "previews/sky_spectral.png"
+    },
+    {
+      "id": "sky_memetheif_private",
+      "category": "sky",
+      "name": "MemeTheif private",
+      "sha256": "11292180905fbd75fe220b95893233ccee05a60a16e2bac719ad2573be34bfe9",
+      "size": 20444005,
+      "added": "2026-10-06",
+      "preview": "previews/sky_memetheif_private.png"
+    },
+    {
+      "id": "fire_walksysoverlays",
+      "category": "fire",
+      "name": "WalksysOverlays",
+      "sha256": "92dd410c076a5af79d814d7e8d2efad81c4f42490314ae3d1b48b54403bebf0a",
+      "size": 8045,
+      "added": "2026-10-06",
+      "preview": "previews/fire_walksysoverlays.png"
+    },
+    {
+      "id": "totem_sixuii_tweaks",
+      "category": "totem",
+      "name": "Sixuii Tweaks",
+      "sha256": "b013850161ceb77703e7492576720d2168d1dc86efe697bfcefc90b8bb91a51b",
+      "size": 681,
+      "added": "2026-10-06",
+      "preview": "previews/totem_sixuii_tweaks.png"
+    },
+    {
+      "id": "crystal_crystal_overlay",
+      "category": "crystal",
+      "name": "Crystal Overlay",
+      "sha256": "094bf05f50341cd293c9908417ba5bb61cce33acbecda91b543618ffbd48bbe6",
+      "size": 12744,
+      "added": "2026-10-05",
+      "preview": "previews/crystal_crystal_overlay.png"
+    },
+    {
+      "id": "crystal_clear_vision_pink",
+      "category": "crystal",
+      "name": "Clear Vision Pink",
+      "sha256": "1d61ce17dd64f1d0072bf669fc4ad207e007f75c2fd5a16c2a8653091e74e8af",
+      "size": 4809,
+      "added": "2026-10-05",
+      "preview": "previews/crystal_clear_vision_pink.png"
+    },
+    {
+      "id": "anchor_crystal_overlay",
+      "category": "anchor",
+      "name": "Crystal Overlay",
+      "sha256": "1477f7dae44386211c1aa675b39233571a1032b26bd11948e8a5eaee243fe1bb",
+      "size": 24156,
+      "added": "2026-10-05",
+      "preview": "previews/anchor_crystal_overlay.png"
+    },
+    {
+      "id": "anchor_clear_vision_pink",
+      "category": "anchor",
+      "name": "Clear Vision Pink",
+      "sha256": "42cf17b43bf35d4aa804f352e01570c76e233df144613f6412330954bd8c2016",
+      "size": 5318,
+      "added": "2026-10-05",
+      "preview": "previews/anchor_clear_vision_pink.png"
+    },
+    {
+      "id": "anchor_pink_distortion",
+      "category": "anchor",
+      "name": "Pink Distortion",
+      "sha256": "533cabbe7c397452c1e8942d8abc297e29c8b6b3a5e85bfe16b7fff8783ef8f9",
+      "size": 23219,
+      "added": "2026-10-05",
+      "preview": "previews/anchor_pink_distortion.png"
+    },
+    {
+      "id": "anchor_marlowww_3d",
+      "category": "anchor",
+      "name": "Marlowww 3D",
+      "sha256": "9eabee96cb2e77b980a186c59bb107fcf16c5f9526649a560b10f97ddd0644ae",
+      "size": 84975,
+      "added": "2026-10-05",
+      "preview": "previews/anchor_marlowww_3d.png"
+    },
+    {
+      "id": "obsidian_crystal_overlay",
+      "category": "obsidian",
+      "name": "Crystal Overlay",
+      "sha256": "aee0951c4f3a7a534d6b3c2ff0f4ac4b40bb932e10f02c773a665865f59b4f05",
+      "size": 4111,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_crystal_overlay.png"
+    },
+    {
+      "id": "obsidian_femboy_pack",
+      "category": "obsidian",
+      "name": "Femboy Pack",
+      "sha256": "ef282b67bc21b8c0eb8eada09b27f2a6f4320905adeb7e1c46df5ad81727ba5f",
+      "size": 666,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_femboy_pack.png"
+    },
+    {
+      "id": "obsidian_catboygerard_meow",
+      "category": "obsidian",
+      "name": "CatboyGerard Meow",
+      "sha256": "05a1efdd3b6a90dfbf7a29976d92ddbd63c584427910dec39dc26cfd1145a618",
+      "size": 790,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_catboygerard_meow.png"
+    },
+    {
+      "id": "obsidian_cowarted",
+      "category": "obsidian",
+      "name": "Cowarted",
+      "sha256": "6aeb26022736799c2af1286fa3fb67dfbd7e2c4d81845787c41f64d80d4ac51c",
+      "size": 2550,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_cowarted.png"
+    },
+    {
+      "id": "obsidian_p7c_v2",
+      "category": "obsidian",
+      "name": "p7c V2",
+      "sha256": "d1c0d06025dce4db25cde5c0186f28d6242483df76b50e42232e4049a6c2c53c",
+      "size": 4714,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_p7c_v2.png"
+    },
+    {
+      "id": "obsidian_pink_distortion",
+      "category": "obsidian",
+      "name": "Pink Distortion",
+      "sha256": "8a409b9b16d0655e47b608cbf40fa6a07563b7aa111a929ccbd39809bf47020d",
+      "size": 987,
+      "added": "2026-10-05",
+      "preview": "previews/obsidian_pink_distortion.png"
+    },
+    {
+      "id": "armor_defcon_top",
+      "category": "armor",
+      "name": "DEFCON Top",
+      "sha256": "7c63d958e4bb2e1b8dfee0f948623ec5268f8b1fc3d122dd7fb4c5514ebe1e4e",
+      "size": 7957,
+      "added": "2026-10-05",
+      "preview": "previews/armor_defcon_top.png"
+    },
+    {
+      "id": "armor_theos_better",
+      "category": "armor",
+      "name": "Theos Better",
+      "sha256": "69d375c1d00046527ed87f74606eb2af89650f77ee6df653d6681e202e7e0f8b",
+      "size": 5181,
+      "added": "2026-10-05",
+      "preview": "previews/armor_theos_better.png"
+    },
+    {
+      "id": "pickaxe_cowarted",
+      "category": "pickaxe",
+      "name": "Cowarted",
+      "sha256": "67fc2f02827b6c67034a338cc3d8c63817c8e66dcc23bc4a86ab964aac727c10",
+      "size": 2326,
+      "added": "2026-10-05",
+      "preview": "previews/pickaxe_cowarted.png"
+    },
+    {
+      "id": "pickaxe_theos_better",
+      "category": "pickaxe",
+      "name": "Theos Better",
+      "sha256": "ad19a91dd56bb594d29922c1ae381f31e20dd29a4c7a67bd1d31f0923e4d6e78",
+      "size": 1437,
+      "added": "2026-10-05",
+      "preview": "previews/pickaxe_theos_better.png"
+    },
+    {
+      "id": "fire_kesu_default_2",
+      "category": "fire",
+      "name": "Kesu Default 2",
+      "sha256": "ec89668beec57787f7f2a59a892db1fabdcd276e2351925bf7b0602120cdc4c3",
+      "size": 2120,
+      "added": "2026-10-05",
+      "preview": "previews/fire_kesu_default_2.png"
+    },
+    {
+      "id": "fire_kesu_main",
+      "category": "fire",
+      "name": "Kesu Main",
+      "sha256": "ef233cdd2b576d9cde09ae91753093f6bf5cb51699c7ebdfc918447cf4559db3",
+      "size": 2202,
+      "added": "2026-10-05",
+      "preview": "previews/fire_kesu_main.png"
+    },
+    {
+      "id": "pearl_hydros",
+      "category": "pearl",
+      "name": "Hydros",
+      "sha256": "2ff6ff52dcb0c6de278c07c5d07be782527768db8e1c9ee1d6af019f6c7d307b",
+      "size": 3432,
+      "added": "2026-10-05",
+      "preview": "previews/pearl_hydros.png"
+    },
+    {
+      "id": "sky_kesu_main",
+      "category": "sky",
+      "name": "Kesu Main",
+      "sha256": "6475cde5040ecf7202c317f2118f5bc8c525b02505965843e1390f43364f33d8",
+      "size": 10745812,
+      "added": "2026-10-05",
+      "preview": "previews/sky_kesu_main.png"
+    },
+    {
+      "id": "sky_defcon_top",
+      "category": "sky",
+      "name": "DEFCON Top",
+      "sha256": "82ae74fe0819a45d8f3862bd3b9c7205bfa1cafc9d57880be82bcfaa036f90fe",
+      "size": 21572582,
+      "added": "2026-10-05",
+      "preview": "previews/sky_defcon_top.png"
+    },
+    {
+      "id": "pearl_marlowww_3d",
+      "category": "pearl",
+      "name": "Marlowww 3D",
+      "sha256": "f4e51f3f2cb70bb647b03ad20d397d41daa5dce74c217e94cc663c7a2c364817",
+      "size": 3973,
+      "added": "2026-10-05",
+      "preview": "previews/pearl_marlowww_3d.png"
+    },
+    {
+      "id": "crystal_qblastdoge",
+      "category": "crystal",
+      "name": "Qblastdoge",
+      "sha256": "691e0293f62a0ff8d2767d398a44d27561a827ea1f9e13a9df075a2c4297c3ad",
+      "size": 12678,
+      "added": "2026-10-04",
+      "preview": "previews/crystal_qblastdoge.png"
+    },
+    {
+      "id": "anchor_qblastdoge",
+      "category": "anchor",
+      "name": "Qblastdoge",
+      "sha256": "a0a3c89f8818ad728b8ffe8afcf29912012b989bec00325c276b04b9b8908668",
+      "size": 50601,
+      "added": "2026-10-04",
+      "preview": "previews/anchor_qblastdoge.png"
+    },
+    {
+      "id": "obsidian_qblastdoge",
+      "category": "obsidian",
+      "name": "Qblastdoge",
+      "sha256": "0af9717a9ce42bd043047779a31842b5426552e55c0a54a086479f30f18e98fc",
+      "size": 1003,
+      "added": "2026-10-04",
+      "preview": "previews/obsidian_qblastdoge.png"
+    },
+    {
+      "id": "armor_hitsonly_classic",
+      "category": "armor",
+      "name": "HitsOnly Classic",
+      "sha256": "258ce5f03d8c243645262d3d8631290682d6fe5b632e6a29b3c2eaf43b3242fa",
+      "size": 45688,
+      "added": "2026-10-04",
+      "preview": "previews/armor_hitsonly_classic.png"
+    },
+    {
+      "id": "sword_auraexp_blu",
+      "category": "sword",
+      "name": "Auraexp Blu",
+      "sha256": "1b98b607981e4dcc03cb6edfa7d160e34e3fbec594d0ac16700d399cc1e9119b",
+      "size": 10086,
+      "added": "2026-10-04",
+      "preview": "previews/sword_auraexp_blu.png"
+    },
+    {
+      "id": "fire_toptiers_purp",
+      "category": "fire",
+      "name": "Toptiers Purp",
+      "sha256": "95b0a5d4d6976301b1fa57576b642803741d48b02baa455bd3829af7266c106f",
+      "size": 896,
+      "added": "2026-10-04",
+      "preview": "previews/fire_toptiers_purp.png"
+    },
+    {
+      "id": "anchor_vaunta",
+      "category": "anchor",
+      "name": "Vaunta",
+      "sha256": "2d8177f61b6a043155fe16f08f3c06bfcdfe5c4dc880989113f3a5acf5870df0",
+      "size": 27610,
+      "added": "2026-10-04",
+      "by": "samynull4",
+      "preview": "previews/anchor_vaunta.png"
+    },
+    {
+      "id": "sky_azell_purple",
+      "category": "sky",
+      "name": "azell purple",
+      "sha256": "f10c902cbeb88fbef2a4973b9008ef951e5819c722e33f0fd3a61f3bd436ae63",
+      "size": 9140729,
+      "added": "2026-10-03",
+      "by": "azell",
+      "preview": "previews/sky_azell_purple.png"
+    },
+    {
+      "id": "anchor_azell_purple",
+      "category": "anchor",
+      "name": "azell purple",
+      "sha256": "480f8fe333c6021581a82d1b4aa2a1e7065d02db2d48ffe5cf2846d47667a588",
+      "size": 9152,
+      "added": "2026-10-03",
+      "by": "azell",
+      "preview": "previews/anchor_azell_purple.png"
+    },
+    {
+      "id": "fire_azell_purple",
+      "category": "fire",
+      "name": "azell purple",
+      "sha256": "631970a50c6f850396921475b688e4bbb758e08638e019e119015fec6367b12f",
+      "size": 4642,
+      "added": "2026-10-03",
+      "by": "azell",
+      "preview": "previews/fire_azell_purple.png"
+    },
+    {
+      "id": "gap_aquaplus",
+      "category": "gap",
+      "name": "AquaPlus",
+      "sha256": "a834c1a3ceaf0c0c595e28c59d8088d9d44ebe2cb3e36eab86b76f8da55ed0eb",
+      "size": 655,
+      "added": "2026-10-02",
+      "preview": "previews/gap_aquaplus.png"
+    },
+    {
+      "id": "gap_assets",
+      "category": "gap",
+      "name": "Assets",
+      "sha256": "5d1907ef4399ef5ee0ab099a276f7a8c0a8f932a1ab386fb2ad1be877e62b590",
+      "size": 799,
+      "added": "2026-10-02",
+      "preview": "previews/gap_assets.png"
+    },
+    {
+      "id": "gap_gakspack_privat",
+      "category": "gap",
+      "name": "GaksPack Privat",
+      "sha256": "15fb8d843473aea9ba76d1821515ea88d7ae532ffad626f908bcaae8cc14c455",
+      "size": 651,
+      "added": "2026-10-02",
+      "preview": "previews/gap_gakspack_privat.png"
+    },
+    {
+      "id": "gap_crey_private",
+      "category": "gap",
+      "name": "Crey Private",
+      "sha256": "14bba107264ed36fdcaa6d5fcf5169a6089dc78134a1d27087bc5617571e5f8d",
+      "size": 826,
+      "added": "2026-10-02",
+      "preview": "previews/gap_crey_private.png"
+    },
+    {
+      "id": "gap_emily_edit",
+      "category": "gap",
+      "name": "Emily Edit",
+      "sha256": "afe655e7a1d2d3db54e1219a427d863a91ccb9ff17c6512768045fc20a1e4b15",
+      "size": 602,
+      "added": "2026-10-02",
+      "preview": "previews/gap_emily_edit.png"
+    },
+    {
+      "id": "gap_faithful_32x",
+      "category": "gap",
+      "name": "Faithful 32x",
+      "sha256": "2f87f190d7d82d82ca6878fd4199c192371bc9ede9080d5c9fb49869cd713e1e",
+      "size": 1088,
+      "added": "2026-10-02",
+      "preview": "previews/gap_faithful_32x.png"
+    },
+    {
+      "id": "gap_killas_lightmode",
+      "category": "gap",
+      "name": "Killas Lightmode",
+      "sha256": "0f17d6820ab70bbc0a0a025118a484efe2da735b4cc7a25e48d8eb1bcd7d5150",
+      "size": 3199,
+      "added": "2026-10-02",
+      "preview": "previews/gap_killas_lightmode.png"
+    },
+    {
+      "id": "gap_lavander",
+      "category": "gap",
+      "name": "Lavander",
+      "sha256": "7f7ddff36a71ca204ce8d0a5a7d7772b2be594c9ca1e84c552670c57d665ff2e",
+      "size": 782,
+      "added": "2026-10-02",
+      "preview": "previews/gap_lavander.png"
+    },
+    {
+      "id": "gap_purp_edit",
+      "category": "gap",
+      "name": "Purp Edit",
+      "sha256": "53daceda6e7640ef1b5028ff430b601a62ff22270ed1d391e420b3fa8ad33af0",
+      "size": 813,
+      "added": "2026-10-02",
+      "preview": "previews/gap_purp_edit.png"
+    },
+    {
+      "id": "gap_taurt",
+      "category": "gap",
+      "name": "Taurt",
+      "sha256": "32a663cd3437483917658947f439467e51f7f3f744795477c4e2329ca915cfd0",
+      "size": 684,
+      "added": "2026-10-02",
+      "preview": "previews/gap_taurt.png"
+    },
+    {
+      "id": "pearl_blossom",
+      "category": "pearl",
+      "name": "Blossom",
+      "sha256": "0c82306ec6027eb584168bc2afa728e725828f095a6923845fb97b85876ae03b",
+      "size": 1454,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_blossom.png"
+    },
+    {
+      "id": "pearl_dlvaunta_mashup",
+      "category": "pearl",
+      "name": "Dlvaunta Mashup",
+      "sha256": "0ae6cdf49a3a95a38d3d10cae25c0b016b3dd59009035f306441757f6f6f9112",
+      "size": 2357,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_dlvaunta_mashup.png"
+    },
+    {
+      "id": "pearl_dragneel",
+      "category": "pearl",
+      "name": "Dragneel",
+      "sha256": "2f98e2b055b22e3d0ca4c8641cc64b9fd6eeb5d933cb0862fe5f146561db556a",
+      "size": 1548,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_dragneel.png"
+    },
+    {
+      "id": "pearl_faith_vanilla",
+      "category": "pearl",
+      "name": "Faith Vanilla",
+      "sha256": "6384ed2e23ccf42e9c35b3f34d6890ef9a307ccd58ce1fc66acacf65370ccd1c",
+      "size": 805,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_faith_vanilla.png"
+    },
+    {
+      "id": "pearl_kesu_default_mashup",
+      "category": "pearl",
+      "name": "Kesu Default Mashup",
+      "sha256": "1d1a5067aeeaba093837e881d2067323d1b5c32e1053236f20dc3dd386a34a2f",
+      "size": 2829,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_kesu_default_mashup.png"
+    },
+    {
+      "id": "pearl_kesu_main",
+      "category": "pearl",
+      "name": "Kesu Main",
+      "sha256": "d8bc055fa7472e5a03153336449d4fdbd76052db6169e4c117cfaf676433bedb",
+      "size": 1043,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_kesu_main.png"
+    },
+    {
+      "id": "pearl_need_me",
+      "category": "pearl",
+      "name": "Need Me",
+      "sha256": "83ef291db2e82b8167699f4cc2cb9f3191c7da57b6f3cd61daa6a4b6aa69b93b",
+      "size": 1466,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_need_me.png"
+    },
+    {
+      "id": "pearl_purp_edit",
+      "category": "pearl",
+      "name": "Purp Edit",
+      "sha256": "6c04e89283e95dab1138a8d6e74f629cf57e12ff93dbb7bb345e2503083ba75c",
+      "size": 2471,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_purp_edit.png"
+    },
+    {
+      "id": "pearl_purpslight",
+      "category": "pearl",
+      "name": "PurpsLight",
+      "sha256": "f98601dca98c67306e1e66312e81673c32711080942596d6995d54f7b24ab01f",
+      "size": 688,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_purpslight.png"
+    },
+    {
+      "id": "pearl_taurt_blue",
+      "category": "pearl",
+      "name": "Taurt Blue",
+      "sha256": "f70ff8e1f2ea9def5143bae0868fc0fc8993fae9c4bf2159f4a4c2b60a999194",
+      "size": 637,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_taurt_blue.png"
+    },
+    {
+      "id": "pearl_theos_pack",
+      "category": "pearl",
+      "name": "Theos Pack",
+      "sha256": "d7b09be5f9908e67fb068349616c2e503875f23a6c4f3523fc44d434cd5a3028",
+      "size": 2288,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_theos_pack.png"
+    },
+    {
+      "id": "pearl_tostraight",
+      "category": "pearl",
+      "name": "Tostraight",
+      "sha256": "d564402fc2a8b5611ec5c56cfac95ae9dbe9be92345eb641e852d28c59f29ab0",
+      "size": 1157,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_tostraight.png"
+    },
+    {
+      "id": "pearl_vaunta_blue",
+      "category": "pearl",
+      "name": "Vaunta Blue",
+      "sha256": "3eb09959bb0fea9b65c52c8ce8f9e1f61bd68fc261696d506f65755909cec721",
+      "size": 712,
+      "added": "2026-10-02",
+      "preview": "previews/pearl_vaunta_blue.png"
+    },
+    {
+      "id": "glowstone_cowarted",
+      "category": "glowstone",
+      "name": "Cowarted",
+      "sha256": "202c41a707ead6ab6ceb5d36cb84f24f507ac36df60f36b8483722527097bab7",
+      "size": 2376,
+      "added": "2026-10-02",
+      "preview": "previews/glowstone_cowarted.png"
+    },
+    {
+      "id": "hotbar_baby_pack",
+      "category": "hotbar",
+      "name": "Baby Pack",
+      "sha256": "d44728664a7455c48a4f4661044ceea2c057c22270d925f396395f5a75466c67",
+      "size": 4589,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_baby_pack.png"
+    },
+    {
+      "id": "hotbar_gakspack_privat",
+      "category": "hotbar",
+      "name": "GaksPack Privat",
+      "sha256": "13a3adb3fb2de47828c5b444c43083ab9153f02f4b568e897ea446818e21bc65",
+      "size": 2889,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_gakspack_privat.png"
+    },
+    {
+      "id": "hotbar_blossom",
+      "category": "hotbar",
+      "name": "Blossom",
+      "sha256": "483e0888f9808efc69ca0faa1494192fbd09820c3e55a66e376c76905eada18f",
+      "size": 2416,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_blossom.png"
+    },
+    {
+      "id": "hotbar_dlvaunta_mashup",
+      "category": "hotbar",
+      "name": "Dlvaunta Mashup",
+      "sha256": "e4561750f3b4ecd3e7bc5cb6462823dacba6d8b6512d9d6e1b377e579bafa95d",
+      "size": 2353,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_dlvaunta_mashup.png"
+    },
+    {
+      "id": "hotbar_faith_vanilla",
+      "category": "hotbar",
+      "name": "Faith Vanilla",
+      "sha256": "afc26ee6255d7e84e2c4e52e560151554d16b8962f3deefbe2b6484b0a1025f4",
+      "size": 2303,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_faith_vanilla.png"
+    },
+    {
+      "id": "hotbar_kesie_blueberry",
+      "category": "hotbar",
+      "name": "Kesie BlueBerry",
+      "sha256": "fde00b3b32af7a58f7b6d080fd9728b1651efc2061b9c022c25ce07547429942",
+      "size": 4962,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_kesie_blueberry.png"
+    },
+    {
+      "id": "hotbar_kesu_default_mashup",
+      "category": "hotbar",
+      "name": "Kesu Default Mashup",
+      "sha256": "8b8c87510703c1c041c33e02893f5883061d1cba15687709f530bf25f6575825",
+      "size": 2354,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_kesu_default_mashup.png"
+    },
+    {
+      "id": "hotbar_lavander",
+      "category": "hotbar",
+      "name": "Lavander",
+      "sha256": "045100065c86416e9eb10b4d88ba50a2bb57375d2d8af87f706dd95720575ff0",
+      "size": 3822,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_lavander.png"
+    },
+    {
+      "id": "hotbar_lavendercat",
+      "category": "hotbar",
+      "name": "Lavendercat",
+      "sha256": "820dc39f6d9065db62bfa73f5d5f6f50ec3b02c285d343c2f5b1baf59aa9516e",
+      "size": 2342,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_lavendercat.png"
+    },
+    {
+      "id": "hotbar_theos_pack",
+      "category": "hotbar",
+      "name": "Theos Pack",
+      "sha256": "c3a8dfda2b0334dc3fb5f100491d3cde1c803b649e85cd993b8567f00cee9dff",
+      "size": 2735,
+      "added": "2026-10-02",
+      "preview": "previews/hotbar_theos_pack.png"
+    },
+    {
+      "id": "armor_azell932_s_armour",
+      "category": "armor",
+      "name": "azell932's armour",
+      "sha256": "db290eb93583a55993a4b1804b697504e7706c2d43b4f670c6cbf50a92bb5f5b",
+      "size": 21473,
+      "added": "2026-10-01",
+      "by": "azell",
+      "preview": "previews/armor_azell932_s_armour.png"
+    },
+    {
+      "id": "anchor_blue_pink_anchor",
+      "category": "anchor",
+      "name": "blue pink anchor",
+      "sha256": "ef017763b5bb164463eb495bfb3b41231921fe014ac6c3208151318aa0154c51",
+      "size": 12385,
+      "added": "2026-10-01",
+      "preview": "previews/anchor_blue_pink_anchor.png"
+    },
+    {
+      "id": "obsidian_faith_kataxur",
+      "category": "obsidian",
+      "name": "Faith Kataxur",
+      "sha256": "7bf96510ed7523d5ad5a8420360c6064fe3dfe3322046052a4fa74aa8aabb01f",
+      "size": 2046,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_faith_kataxur.png"
+    },
+    {
+      "id": "obsidian_blossom",
+      "category": "obsidian",
+      "name": "Blossom",
+      "sha256": "4dc05caf54c41950d009b462dca384db36894389be6a7240717cf10f4c579674",
+      "size": 1167,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_blossom.png"
+    },
+    {
+      "id": "obsidian_kesu_default",
+      "category": "obsidian",
+      "name": "Kesu Default",
+      "sha256": "c402594375791897efbb623fd23511ff3d64d9a41702740d757a4a31668aa5d2",
+      "size": 2389,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_kesu_default.png"
+    },
+    {
+      "id": "obsidian_kesu_main",
+      "category": "obsidian",
+      "name": "Kesu Main",
+      "sha256": "4c49e4864b3d3ad36cfdd95c0c6da432a5a485966d358a9a81dbd9a63295ec09",
+      "size": 1079,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_kesu_main.png"
+    },
+    {
+      "id": "obsidian_sunset",
+      "category": "obsidian",
+      "name": "Sunset",
+      "sha256": "eb9199e982a754abd15371bd6ac7281fe318832a5652e6611a1882fd79fd978b",
+      "size": 961,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_sunset.png"
+    },
+    {
+      "id": "obsidian_midnight",
+      "category": "obsidian",
+      "name": "Midnight",
+      "sha256": "00a11cc542a971178d04287c02ddfc670a97d4baa04063fa4ea80c1aa68a7492",
+      "size": 747,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_midnight.png"
+    },
+    {
+      "id": "obsidian_dylan",
+      "category": "obsidian",
+      "name": "Dylan",
+      "sha256": "6caa9abb942d90bd9e56d02e94c915390f5ef6b65d8ea63db426fce23f055668",
+      "size": 1494,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_dylan.png"
+    },
+    {
+      "id": "obsidian_aqua_plus",
+      "category": "obsidian",
+      "name": "Aqua Plus",
+      "sha256": "13a577fcb1b40c6c4475fa3d80be14337f5be25f5c2ce19a6b599eb373f3e98b",
+      "size": 4434,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_aqua_plus.png"
+    },
+    {
+      "id": "obsidian_flat",
+      "category": "obsidian",
+      "name": "Flat",
+      "sha256": "9a2a4b191059d448f45e91f53257671771b31e18a1d820e78f2cfa01910cdf76",
+      "size": 2090,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_flat.png"
+    },
+    {
+      "id": "obsidian_awerial",
+      "category": "obsidian",
+      "name": "Awerial",
+      "sha256": "6bb19aaa66ce10371863a218c08dd8b79ea50d08c3341212ba4d6b1f877a2fcf",
+      "size": 4075,
+      "added": "2026-09-29",
+      "preview": "previews/obsidian_awerial.png"
+    },
+    {
+      "id": "anchor_gallery_walk_remake",
+      "category": "anchor",
+      "name": "Gallery Walk Remake",
+      "sha256": "b6a65f30dbda9de61e26edeef4e6526d4c572de3579c78437967781f69821296",
+      "size": 23575,
+      "added": "2026-09-27",
+      "by": "samy",
+      "preview": "previews/anchor_gallery_walk_remake.png"
+    },
+    {
+      "id": "crystal_pcrit_default",
+      "category": "crystal",
+      "name": "pCrit default",
+      "sha256": "6db60c13ece0bcd68b26c4f0e130dcc81d63aedf222b6cb10c954a293ae4ea56",
+      "size": 5076,
+      "added": "2026-09-27",
+      "by": "samy",
+      "preview": "previews/crystal_pcrit_default.png"
+    },
+    {
+      "id": "fire_pcrit_default",
+      "category": "fire",
+      "name": "pCrit default",
+      "sha256": "b3cfc0d05831b84f55956c739a0ced9190ce25dcf24a7b8af1547184faaa07ad",
+      "size": 1464,
+      "added": "2026-09-27",
+      "by": "samy",
+      "preview": "previews/fire_pcrit_default.png"
+    },
+    {
+      "id": "sky_bthe6legend327_16x_6revamp",
+      "category": "sky",
+      "name": "bThe6Legend327 16x 6REVAMP",
+      "sha256": "96275f68f6166f174714bc8120f51169d021048e67ee7109cc5995b94d05f5d3",
+      "size": 9497217,
+      "added": "2026-09-27",
+      "preview": "previews/sky_bthe6legend327_16x_6revamp.png"
+    },
+    {
+      "id": "crystal_kesu_main",
+      "category": "crystal",
+      "name": "Kesu Main",
+      "sha256": "16da02b83ada699d8a7a53c65c3fbb645e318fc1982a9d791454c47d5fb330cb",
+      "size": 4458,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_kesu_main.png"
+    },
+    {
+      "id": "crystal_blueberry_light",
+      "category": "crystal",
+      "name": "BlueBerry Light",
+      "sha256": "045b04b65ba887a430116e9c9015d0a0a9bd4e6d2a14bc197ba46aa380723790",
+      "size": 5969,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_blueberry_light.png"
+    },
+    {
+      "id": "crystal_need_me",
+      "category": "crystal",
+      "name": "Need Me",
+      "sha256": "9efc85460a84bf77b5b91c5d71f8ecd1ce30b616cdd8d4c32e9bfec9b8820de8",
+      "size": 10694,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_need_me.png"
+    },
+    {
+      "id": "crystal_digs_simple",
+      "category": "crystal",
+      "name": "Digs Simple",
+      "sha256": "5a461fbe6bfbf701b39ab8faa3b652ea3ac1ae4f87a4907f710b48ec9ab86bf8",
+      "size": 1469,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_digs_simple.png"
+    },
+    {
+      "id": "sky_steven_universe_recolour",
+      "category": "sky",
+      "name": "Steven Universe recolour",
+      "sha256": "3440843beeefb6a06126265f3a038d2da9ebb76b65d804131a63b885f2eb16e8",
+      "size": 13237571,
+      "added": "2026-09-26",
+      "preview": "previews/sky_steven_universe_recolour.png"
+    },
+    {
+      "id": "crystal_gallery_walk",
+      "category": "crystal",
+      "name": "Gallery Walk",
+      "sha256": "b75936ddcf5cbcf31727cb26202777c6c20d9e38aaebab52a6148f9575a53f0a",
+      "size": 3632,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_gallery_walk.png"
+    },
+    {
+      "id": "crystal_dpallagongus",
+      "category": "crystal",
+      "name": "Dpallagongus",
+      "sha256": "9ed4e1263c6fbe700010f15e22c20b9527d706eb3e4ad16982d7008154a7c7cf",
+      "size": 3473,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_dpallagongus.png"
+    },
+    {
+      "id": "crystal_pink_dlvaunta",
+      "category": "crystal",
+      "name": "Pink Dlvaunta",
+      "sha256": "e0743c9542e8b54f74480ccb77c765eac29aa818e0a33255f8c2bafd0730200e",
+      "size": 4914,
+      "added": "2026-09-26",
+      "preview": "previews/crystal_pink_dlvaunta.png"
+    },
+    {
+      "id": "anchor_kesie_priv_remake",
+      "category": "anchor",
+      "name": "Kesie Priv Remake",
+      "sha256": "8efcfaf0ed32af0acac3e85d2e0fb1afd5b036d539d83275694651624675fe66",
+      "size": 5664,
+      "added": "2026-09-25",
+      "preview": "previews/anchor_kesie_priv_remake.png"
+    },
+    {
+      "id": "crystal_daquavious_crystal",
+      "category": "crystal",
+      "name": "Daquavious crystal",
+      "sha256": "e2992107f68ef703f76408f8f4d31abbfb04844bdd3edafdca32fcab1d39739f",
+      "size": 3593,
+      "added": "2026-09-24",
+      "preview": "previews/crystal_daquavious_crystal.png"
+    },
+    {
+      "id": "fire_lowfire_white",
+      "category": "fire",
+      "name": "LowFire white",
+      "sha256": "324f6924e73479f6ecf02beaa1f556ffcaeeb373b4c304163ecebc7269965f7c",
+      "size": 1246,
+      "added": "2026-09-19",
+      "preview": "previews/fire_lowfire_white.png"
+    },
+    {
+      "id": "sky_evantiisky_private",
+      "category": "sky",
+      "name": "EvantiiSky (private)",
+      "sha256": "f2af7440d8b0cc8af2d7ab3c322d7db080e2245f32a786c0b625110a772a2669",
+      "size": 8286149,
+      "added": "2026-09-19",
+      "by": "claire",
+      "preview": "previews/sky_evantiisky_private.png"
+    },
+    {
+      "id": "anchor_tostraight_anchor",
+      "category": "anchor",
+      "name": "ToStraight Anchor",
+      "sha256": "16bf06613c3609008592e7a5298e66b3c794bbec0e733877e4643bad5bd1b778",
+      "size": 35721,
+      "added": "2026-09-18",
+      "preview": "previews/anchor_tostraight_anchor.png"
+    },
+    {
+      "id": "anchor_k1rbe_x_gpzr_vanilla_enhanced",
+      "category": "anchor",
+      "name": "K1RBE x Gpzr Vanilla Enhanced",
+      "sha256": "5d22fbab62260b2b452286c76c0dfb95c7fd5a51abb58ef85bb4cdefc539524d",
+      "size": 7506,
+      "added": "2026-09-18",
+      "preview": "previews/anchor_k1rbe_x_gpzr_vanilla_enhanced.png"
+    },
+    {
+      "id": "sky_theos_pack_but_better",
+      "category": "sky",
+      "name": "Theos Pack But Better",
+      "sha256": "e6dbb87676b85f1a5cf2971a22a4365887c136dcbb00a489080db1cd8e4b1f5c",
+      "size": 79784463,
+      "added": "2026-09-15",
+      "preview": "previews/sky_theos_pack_but_better.png"
+    },
+    {
+      "id": "sky_tostraight_sky",
+      "category": "sky",
+      "name": "ToStraight Sky",
+      "sha256": "82ce11961608d7bb17bdd56d86f04609649aae46bb2a85ff0762bd0f98fec7bd",
+      "size": 6897538,
+      "added": "2026-09-15",
+      "preview": "previews/sky_tostraight_sky.png"
+    },
+    {
+      "id": "sky_blue_desert",
+      "category": "sky",
+      "name": "Blue Desert",
+      "sha256": "3ece8740d27fa1c640d18e672832a8047abadced56cd3cd8915c90145cde4835",
+      "size": 5754903,
+      "added": "2026-09-15",
+      "preview": "previews/sky_blue_desert.png"
+    },
+    {
+      "id": "sky_burj_al_arab",
+      "category": "sky",
+      "name": "Burj Al Arab",
+      "sha256": "15daad435351edd883e9867cdd05e39a2522a49a95c8138b4b6b684d12eaf9cd",
+      "size": 1732961,
+      "added": "2026-09-15",
+      "preview": "previews/sky_burj_al_arab.png"
+    },
+    {
+      "id": "sky_cloudy_sea",
+      "category": "sky",
+      "name": "Cloudy Sea",
+      "sha256": "8f99b72e2331b6bb8e24a8d2f233e0fdacf89885af2c0de40748043677a102c6",
+      "size": 12678806,
+      "added": "2026-09-15",
+      "preview": "previews/sky_cloudy_sea.png"
+    },
+    {
+      "id": "sky_dark_forest",
+      "category": "sky",
+      "name": "Dark Forest",
+      "sha256": "b7c720196406629997831f631b51638586cf0cbbef8730aa9d894db861c8d066",
+      "size": 10557804,
+      "added": "2026-09-15",
+      "preview": "previews/sky_dark_forest.png"
+    },
+    {
+      "id": "sky_darkness",
+      "category": "sky",
+      "name": "Darkness",
+      "sha256": "6eb377bde3df7b9fef3ce21718d16d85c446d25a16d5abad5fcb44e49b3bb485",
+      "size": 6175622,
+      "added": "2026-09-15",
+      "preview": "previews/sky_darkness.png"
+    },
+    {
+      "id": "sky_fairyland",
+      "category": "sky",
+      "name": "Fairyland",
+      "sha256": "7ed82cb27529a686718bd04df38b99a56e2b5bc42c0726bb0144ae1088da4e9f",
+      "size": 13291451,
+      "added": "2026-09-15",
+      "preview": "previews/sky_fairyland.png"
+    },
+    {
+      "id": "sky_green_polar_lights",
+      "category": "sky",
+      "name": "Green Polar Lights",
+      "sha256": "b99bde83b0e35b59c80f1d5757d7cfde7f5da4bd25679b5d75a6d45ac21a45a7",
+      "size": 13184845,
+      "added": "2026-09-15",
+      "preview": "previews/sky_green_polar_lights.png"
+    },
+    {
+      "id": "sky_purple_mountains",
+      "category": "sky",
+      "name": "Purple Mountains",
+      "sha256": "c153080904e36419172eb46fde3da3baefe4ef839bb31fd8ff10589d9fb8b3ce",
+      "size": 13914139,
+      "added": "2026-09-15",
+      "preview": "previews/sky_purple_mountains.png"
+    },
+    {
+      "id": "sky_red_synthwave",
+      "category": "sky",
+      "name": "Red Synthwave",
+      "sha256": "034f0429bb86e3173c4ad54ed3406ce7df428508f7714b00bbb31c690fa151ed",
+      "size": 8603650,
+      "added": "2026-09-15",
+      "preview": "previews/sky_red_synthwave.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": "shield",
+      "slot": 1,
+      "name": "Shield",
+      "icon": "minecraft:shield",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/entity/(shield_base(?:_nopattern)?\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/shield/([a-z0-9_]+\\.png)$",
+          "to": "assets/minecraft/textures/entity/shield/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/gui/sprites/container/slot/(shield\\.png)$",
+          "to": "assets/minecraft/textures/gui/sprites/container/slot/$1"
+        }
+      ],
+      "detect": "entity/shield_base_nopattern\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/entity/shield_base_nopattern.png",
+        "crop": [
+          0.015625,
+          0.015625,
+          0.1875,
+          0.34375
+        ]
+      }
+    },
+    {
+      "id": "mace",
+      "slot": 2,
+      "name": "Mace",
+      "icon": "minecraft:mace",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/(mace\\.png)$",
+          "to": "assets/minecraft/textures/item/$1"
+        }
+      ],
+      "detect": "items?/mace\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/mace.png"
+      }
+    },
+    {
+      "id": "cobweb",
+      "slot": 3,
+      "name": "Cobwebs",
+      "icon": "minecraft:cobweb",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/blocks?/(cobweb\\.png)$",
+          "to": "assets/minecraft/textures/block/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/web\\.png$",
+          "to": "assets/minecraft/textures/block/cobweb.png"
+        }
+      ],
+      "detect": "blocks?/(cobweb|web)\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/block/cobweb.png"
+      }
+    },
+    {
+      "id": "trident",
+      "slot": 4,
+      "name": "Trident",
+      "icon": "minecraft:trident",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/(trident\\.png)$",
+          "to": "assets/minecraft/textures/item/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(trident\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        }
+      ],
+      "detect": "(items?|entity)/trident\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/trident.png"
+      }
+    },
+    {
+      "id": "spear",
+      "slot": 5,
+      "name": "Spears",
+      "icon": "minecraft:iron_spear",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/((?:wooden|stone|copper|iron|golden|diamond|netherite)_spear(?:_in_hand)?\\.png)$",
+          "to": "assets/minecraft/textures/item/$1"
+        }
+      ],
+      "detect": "items?/[a-z]+_spear(?:_in_hand)?\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/iron_spear_in_hand.png",
+        "crop": [
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "windcharge",
+      "slot": 6,
+      "name": "Wind Charge",
+      "icon": "minecraft:wind_charge",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/(wind_charge\\.png)$",
+          "to": "assets/minecraft/textures/item/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/projectiles/(wind_charge\\.png)$",
+          "to": "assets/minecraft/textures/entity/projectiles/$1"
+        }
+      ],
+      "detect": "items?/wind_charge\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/wind_charge.png"
+      }
+    },
+    {
+      "id": "xpbottle",
+      "slot": 7,
+      "name": "XP Bottle",
+      "icon": "minecraft:experience_bottle",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/(?:experience_bottle|expbottle)\\.png$",
+          "to": "assets/minecraft/textures/item/experience_bottle.png"
+        }
+      ],
+      "detect": "items?/(experience_bottle|expbottle)\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/experience_bottle.png"
+      }
+    },
+    {
+      "id": "rails",
+      "slot": 8,
+      "name": "Rails",
+      "icon": "minecraft:rail",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/block/(rail|rail_corner|powered_rail|powered_rail_on|detector_rail|detector_rail_on|activator_rail|activator_rail_on)\\.png$",
+          "to": "assets/minecraft/textures/block/$1.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_normal\\.png$",
+          "to": "assets/minecraft/textures/block/rail.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_normal_turned\\.png$",
+          "to": "assets/minecraft/textures/block/rail_corner.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_golden\\.png$",
+          "to": "assets/minecraft/textures/block/powered_rail.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_golden_powered\\.png$",
+          "to": "assets/minecraft/textures/block/powered_rail_on.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_detector\\.png$",
+          "to": "assets/minecraft/textures/block/detector_rail.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_detector_powered\\.png$",
+          "to": "assets/minecraft/textures/block/detector_rail_on.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_activator\\.png$",
+          "to": "assets/minecraft/textures/block/activator_rail.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks/rail_activator_powered\\.png$",
+          "to": "assets/minecraft/textures/block/activator_rail_on.png"
+        }
+      ],
+      "detect": "blocks?/(rail|rail_normal)\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/block/rail.png"
+      }
+    },
+    {
+      "id": "tntcart",
+      "slot": 9,
+      "name": "TNT Minecart",
+      "icon": "minecraft:tnt_minecart",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/items?/(?:tnt_minecart|minecart_tnt)\\.png$",
+          "to": "assets/minecraft/textures/item/tnt_minecart.png"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(minecart\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/blocks?/tnt_(side|top|bottom)\\.png$",
+          "to": "assets/minecraft/textures/block/tnt_$1.png"
+        }
+      ],
+      "detect": "items?/(tnt_minecart|minecart_tnt)\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/item/tnt_minecart.png"
+      }
+    },
+    {
+      "id": "elytra",
+      "slot": 10,
+      "name": "Elytra",
+      "icon": "minecraft:elytra",
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/entity/equipment/wings/(elytra\\.png)$",
+          "to": "assets/minecraft/textures/entity/equipment/wings/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(elytra\\.png)$",
+          "to": "assets/minecraft/textures/entity/equipment/wings/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/items?/((broken_)?elytra\\.png)$",
+          "to": "assets/minecraft/textures/item/$1"
+        }
+      ],
+      "detect": "entity/(equipment/wings/)?elytra\\.png$",
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/entity/equipment/wings/elytra.png",
+        "crop": [
+          0.515625,
+          0.0,
+          0.203125,
+          0.6875
+        ]
+      }
+    }
+  ],
+  "adminCategories": []
+}
