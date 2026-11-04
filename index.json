@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "publishUrl": "https://gakspack-presets.gaksvord.workers.dev",
   "styles": [
     {
       "id": "crystal_lennon_priv",
