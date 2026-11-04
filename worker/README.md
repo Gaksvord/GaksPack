@@ -2,6 +2,8 @@
 
 This Cloudflare Worker stores public presets, one-use preset codes and optional local texture ZIP files. The Minecraft mod discovers `https://gakspack-presets.gaksvord.workers.dev` from the top-level `index.json` field `publishUrl`. Run `npm test` before deployment.
 
+Publishing and liking require a GaksPack account. Usernames contain 1–20 Latin letters or digits; passwords are stored as salted PBKDF2 hashes. The mod saves a session token locally and never saves the password. Applying a preset as a guest is allowed and does not increase its application count. There is no password recovery because accounts have no email address.
+
 Deploy updates from this directory:
 
 1. Run `npx wrangler login --device` and complete the Cloudflare login in your browser.

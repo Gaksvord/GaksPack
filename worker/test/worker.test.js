@@ -17,22 +17,29 @@ const env = { DATA: {
 const base = 'https://gakspack-test.workers.dev';
 const device = 'a'.repeat(64);
 const call = (path, method = 'GET', body, headers) => worker.fetch(new Request(base + path, { method, body, headers }), env);
+const register = async nick => {
+  const response = await call('/auth/register', 'POST', JSON.stringify({ nick, password: 'пароль с пробелами 123' }));
+  assert.equal(response.status, 200);
+  return { authorization: `Bearer ${(await response.json()).token}` };
+};
 
 test('share, list, redeem and remove a preset', async () => {
+  const auth = await register('GaksTestOne');
   const preset = { name: 'Мой набор', author: 'Gaksvord', device, styles: { crystal: 'crystal_blue' }, local: {}, extras: {} };
-  const publish = await call('/presets', 'POST', JSON.stringify(preset), { 'content-type': 'application/json' });
+  const publish = await call('/presets', 'POST', JSON.stringify(preset), auth);
   assert.equal(publish.status, 200);
   const { id } = await publish.json();
   assert.ok(Number.isInteger(id));
-  const list = await (await call('/presets?device=' + device)).json();
+  const list = await (await call('/presets?device=' + device, 'GET', undefined, auth)).json();
   assert.equal(list.presets.length, 1);
   assert.equal(list.presets[0].mine, true);
   assert.equal(list.presets[0].name, 'Мой набор');
+  assert.equal(list.presets[0].author, 'GaksTestOne');
   const code = await (await call('/presets/code', 'POST', JSON.stringify(preset))).json();
   assert.equal(code.code.length, 8);
   const redeemed = await (await call('/presets/redeem', 'POST', JSON.stringify({ code: code.code }))).json();
   assert.equal(redeemed.preset.name, 'Мой набор');
-  const removed = await call('/presets', 'DELETE', JSON.stringify({ id, device }));
+  const removed = await call('/presets', 'DELETE', JSON.stringify({ id, device }), auth);
   assert.equal(removed.status, 200);
   assert.equal((await (await call('/presets?device=' + device)).json()).presets.length, 0);
 });
@@ -47,24 +54,47 @@ test('stores and retrieves a local texture file by SHA-256', async () => {
 });
 
 test('rejects malformed preset requests without a server error', async () => {
-  assert.equal((await call('/presets', 'POST', 'null')).status, 400);
-  assert.equal((await call('/presets', 'POST', '{')).status, 400);
-  assert.equal((await call('/presets', 'POST', ' '.repeat(65537))).status, 413);
+  const auth = await register('GaksTestBad');
+  assert.equal((await call('/presets', 'POST', 'null', auth)).status, 400);
+  assert.equal((await call('/presets', 'POST', '{', auth)).status, 400);
+  assert.equal((await call('/presets', 'POST', ' '.repeat(65537), auth)).status, 413);
 });
 
 test('one device likes once while applications count each use', async () => {
+  const auth = await register('GaksTestTwo');
   const preset = { name: 'Votes', author: 'Gaksvord', device, styles: {}, local: {}, extras: {} };
-  const { id } = await (await call('/presets', 'POST', JSON.stringify(preset))).json();
+  const { id } = await (await call('/presets', 'POST', JSON.stringify(preset), auth)).json();
   const vote = JSON.stringify({ device: 'b'.repeat(64) });
-  await call(`/presets/${id}/like`, 'POST', vote);
-  await call(`/presets/${id}/like`, 'POST', vote);
-  await call(`/presets/${id}/apply`, 'POST', vote);
-  await call(`/presets/${id}/apply`, 'POST', vote);
-  const list = await (await call('/presets?device=' + 'b'.repeat(64))).json();
+  await call(`/presets/${id}/like`, 'POST', vote, auth);
+  await call(`/presets/${id}/like`, 'POST', vote, auth);
+  await call(`/presets/${id}/apply`, 'POST', vote, auth);
+  await call(`/presets/${id}/apply`, 'POST', vote, auth);
+  const guest = await (await call(`/presets/${id}/apply`, 'POST', vote)).json();
+  assert.equal(guest.counted, false);
+  const list = await (await call('/presets?device=' + 'b'.repeat(64), 'GET', undefined, auth)).json();
   const result = list.presets.find(p => p.id === id);
   assert.equal(result.likes, 1);
   assert.equal(result.applications, 2);
   assert.equal(result.liked, true);
   assert.ok(result.createdAt > 0);
-  await call('/presets', 'DELETE', JSON.stringify({ id, device }));
+  await call('/presets', 'DELETE', JSON.stringify({ id, device }), auth);
+});
+
+test('publishing and voting require login', async () => {
+  const preset = { name: 'Guest', author: 'Spoofed', device, styles: {}, local: {}, extras: {} };
+  assert.equal((await call('/presets', 'POST', JSON.stringify(preset))).status, 401);
+  assert.equal((await call('/presets/1/like', 'POST', '{}')).status, 401);
+  assert.equal((await call('/auth/register', 'POST', JSON.stringify({ nick: 'Ник', password: 'x' }))).status, 400);
+  assert.equal((await call('/auth/login', 'POST', JSON.stringify({ nick: 'GaksTestOne', password: 'wrong' }))).status, 401);
+});
+
+test('account can sign in again and logout revokes the session', async () => {
+  const auth = await register('A1');
+  const login = await call('/auth/login', 'POST', JSON.stringify({ nick: 'a1', password: 'пароль с пробелами 123' }));
+  assert.equal(login.status, 200);
+  const second = { authorization: `Bearer ${(await login.json()).token}` };
+  assert.equal((await call('/auth/me', 'GET', undefined, second)).status, 200);
+  await call('/auth/logout', 'POST', undefined, auth);
+  assert.equal((await call('/auth/me', 'GET', undefined, auth)).status, 401);
+  assert.equal((await call('/auth/me', 'GET', undefined, second)).status, 200);
 });
