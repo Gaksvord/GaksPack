@@ -51,3 +51,20 @@ test('rejects malformed preset requests without a server error', async () => {
   assert.equal((await call('/presets', 'POST', '{')).status, 400);
   assert.equal((await call('/presets', 'POST', ' '.repeat(65537))).status, 413);
 });
+
+test('one device likes once while applications count each use', async () => {
+  const preset = { name: 'Votes', author: 'Gaksvord', device, styles: {}, local: {}, extras: {} };
+  const { id } = await (await call('/presets', 'POST', JSON.stringify(preset))).json();
+  const vote = JSON.stringify({ device: 'b'.repeat(64) });
+  await call(`/presets/${id}/like`, 'POST', vote);
+  await call(`/presets/${id}/like`, 'POST', vote);
+  await call(`/presets/${id}/apply`, 'POST', vote);
+  await call(`/presets/${id}/apply`, 'POST', vote);
+  const list = await (await call('/presets?device=' + 'b'.repeat(64))).json();
+  const result = list.presets.find(p => p.id === id);
+  assert.equal(result.likes, 1);
+  assert.equal(result.applications, 2);
+  assert.equal(result.liked, true);
+  assert.ok(result.createdAt > 0);
+  await call('/presets', 'DELETE', JSON.stringify({ id, device }));
+});

@@ -35,7 +35,14 @@ async function readBody(request, limit = 65536) {
 async function presets(env, device) {
   const keys = await env.DATA.list({ prefix: "preset:", limit: 1000 });
   const records = await Promise.all(keys.keys.slice(0, 200).map(k => env.DATA.get(k.name, "json")));
-  return records.filter(Boolean).sort((a, b) => b.id - a.id).map(({ device: owner, ...p }) => ({ ...p, mine: owner === device }));
+  return Promise.all(records.filter(Boolean).map(async ({ device: owner, ...p }) => ({
+    ...p,
+    likes: p.likes || 0,
+    applications: p.applications || 0,
+    createdAt: p.createdAt || 0,
+    mine: owner === device,
+    liked: DEVICE.test(device || "") && !!await env.DATA.get(`like:${p.id}:${device}`),
+  })));
 }
 
 async function newId(env) {
@@ -68,8 +75,28 @@ export default {
           if (!await env.DATA.get(`file:${file.sha}`)) return json({ message: "A shared texture file is missing" }, 400);
         }
         const id = await newId(env);
-        await env.DATA.put(`preset:${id}`, JSON.stringify({ id, ...p }));
+        await env.DATA.put(`preset:${id}`, JSON.stringify({ id, likes: 0, applications: 0, createdAt: Date.now(), ...p }));
         return json({ id, message: "Preset shared" });
+      }
+      const metric = path.match(/^\/presets\/(\d+)\/(like|apply)$/);
+      if (metric && request.method === "POST") {
+        const id = Number(metric[1]);
+        const body = await readBody(request);
+        if (!DEVICE.test(body.device || "")) return json({ message: "Invalid request" }, 400);
+        const preset = await env.DATA.get(`preset:${id}`, "json");
+        if (!preset) return json({ message: "Preset not found" }, 404);
+        if (metric[2] === "like") {
+          const voteKey = `like:${id}:${body.device}`;
+          if (!await env.DATA.get(voteKey)) {
+            await env.DATA.put(voteKey, "1");
+            preset.likes = (preset.likes || 0) + 1;
+            await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
+          }
+        } else {
+          preset.applications = (preset.applications || 0) + 1;
+          await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
+        }
+        return json({ likes: preset.likes || 0, applications: preset.applications || 0 });
       }
       if (path === "/presets" && request.method === "DELETE") {
         const body = await readBody(request);
