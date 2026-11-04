@@ -4,6 +4,8 @@ This Cloudflare Worker stores public presets, one-use preset codes and optional 
 
 Publishing and liking require a GaksPack account. Usernames contain 1–20 Latin letters or digits; passwords are stored as salted PBKDF2 hashes. The mod saves a session token locally and never saves the password. Applying a preset as a guest is allowed and does not increase its application count. There is no password recovery because accounts have no email address.
 
+Registration is limited to one account per game installation every five minutes. Each account can publish one preset every ten minutes; removing a preset does not reset this timer.
+
 Deploy updates from this directory:
 
 1. Run `npx wrangler login --device` and complete the Cloudflare login in your browser.

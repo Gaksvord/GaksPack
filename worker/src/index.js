@@ -81,10 +81,14 @@ export default {
       if (path === "/auth/register" && request.method === "POST") {
         const body = await readBody(request, 4096);
         if (!NICK.test(body.nick || "") || typeof body.password !== "string" || body.password.length < 1 || body.password.length > 512) return json({ message: "Invalid username or password" }, 400);
+        if (!DEVICE.test(body.device || "")) return json({ message: "Invalid installation" }, 400);
+        const cooldownKey = `register-cooldown:${body.device}`;
+        if (await env.DATA.get(cooldownKey)) return json({ message: "Wait 5 minutes before another account" }, 429);
         const key = `user:${body.nick.toLowerCase()}`;
         if (await env.DATA.get(key)) return json({ message: "Username already taken" }, 409);
         const salt = random(16);
         await env.DATA.put(key, JSON.stringify({ nick: body.nick, salt, hash: await passwordHash(body.password, salt) }));
+        await env.DATA.put(cooldownKey, "1", { expirationTtl: 300 });
         return json({ nick: body.nick, token: await session(env, body.nick) });
       }
       if (path === "/auth/login" && request.method === "POST") {
@@ -120,6 +124,8 @@ export default {
       if (path === "/presets" && request.method === "POST") {
         const user = await account(request, env);
         if (!user) return json({ message: "Login required" }, 401);
+        const cooldownKey = `publish-cooldown:${user.nick.toLowerCase()}`;
+        if (await env.DATA.get(cooldownKey)) return json({ message: "Wait 10 minutes before sharing again" }, 429);
         const p = presetFrom(await readBody(request));
         if (!p) return json({ message: "Invalid preset" }, 400);
         p.author = user.nick;
@@ -131,6 +137,7 @@ export default {
         }
         const id = await newId(env);
         await env.DATA.put(`preset:${id}`, JSON.stringify({ id, likes: 0, applications: 0, createdAt: Date.now(), ...p }));
+        await env.DATA.put(cooldownKey, "1", { expirationTtl: 600 });
         return json({ id, message: "Preset shared" });
       }
       const metric = path.match(/^\/presets\/(\d+)\/(like|apply)$/);

@@ -17,10 +17,12 @@ const env = { DATA: {
 const base = 'https://gakspack-test.workers.dev';
 const device = 'a'.repeat(64);
 const call = (path, method = 'GET', body, headers) => worker.fetch(new Request(base + path, { method, body, headers }), env);
+let registrationNumber = 0;
 const register = async nick => {
-  const response = await call('/auth/register', 'POST', JSON.stringify({ nick, password: 'пароль с пробелами 123' }));
+  const device = (++registrationNumber).toString(16).padStart(64, 'a');
+  const response = await call('/auth/register', 'POST', JSON.stringify({ nick, password: 'пароль с пробелами 123', device }));
   assert.equal(response.status, 200);
-  return { authorization: `Bearer ${(await response.json()).token}` };
+  return { authorization: `Bearer ${(await response.json()).token}`, device };
 };
 
 test('share, list, redeem and remove a preset', async () => {
@@ -41,6 +43,7 @@ test('share, list, redeem and remove a preset', async () => {
   assert.equal(redeemed.preset.name, 'Мой набор');
   const removed = await call('/presets', 'DELETE', JSON.stringify({ id, device }), auth);
   assert.equal(removed.status, 200);
+  assert.equal((await call('/presets', 'POST', JSON.stringify(preset), auth)).status, 429);
   assert.equal((await (await call('/presets?device=' + device)).json()).presets.length, 0);
 });
 
@@ -97,4 +100,5 @@ test('account can sign in again and logout revokes the session', async () => {
   await call('/auth/logout', 'POST', undefined, auth);
   assert.equal((await call('/auth/me', 'GET', undefined, auth)).status, 401);
   assert.equal((await call('/auth/me', 'GET', undefined, second)).status, 200);
+  assert.equal((await call('/auth/register', 'POST', JSON.stringify({ nick: 'A2', password: 'other', device: auth.device }))).status, 429);
 });
