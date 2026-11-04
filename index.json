@@ -326,15 +326,6 @@
       "preview": "previews/tntcart_doge_privatev2_edit.png"
     },
     {
-      "id": "tntcart_crystalanchor_private",
-      "category": "tntcart",
-      "name": "Crystalanchor Private",
-      "sha256": "f1bdf81654f2bbe50c67159f20d46e24a540a3a505cc708aaad52485b734e7c3",
-      "size": 2998,
-      "added": "2026-10-29",
-      "preview": "previews/tntcart_crystalanchor_private.png"
-    },
-    {
       "id": "tntcart_dylan_mashup_v22",
       "category": "tntcart",
       "name": "DYLAN Mashup v22",
@@ -772,8 +763,7 @@
       "name": "Rulers",
       "sha256": "8c3543401ef37dfc0623c096f3895a6482d932b48ce29f67cea5906d8952069e",
       "size": 3699,
-      "added": "2026-10-25",
-      "preview": "previews/sword_rulers.png"
+      "added": "2026-10-25"
     },
     {
       "id": "pickaxe_rulers",
@@ -864,15 +854,6 @@
       "size": 1467,
       "added": "2026-10-25",
       "preview": "previews/trident_doly_50000.png"
-    },
-    {
-      "id": "tntcart_mexgrey",
-      "category": "tntcart",
-      "name": "mexgrey",
-      "sha256": "92ea8c8079f44779ca1cd07f38073b15d51d6e097423f5f989d47d54e1f7221f",
-      "size": 3999,
-      "added": "2026-10-25",
-      "preview": "previews/tntcart_mexgrey.png"
     },
     {
       "id": "xpbottle_duolingorework",
