@@ -4755,15 +4755,6 @@
       "preview": "previews/sky_red_synthwave.png"
     },
     {
-      "id": "tntcart_crystalanchor_private",
-      "category": "tntcart",
-      "name": "Crystalanchor Private",
-      "added": "2026-11-05",
-      "size": 3024,
-      "sha256": "3874f5ff275e9f4ad0c2b4ca855f2038d8578ebc4a2a6c07da0aa9e925503a99",
-      "preview": "previews/tntcart_crystalanchor_private.png"
-    },
-    {
       "id": "tntcart_mexgrey",
       "category": "tntcart",
       "name": "Mexgrey",
