@@ -1970,16 +1970,6 @@
       "preview": "previews/deepslate_veroxsibbi.png"
     },
     {
-      "id": "inventory_dpastelic_v3_7",
-      "category": "inventory",
-      "name": "⌡dPastelic v3 ⌡7",
-      "sha256": "e330e1d9b49b84fca6f5d526e87e0c883b5322f0db6472d69efe320f34d80bf6",
-      "size": 563692,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/inventory_dpastelic_v3_7.png"
-    },
-    {
       "id": "inventory_d_l_a_c_e",
       "category": "inventory",
       "name": "⌡d L a c e",
@@ -4760,6 +4750,14 @@
       "added": "2026-11-05",
       "size": 70790,
       "sha256": "aa46afaf42c2c34b7b8ec662dfeecca1b79b2c277adc101b6329e86bcade5fe5"
+    },
+    {
+      "id": "inventory_pastelic",
+      "category": "inventory",
+      "name": "Pastelic",
+      "added": "2026-11-05",
+      "size": 559520,
+      "sha256": "c9ab2720b01a171fd004dbb14b9d0cdc0b08383e10182d1e319f543f7e817084"
     }
   ],
   "categories": [
