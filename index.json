@@ -4771,6 +4771,15 @@
       "size": 4025,
       "sha256": "eec27f5985b3dbb4b00ba859d451d6a54f7832c7d2e63e9c459bba0b1fc6c9e2",
       "preview": "previews/tntcart_mexgrey.png"
+    },
+    {
+      "id": "mace_test",
+      "category": "mace",
+      "name": "Test",
+      "added": "2026-11-05",
+      "size": 906,
+      "sha256": "d24999a28192064b7ed6646f51105a169cead048c4c1bf7865c33209e524de92",
+      "preview": "previews/mace_test.png"
     }
   ],
   "categories": [
