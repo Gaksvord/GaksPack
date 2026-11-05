@@ -1980,16 +1980,6 @@
       "preview": "previews/inventory_d_l_a_c_e.png"
     },
     {
-      "id": "inventory_124",
-      "category": "inventory",
-      "name": "124",
-      "sha256": "fc857c6d7601e436f99b60788bfad77697c2e9b05994439a878ae2b821f79987",
-      "size": 86867,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/inventory_124.png"
-    },
-    {
       "id": "shield_b_ipasha_e_lpack",
       "category": "shield",
       "name": "IPasha Pack",
@@ -4758,6 +4748,14 @@
       "added": "2026-11-05",
       "size": 2501,
       "sha256": "3801c3c01a3a4982db5fcef09b5abd1b25e4709b5760113c69921c73289e3f13"
+    },
+    {
+      "id": "inventory_dark",
+      "category": "inventory",
+      "name": "Dark",
+      "added": "2026-11-05",
+      "size": 86354,
+      "sha256": "cff2e021324e61718916e24bf3393a86ae55f3025b2a53326d3db9a6b2550d74"
     }
   ],
   "categories": [
