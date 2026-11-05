@@ -392,7 +392,7 @@
     {
       "id": "xpbottle_c_lt_6_la_e_li_2_lw_9_lo_5_ln_b_l100_s",
       "category": "xpbottle",
-      "name": "\u0015c\u0015lT\u00156\u0015la\u0015e\u0015li\u00152\u0015lw\u00159\u0015lo\u00155\u0015ln \u0015b\u0015l100 S",
+      "name": "Taiwon 100 S",
       "sha256": "deb4b441ab4f167b20e702264ccd2b304899fc098558365385b6087566dfc7dd",
       "size": 1426,
       "added": "2026-10-29",
@@ -1022,7 +1022,7 @@
     {
       "id": "crystal_f_lsakura_tweaks",
       "category": "crystal",
-      "name": "⌡F⌡lSakura Tweaks",
+      "name": "Sakura Tweaks",
       "sha256": "6961dab45cbeef2262d7e71ff468222281301551d53194bab7d6b54d1c7eccd6",
       "size": 2897,
       "added": "2026-10-23",
@@ -1032,7 +1032,7 @@
     {
       "id": "crystal_bfaith_war_8_kopie",
       "category": "crystal",
-      "name": "⌡bFaith War ⌡8 - Kopie",
+      "name": "Faith War Copy",
       "sha256": "24de5e42f512a194cb48c081bbbf47752d282d732cbf21856b5ca907592813e6",
       "size": 10767,
       "added": "2026-10-23",
@@ -1312,7 +1312,7 @@
     {
       "id": "armor_7_lxpz_f_lwhite",
       "category": "armor",
-      "name": "⌡7⌡lxPz ⌡f⌡lWhite",
+      "name": "xPz White",
       "sha256": "9b8fe140035ac1b187bd494bc89e8fac6a793a7154b109280349fc067339b999",
       "size": 11168,
       "added": "2026-10-23",
@@ -1342,7 +1342,7 @@
     {
       "id": "armor_d_l_a_c_e",
       "category": "armor",
-      "name": "⌡d L a c e",
+      "name": "Lace",
       "sha256": "ced793a26099755ef572df9b38b50cfc820526b4b82ebb53aca0ccfb4c596910",
       "size": 29421,
       "added": "2026-10-23",
@@ -1362,7 +1362,7 @@
     {
       "id": "armor_6_xicz_mashup",
       "category": "armor",
-      "name": "⌡6⌡ xicz mashup",
+      "name": "Xicz Mashup",
       "sha256": "610f85844d0af1e3a9043c2392f8c5fdaf06cd5d351d94c6a803b1beac64c28a",
       "size": 18087,
       "added": "2026-10-23",
@@ -1382,7 +1382,7 @@
     {
       "id": "sword_f_lsakura_tweaks",
       "category": "sword",
-      "name": "⌡F⌡lSakura Tweaks",
+      "name": "Sakura Tweaks",
       "sha256": "3b68fd2837a0ee81bdd0d443bbfec61458e755c6f2396a7f7c79264d06b647cd",
       "size": 10528,
       "added": "2026-10-23",
@@ -1392,7 +1392,7 @@
     {
       "id": "sword_6_l_ovanilla_e_l_o",
       "category": "sword",
-      "name": "⌡6⌡l⌡oVANILLA ⌡e⌡l⌡o+",
+      "name": "Vanilla+",
       "sha256": "325c7f811874fe70c3c10add840ec87a07b19063958abfb95df3bfa6f3144cb9",
       "size": 1186,
       "added": "2026-10-23",
@@ -1402,7 +1402,7 @@
     {
       "id": "sword_7_5_lein_4_lclient",
       "category": "sword",
-      "name": "⌡7!#⌡5⌡lEin⌡4⌡lClient",
+      "name": "Ein Client",
       "sha256": "1123babf62d8c9a35a2e1692aedbb361770c277e3217c0b450cda88ea1995935",
       "size": 30346,
       "added": "2026-10-23",
@@ -1442,7 +1442,7 @@
     {
       "id": "pickaxe_dpastelic_v3_7",
       "category": "pickaxe",
-      "name": "⌡dPastelic v3 ⌡7",
+      "name": "Pastelic v3",
       "sha256": "ffedc7870382812c2f1b99b9c1f7f5fcf34dea1e13022a60c12a9a040e038de5",
       "size": 16100,
       "added": "2026-10-23",
@@ -1482,7 +1482,7 @@
     {
       "id": "pickaxe_f_lsakura_tweaks",
       "category": "pickaxe",
-      "name": "⌡F⌡lSakura Tweaks",
+      "name": "Sakura Tweaks",
       "sha256": "492f1a8d8f657e3c23a77e237d3c935aa83b2c1d34261bc92bb9921f59a233b9",
       "size": 11414,
       "added": "2026-10-23",
@@ -1492,7 +1492,7 @@
     {
       "id": "pickaxe_7_lxpz_f_lwhite",
       "category": "pickaxe",
-      "name": "⌡7⌡lxPz ⌡f⌡lWhite",
+      "name": "xPz White",
       "sha256": "a05867a3f7099d6098de2440273fe1b98373c12c4ba7c5272d3b782540c5eff9",
       "size": 1487,
       "added": "2026-10-23",
@@ -1502,7 +1502,7 @@
     {
       "id": "totem_bfaith_war_8_kopie",
       "category": "totem",
-      "name": "⌡bFaith War ⌡8 - Kopie",
+      "name": "Faith War Copy",
       "sha256": "f36e6bcbed03e10b76d64cfc93b5abf00401f44f24385dddd734e9eee5f6f6d8",
       "size": 2634,
       "added": "2026-10-23",
@@ -1512,7 +1512,7 @@
     {
       "id": "axe_f_lsakura_tweaks",
       "category": "axe",
-      "name": "⌡F⌡lSakura Tweaks",
+      "name": "Sakura Tweaks",
       "sha256": "f2658251ce574859fbe6421eaa8e0d0e3e567831f132b26a095804ee41ec3385",
       "size": 9808,
       "added": "2026-10-23",
@@ -1642,7 +1642,7 @@
     {
       "id": "gap_5_lfallen_5_lv4",
       "category": "gap",
-      "name": "⌡5⌡lFallen ⌡5⌡lV4",
+      "name": "Fallen v4",
       "sha256": "a272e31d82a0a515d2a6b3ee88c0de6880b65431d6563534a54d4b9347213786",
       "size": 784,
       "added": "2026-10-23",
@@ -1652,7 +1652,7 @@
     {
       "id": "gap_d_l_lavendar_cpvp_zip",
       "category": "gap",
-      "name": "⌡d⌡l Lavendar cPvP.zip",
+      "name": "Lavender cPvP",
       "sha256": "4b3ead1e543d2d62548ef19b8b195beaae826e5741524551b4376ed417015dcc",
       "size": 1043,
       "added": "2026-10-23",
@@ -1832,7 +1832,7 @@
     {
       "id": "pearl_dpastelic_v3_7",
       "category": "pearl",
-      "name": "⌡dPastelic v3 ⌡7",
+      "name": "Pastelic v3",
       "sha256": "67c997f51c56d82010f5f768961aa287692bdde9a56122fc2cb1743fb3fbf694",
       "size": 3221,
       "added": "2026-10-23",
@@ -1862,7 +1862,7 @@
     {
       "id": "fire_5_mlavendervamp",
       "category": "fire",
-      "name": "⌡5⌡mLavenderVamp",
+      "name": "LavenderVamp",
       "sha256": "d4c0fbc1e486d77b75c1b19ba6cd52ee17a86e24cb718eec967824624e876d36",
       "size": 7870,
       "added": "2026-10-23",
@@ -1972,7 +1972,7 @@
     {
       "id": "inventory_d_l_a_c_e",
       "category": "inventory",
-      "name": "⌡d L a c e",
+      "name": "Lace",
       "sha256": "eff059f80415e93ce66e7211749e0bd4eac8dabf2578566fdac099753db575e8",
       "size": 153951,
       "added": "2026-10-23",
@@ -2002,7 +2002,7 @@
     {
       "id": "shield_b_ipasha_e_lpack",
       "category": "shield",
-      "name": "⌡b⌡IPasha⌡e⌡lPack",
+      "name": "IPasha Pack",
       "sha256": "5fa628d00adbeeed314172e1560728d0bf3863a9e87a69346a3df3009fad563c",
       "size": 924,
       "added": "2026-10-23",
@@ -3657,7 +3657,7 @@
     {
       "id": "mace_b_lsharpness_6_l_500k_final",
       "category": "mace",
-      "name": "§b§lSharpness §6§l[500K]FINAL",
+      "name": "Sharpness [500K] Final",
       "sha256": "12e07d4193e7a13ebdef1cf583e8d9f6fbea847dbb648f1fb2599487241e107e",
       "size": 4162,
       "added": "2026-10-07",
@@ -4749,7 +4749,8 @@
       "name": "Black White",
       "added": "2026-11-05",
       "size": 70790,
-      "sha256": "aa46afaf42c2c34b7b8ec662dfeecca1b79b2c277adc101b6329e86bcade5fe5"
+      "sha256": "aa46afaf42c2c34b7b8ec662dfeecca1b79b2c277adc101b6329e86bcade5fe5",
+      "preview": "previews/inventory_black_white.png"
     },
     {
       "id": "inventory_pastelic",
@@ -4757,7 +4758,8 @@
       "name": "Pastelic",
       "added": "2026-11-05",
       "size": 559520,
-      "sha256": "c9ab2720b01a171fd004dbb14b9d0cdc0b08383e10182d1e319f543f7e817084"
+      "sha256": "c9ab2720b01a171fd004dbb14b9d0cdc0b08383e10182d1e319f543f7e817084",
+      "preview": "previews/inventory_pastelic.png"
     }
   ],
   "categories": [
