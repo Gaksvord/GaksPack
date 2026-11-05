@@ -22,6 +22,7 @@ import shutil
 import subprocess
 import sys
 import zipfile
+from sync_index import normalize_pack_meta
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 _PARENT = os.path.dirname(_HERE)
@@ -180,6 +181,7 @@ def publish(zip_path, preview_path=None, auto=None):
     pack_target = os.path.join(REPO_DIR, "packs", style_id + ".zip")
     if os.path.abspath(zip_path) != os.path.abspath(pack_target):
         shutil.copyfile(zip_path, pack_target)
+    normalize_pack_meta(pack_target)
     entry = {
         "id": style_id,
         "category": category,

@@ -8,6 +8,7 @@ import pathlib
 import re
 import struct
 import sys
+import os
 import zipfile
 import zlib
 
@@ -15,6 +16,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.json"
 MAX_PACK = 95 * 1024 * 1024
 MAX_PREVIEW = 2 * 1024 * 1024
+PACK_DESCRIPTION = "GaksPack textures - by gaksvord"
 ID = re.compile(r"^[a-z][a-z0-9]{1,15}_[a-z0-9_]{1,40}$")
 PNG = b"\x89PNG\r\n\x1a\n"
 DEFAULT_CATEGORIES = {"crystal", "anchor", "armor", "fire", "sky", "obsidian", "sword", "pickaxe", "glowstone", "gap", "pearl", "hotbar", "axe", "totem", "stone", "deepslate", "snow", "inventory", "shield", "elytra", "trident", "mace", "windcharge", "spear", "cobweb", "tntcart", "rails", "xpbottle"}
@@ -26,6 +28,45 @@ def digest(path):
         for block in iter(lambda: stream.read(1024 * 1024), b""):
             h.update(block)
     return h.hexdigest()
+
+
+def pack_description(path):
+    with zipfile.ZipFile(path) as archive:
+        if "pack.mcmeta" not in archive.namelist():
+            return None
+        try:
+            return json.loads(archive.read("pack.mcmeta"))["pack"]["description"]
+        except (UnicodeDecodeError, json.JSONDecodeError, KeyError, TypeError):
+            return None
+
+
+def normalize_pack_meta(path):
+    """Replace only the root pack description, preserving the other ZIP entries."""
+    temporary = path.with_suffix(".zip.tmp")
+    try:
+        with zipfile.ZipFile(path) as source, zipfile.ZipFile(temporary, "w") as target:
+            target.comment = source.comment
+            entries = source.infolist()
+            original = next((item for item in entries if item.filename == "pack.mcmeta"), None)
+            try:
+                metadata = json.loads(source.read(original).decode("utf-8-sig")) if original else {}
+            except (UnicodeDecodeError, json.JSONDecodeError):
+                metadata = {}
+            if not isinstance(metadata, dict):
+                metadata = {}
+            pack = metadata.get("pack")
+            if not isinstance(pack, dict):
+                pack = {"pack_format": 75, "min_format": 65, "max_format": 9999}
+            pack["description"] = PACK_DESCRIPTION
+            metadata["pack"] = pack
+            replacement = (json.dumps(metadata, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+            for item in entries:
+                target.writestr(item, replacement if item.filename == "pack.mcmeta" else source.read(item))
+            if original is None:
+                target.writestr("pack.mcmeta", replacement, compress_type=zipfile.ZIP_DEFLATED)
+        os.replace(temporary, path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def verify_pack(path):
@@ -85,6 +126,10 @@ def main(write):
             if category is None:
                 raise ValueError(f"Unknown category in filename: {pack.name}")
             entry = {"id": style_id, "category": category, "name": style_id[len(category) + 1:].replace("_", " ").title(), "added": dt.date.today().isoformat()}
+        current_sha = digest(pack)
+        description = pack_description(pack)
+        if write and (style_id not in old or current_sha != old[style_id].get("sha256") or (isinstance(description, str) and "bauloo" in description.lower())):
+            normalize_pack_meta(pack)
         size, sha = verify_pack(pack)
         entry["size"] = size
         entry["sha256"] = sha
