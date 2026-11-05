@@ -1980,16 +1980,6 @@
       "preview": "previews/inventory_d_l_a_c_e.png"
     },
     {
-      "id": "inventory_asd",
-      "category": "inventory",
-      "name": "asd",
-      "sha256": "67d4c34ff909321e1dd89123de192c5f099bc66dfa3137012447f1d90b587ba8",
-      "size": 2481,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/inventory_asd.png"
-    },
-    {
       "id": "inventory_124",
       "category": "inventory",
       "name": "124",
@@ -4760,6 +4750,14 @@
       "size": 559520,
       "sha256": "c9ab2720b01a171fd004dbb14b9d0cdc0b08383e10182d1e319f543f7e817084",
       "preview": "previews/inventory_pastelic.png"
+    },
+    {
+      "id": "inventory_glass",
+      "category": "inventory",
+      "name": "Glass",
+      "added": "2026-11-05",
+      "size": 2501,
+      "sha256": "3801c3c01a3a4982db5fcef09b5abd1b25e4709b5760113c69921c73289e3f13"
     }
   ],
   "categories": [
