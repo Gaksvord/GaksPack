@@ -160,18 +160,32 @@ export default {
         const id = Number(metric[1]);
         const preset = await env.DATA.get(`preset:${id}`, "json");
         if (!preset) return json({ message: "Preset not found" }, 404);
+        if (preset.owner?.toLowerCase() === user.nick.toLowerCase()) {
+          return json({ likes: preset.likes || 0, applications: preset.applications || 0, liked: false, counted: false, message: "You cannot rate or count your own preset" });
+        }
         if (metric[2] === "like") {
           const voteKey = `like:${id}:${user.nick.toLowerCase()}`;
-          if (!await env.DATA.get(voteKey)) {
+          if (await env.DATA.get(voteKey)) {
+            await env.DATA.delete(voteKey);
+            preset.likes = Math.max(0, (preset.likes || 0) - 1);
+            await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
+          } else {
             await env.DATA.put(voteKey, "1");
             preset.likes = (preset.likes || 0) + 1;
             await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
           }
         } else {
-          preset.applications = (preset.applications || 0) + 1;
-          await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
+          const appliedKey = `apply:${id}:${user.nick.toLowerCase()}`;
+          if (!await env.DATA.get(appliedKey)) {
+            await env.DATA.put(appliedKey, "1");
+            preset.applications = (preset.applications || 0) + 1;
+            await env.DATA.put(`preset:${id}`, JSON.stringify(preset));
+            return json({ likes: preset.likes || 0, applications: preset.applications, counted: true });
+          }
+          return json({ likes: preset.likes || 0, applications: preset.applications || 0, counted: false });
         }
-        return json({ likes: preset.likes || 0, applications: preset.applications || 0 });
+        return json({ likes: preset.likes || 0, applications: preset.applications || 0,
+          liked: !!await env.DATA.get(`like:${id}:${user.nick.toLowerCase()}`) });
       }
       if (path === "/presets" && request.method === "DELETE") {
         const body = await readBody(request);

@@ -63,23 +63,28 @@ test('rejects malformed preset requests without a server error', async () => {
   assert.equal((await call('/presets', 'POST', ' '.repeat(65537), auth)).status, 413);
 });
 
-test('one device likes once while applications count each use', async () => {
+test('likes toggle and applications count once per account, excluding the author', async () => {
   const auth = await register('GaksTestTwo');
+  const voter = await register('GaksVoter');
   const preset = { name: 'Votes', author: 'Gaksvord', device, styles: {}, local: {}, extras: {} };
   const { id } = await (await call('/presets', 'POST', JSON.stringify(preset), auth)).json();
   const vote = JSON.stringify({ device: 'b'.repeat(64) });
-  await call(`/presets/${id}/like`, 'POST', vote, auth);
-  await call(`/presets/${id}/like`, 'POST', vote, auth);
-  await call(`/presets/${id}/apply`, 'POST', vote, auth);
-  await call(`/presets/${id}/apply`, 'POST', vote, auth);
+  assert.equal((await (await call(`/presets/${id}/like`, 'POST', vote, auth)).json()).counted, false);
+  assert.equal((await (await call(`/presets/${id}/apply`, 'POST', vote, auth)).json()).counted, false);
+  assert.equal((await (await call(`/presets/${id}/like`, 'POST', vote, voter)).json()).liked, true);
+  assert.equal((await (await call(`/presets/${id}/apply`, 'POST', vote, voter)).json()).counted, true);
+  assert.equal((await (await call(`/presets/${id}/apply`, 'POST', vote, voter)).json()).counted, false);
   const guest = await (await call(`/presets/${id}/apply`, 'POST', vote)).json();
   assert.equal(guest.counted, false);
-  const list = await (await call('/presets?device=' + 'b'.repeat(64), 'GET', undefined, auth)).json();
+  const list = await (await call('/presets?device=' + 'b'.repeat(64), 'GET', undefined, voter)).json();
   const result = list.presets.find(p => p.id === id);
   assert.equal(result.likes, 1);
-  assert.equal(result.applications, 2);
+  assert.equal(result.applications, 1);
   assert.equal(result.liked, true);
   assert.ok(result.createdAt > 0);
+  assert.equal((await (await call(`/presets/${id}/like`, 'POST', vote, voter)).json()).liked, false);
+  const after = await (await call('/presets?device=' + 'b'.repeat(64), 'GET', undefined, voter)).json();
+  assert.equal(after.presets.find(p => p.id === id).likes, 0);
   await call('/presets', 'DELETE', JSON.stringify({ id, device }), auth);
 });
 
