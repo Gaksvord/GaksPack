@@ -17,7 +17,10 @@ INDEX = ROOT / "index.json"
 MAX_PACK = 95 * 1024 * 1024
 MAX_PREVIEW = 2 * 1024 * 1024
 PACK_DESCRIPTION = "GaksPack textures - by gaksvord"
-ID = re.compile(r"^[a-z][a-z0-9]{1,15}_[a-z0-9_]{1,40}$")
+ID = re.compile(r"^[a-z][a-z0-9_]{1,31}_[a-z0-9_]{1,40}$")
+MOB_PACK = re.compile(r"^mob_([a-z0-9_]{2,25})__([a-z0-9_]{1,40})$")
+EXCLUDED_MOBS = {"silverfish", "phantom"}
+ENTITY_PREFIX = "assets/minecraft/textures/entity/"
 PNG = b"\x89PNG\r\n\x1a\n"
 DEFAULT_CATEGORIES = {"crystal", "anchor", "armor", "fire", "sky", "obsidian", "sword", "pickaxe", "glowstone", "gap", "pearl", "hotbar", "axe", "totem", "stone", "deepslate", "snow", "inventory", "shield", "elytra", "trident", "mace", "windcharge", "spear", "cobweb", "tntcart", "rails", "xpbottle"}
 
@@ -77,11 +80,87 @@ def verify_pack(path):
         names = archive.namelist()
         if not any(name.replace("\\", "/").startswith("assets/") for name in names):
             raise ValueError(f"{path.name}: missing assets/ folder")
+        if MOB_PACK.fullmatch(path.stem):
+            mob_files(archive, path.name)
         if archive.testzip() is not None:
             raise ValueError(f"{path.name}: corrupt ZIP member")
         if sum(item.file_size for item in archive.infolist()) > 400 * 1024 * 1024:
             raise ValueError(f"{path.name}: unpacked size exceeds 400 MiB")
     return size, digest(path)
+
+
+def mob_files(archive, name):
+    files = set()
+    for member in archive.namelist():
+        path = member.replace("\\", "/").lower()
+        if not path.startswith(ENTITY_PREFIX) or not path.endswith(".png") or ".." in path:
+            continue
+        relative = path[len(ENTITY_PREFIX):]
+        if any(re.match(rf"^{mob}(?:_|$)", part) for mob in EXCLUDED_MOBS for part in relative.removesuffix(".png").split("/")):
+            raise ValueError(f"{name}: silverfish and phantom textures are not allowed")
+        files.add(relative)
+    if not files:
+        raise ValueError(f"{name}: no mob textures under {ENTITY_PREFIX}")
+    return files
+
+
+def mob_rules(files):
+    rules = []
+    group = []
+    for path in sorted(files):
+        escaped = re.escape(path)
+        candidate = group + [escaped]
+        pattern = f"^{ENTITY_PREFIX}({'|'.join(candidate)})$"
+        if len(f"^{ENTITY_PREFIX}({escaped})$") > 300:
+            raise ValueError(f"Mob texture path is too long: {path}")
+        if len(pattern) > 300 and group:
+            rules.append({"match": f"^{ENTITY_PREFIX}({'|'.join(group)})$", "to": ENTITY_PREFIX + "$1"})
+            group = [escaped]
+        else:
+            group = candidate
+    if group:
+        rules.append({"match": f"^{ENTITY_PREFIX}({'|'.join(group)})$", "to": ENTITY_PREFIX + "$1"})
+    if len(rules) > 32:
+        raise ValueError("Too many distinct mob texture paths (maximum 32 rule groups)")
+    return rules
+
+
+def add_mob_categories(index):
+    categories = index.setdefault("categories", [])
+    known = {entry["id"]: entry for entry in categories}
+    taken = {entry["slot"] for entry in categories if isinstance(entry.get("slot"), int)}
+    added = 0
+    mob_paths = {}
+    for pack in sorted((ROOT / "packs").glob("mob_*__*.zip")):
+        match = MOB_PACK.fullmatch(pack.stem)
+        if not match:
+            raise ValueError(f"Invalid mob pack name: {pack.name}; use mob_zombie__style.zip")
+        mob = match.group(1)
+        if mob in EXCLUDED_MOBS:
+            raise ValueError(f"{mob} is not available in GaksPack")
+        category = "mob_" + mob
+        with zipfile.ZipFile(pack) as archive:
+            mob_paths.setdefault(category, set()).update(mob_files(archive, pack.name))
+        if category in known:
+            continue
+        slot = next((number for number in range(11, 139) if number not in taken), None)
+        if slot is None:
+            raise ValueError("The mob list is full (128 types)")
+        definition = {
+            "id": category, "slot": slot, "name": mob.replace("_", " ").title(),
+            "icon": f"minecraft:{mob}_spawn_egg",
+            "autoMob": True
+        }
+        categories.append(definition)
+        known[category] = definition
+        taken.add(slot)
+        added += 1
+    for category, paths in mob_paths.items():
+        definition = known[category]
+        if definition.get("autoMob"):
+            definition["files"] = mob_rules(paths)
+            definition["preview"] = {"type": "item", "texture": ENTITY_PREFIX + sorted(paths)[0]}
+    return added
 
 
 
@@ -111,6 +190,8 @@ def verify_preview(path):
 
 def main(write):
     index = json.loads(INDEX.read_text(encoding="utf-8"))
+    categories_before = json.dumps(index.get("categories", []), sort_keys=True)
+    added_mobs = add_mob_categories(index)
     old = {entry["id"]: entry for entry in index["styles"]}
     categories = DEFAULT_CATEGORIES | {entry["category"] for entry in old.values()}
     categories |= {item["id"] for key in ("categories", "adminCategories") for item in index.get(key, []) if isinstance(item, dict) and isinstance(item.get("id"), str)}
@@ -142,7 +223,7 @@ def main(write):
         results[style_id] = entry
     updated = [results[entry["id"]] for entry in index["styles"] if entry["id"] in results]
     updated.extend(results[key] for key in sorted(results.keys() - old.keys()))
-    changed = updated != index["styles"]
+    changed = updated != index["styles"] or added_mobs > 0 or categories_before != json.dumps(index.get("categories", []), sort_keys=True)
     added = len(results.keys() - old.keys())
     removed = len(old.keys() - results.keys())
     index["styles"] = updated
