@@ -88,12 +88,12 @@ test('publishing and voting require login', async () => {
   assert.equal((await call('/presets', 'POST', JSON.stringify(preset))).status, 401);
   assert.equal((await call('/presets/1/like', 'POST', '{}')).status, 401);
   assert.equal((await call('/auth/register', 'POST', JSON.stringify({ nick: 'Ник', password: 'x' }))).status, 400);
-  assert.equal((await call('/auth/login', 'POST', JSON.stringify({ nick: 'GaksTestOne', password: 'wrong' }))).status, 401);
+  assert.equal((await call('/auth/login', 'POST', JSON.stringify({ nick: 'GaksTestOne', password: 'wrong', device }))).status, 401);
 });
 
 test('account can sign in again and logout revokes the session', async () => {
   const auth = await register('A1');
-  const login = await call('/auth/login', 'POST', JSON.stringify({ nick: 'a1', password: 'пароль с пробелами 123' }));
+  const login = await call('/auth/login', 'POST', JSON.stringify({ nick: 'a1', password: 'пароль с пробелами 123', device: auth.device }));
   assert.equal(login.status, 200);
   const second = { authorization: `Bearer ${(await login.json()).token}` };
   assert.equal((await call('/auth/me', 'GET', undefined, second)).status, 200);
@@ -101,4 +101,23 @@ test('account can sign in again and logout revokes the session', async () => {
   assert.equal((await call('/auth/me', 'GET', undefined, auth)).status, 401);
   assert.equal((await call('/auth/me', 'GET', undefined, second)).status, 200);
   assert.equal((await call('/auth/register', 'POST', JSON.stringify({ nick: 'A2', password: 'other', device: auth.device }))).status, 429);
+});
+
+test('three wrong passwords escalate 3, 5, 10, 20, 40, 60 minutes and correct login resets', async () => {
+  const auth = await register('LockProbe');
+  const key = `authlock:${auth.device}`;
+  const bad = JSON.stringify({ nick: 'LockProbe', password: 'wrong', device: auth.device });
+  for (const minutes of [3, 5, 10, 20, 40, 60, 60]) {
+    assert.equal((await call('/auth/login', 'POST', bad)).status, 401);
+    assert.equal((await call('/auth/login', 'POST', bad)).status, 401);
+    const locked = await call('/auth/login', 'POST', bad);
+    assert.equal(locked.status, 429);
+    assert.equal((await locked.json()).retryAfter, minutes * 60);
+    const state = JSON.parse(data.get(key));
+    state.until = Date.now() - 1;
+    data.set(key, JSON.stringify(state));
+  }
+  const good = await call('/auth/login', 'POST', JSON.stringify({ nick: 'LockProbe', password: 'пароль с пробелами 123', device: auth.device }));
+  assert.equal(good.status, 200);
+  assert.equal(data.has(key), false);
 });

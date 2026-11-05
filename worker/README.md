@@ -6,6 +6,8 @@ Publishing and liking require a GaksPack account. Usernames contain 1–20 Latin
 
 Registration is limited to one account per game installation every five minutes. Each account can publish one preset every ten minutes; removing a preset does not reset this timer.
 
+For each game installation, three incorrect passwords lock login for 3, then 5, 10, 20, 40 and 60 minutes. Later blocks stay at 60 minutes. A successful login after the block expires resets the sequence.
+
 Deploy updates from this directory:
 
 1. Run `npx wrangler login --device` and complete the Cloudflare login in your browser.

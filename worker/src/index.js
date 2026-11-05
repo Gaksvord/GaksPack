@@ -93,13 +93,26 @@ export default {
       }
       if (path === "/auth/login" && request.method === "POST") {
         const body = await readBody(request, 4096);
-        if (!NICK.test(body.nick || "") || typeof body.password !== "string") return json({ message: "Invalid username or password" }, 400);
-        const attemptKey = `authfail:${(request.headers.get("cf-connecting-ip") || "local").slice(0, 64)}:${body.nick.toLowerCase()}`;
-        const attempts = Number(await env.DATA.get(attemptKey) || 0);
-        if (attempts >= 8) return json({ message: "Too many login attempts" }, 429);
+        if (!NICK.test(body.nick || "") || !DEVICE.test(body.device || "") || typeof body.password !== "string") return json({ message: "Invalid username or password" }, 400);
+        const attemptKey = `authlock:${body.device}`;
+        const state = await env.DATA.get(attemptKey, "json") || { failures: 0, level: 0, until: 0 };
+        const now = Date.now();
+        if (state.until > now) {
+          const minutes = Math.ceil((state.until - now) / 60000);
+          return json({ message: `Wait ${minutes} minutes before trying password again`, retryAfter: Math.ceil((state.until - now) / 1000) }, 429);
+        }
         const user = await env.DATA.get(`user:${body.nick.toLowerCase()}`, "json");
         if (!user || user.hash !== await passwordHash(body.password, user.salt)) {
-          await env.DATA.put(attemptKey, String(attempts + 1), { expirationTtl: 600 });
+          state.failures = (state.failures || 0) + 1;
+          if (state.failures >= 3) {
+            const minutes = [3, 5, 10, 20, 40, 60][Math.min(state.level || 0, 5)];
+            state.until = now + minutes * 60000;
+            state.level = Math.min((state.level || 0) + 1, 5);
+            state.failures = 0;
+            await env.DATA.put(attemptKey, JSON.stringify(state), { expirationTtl: 2592000 });
+            return json({ message: `Wait ${minutes} minutes before trying password again`, retryAfter: minutes * 60 }, 429);
+          }
+          await env.DATA.put(attemptKey, JSON.stringify(state), { expirationTtl: 2592000 });
           return json({ message: "Invalid username or password" }, 401);
         }
         await env.DATA.delete(attemptKey);
