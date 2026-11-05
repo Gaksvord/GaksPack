@@ -1970,16 +1970,6 @@
       "preview": "previews/deepslate_veroxsibbi.png"
     },
     {
-      "id": "inventory_l_0black_l_f_lwhite",
-      "category": "inventory",
-      "name": "⌡l⌡0BLACK ⌡l& ⌡f⌡lWHITE",
-      "sha256": "620625a620c21c981d3357d9d620bd84f7e4c60c38766e8790263a91e6c696ab",
-      "size": 71877,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/inventory_l_0black_l_f_lwhite.png"
-    },
-    {
       "id": "inventory_dpastelic_v3_7",
       "category": "inventory",
       "name": "⌡dPastelic v3 ⌡7",
@@ -4762,6 +4752,14 @@
       "size": 4025,
       "sha256": "eec27f5985b3dbb4b00ba859d451d6a54f7832c7d2e63e9c459bba0b1fc6c9e2",
       "preview": "previews/tntcart_mexgrey.png"
+    },
+    {
+      "id": "inventory_black_white",
+      "category": "inventory",
+      "name": "Black White",
+      "added": "2026-11-05",
+      "size": 70790,
+      "sha256": "aa46afaf42c2c34b7b8ec662dfeecca1b79b2c277adc101b6329e86bcade5fe5"
     }
   ],
   "categories": [
