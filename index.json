@@ -5750,6 +5750,606 @@
       "added": "2026-11-05",
       "size": 6797,
       "sha256": "eb280e52e55c44a698099e380ac750b421fc3990c10eb1623e6be418239e5e39"
+    },
+    {
+      "id": "mob_allay__recrafted_mobs",
+      "category": "mob_allay",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 7023,
+      "sha256": "774298f2acd35ae124a85d6e0234a76864829f02ed072d9b26bda4909b28f528"
+    },
+    {
+      "id": "mob_bee__recrafted_mobs",
+      "category": "mob_bee",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 8832,
+      "sha256": "02ac23e293af5783dd4a3d79cd5759a7516b4e185867c8ed58056cf7e3b11ffe"
+    },
+    {
+      "id": "mob_blaze__mobs_refreshed",
+      "category": "mob_blaze",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 2727,
+      "sha256": "bd5c35af3b42e8b8e1be4c3cb265742dd26e13c96377a000987b5557ba76a017"
+    },
+    {
+      "id": "mob_blaze__recrafted_mobs",
+      "category": "mob_blaze",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3797,
+      "sha256": "920742a38149e6058797e093a7033f2f8d05d662f808c8c881920593752e1075"
+    },
+    {
+      "id": "mob_bogged__mobs_refreshed",
+      "category": "mob_bogged",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4446,
+      "sha256": "b59c47676c63700ee1792ec85ba6a7580fd046906afedcda7ef5a0d2a17522cb"
+    },
+    {
+      "id": "mob_breeze__mobs_refreshed",
+      "category": "mob_breeze",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4027,
+      "sha256": "52b82cfa8b151756a223d4361bfd4eee0d8497ec2862586324410c558b878da1"
+    },
+    {
+      "id": "mob_cat__recrafted_mobs",
+      "category": "mob_cat",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2483,
+      "sha256": "a4a36c22199ab0839fbe3c98700d42709787c6380701ee529b8dac5273e84985"
+    },
+    {
+      "id": "mob_cave_spider__mobs_refreshed",
+      "category": "mob_cave_spider",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3198,
+      "sha256": "39c65f07eacf9ec984a8d61cb53a2521c52af60ecb8f04371da8761ad05cc568"
+    },
+    {
+      "id": "mob_chicken__recrafted_mobs",
+      "category": "mob_chicken",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2952,
+      "sha256": "68a4010f637babc951f16f055201a547163dcafe103085ebee11a507cd1a31a2"
+    },
+    {
+      "id": "mob_cow__recrafted_mobs",
+      "category": "mob_cow",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3226,
+      "sha256": "b4205163a07c7724cd33cad83a7e82166be33f934582ca59a6c65d6af7fb2a41"
+    },
+    {
+      "id": "mob_creaking__mobs_refreshed",
+      "category": "mob_creaking",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 6018,
+      "sha256": "09d8307c8d1515944d47810bb996695f32dcf90bd1f1785b3f3fe5917925b49b"
+    },
+    {
+      "id": "mob_creaking__recrafted_mobs",
+      "category": "mob_creaking",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4044,
+      "sha256": "3cd6207d887b595005ac046b276394d1fc0c07fc4e80bab8a19c554b601c2ef0"
+    },
+    {
+      "id": "mob_creeper__mobs_refreshed",
+      "category": "mob_creeper",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 5222,
+      "sha256": "572781ad5dec2d8b2270d215b3c1c7378e89aba2071a1bb0e525f27a77cd340c"
+    },
+    {
+      "id": "mob_creeper__recrafted_mobs",
+      "category": "mob_creeper",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 15526,
+      "sha256": "d0f990bd95e52e4f146f44083118bc5401f7756b5f4cb9b8fa357ca13138bfeb"
+    },
+    {
+      "id": "mob_drowned__mobs_refreshed",
+      "category": "mob_drowned",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3526,
+      "sha256": "a429a4d49b4a06a46560b3ff3820e00fa180ea0f88ddfa20cd641dbc8e8d0c8a"
+    },
+    {
+      "id": "mob_drowned__recrafted_mobs",
+      "category": "mob_drowned",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 7358,
+      "sha256": "25ae2ba8aa2f8d4919d4041a61a1d0bbff77f45d9c6d1fbec51708ccae850a06"
+    },
+    {
+      "id": "mob_elder_guardian__recrafted_mobs",
+      "category": "mob_elder_guardian",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 74221,
+      "sha256": "b294b1283adccd139bb58c1cb6a49c6047aa7d4ffebbc2ab9938892c890285fe"
+    },
+    {
+      "id": "mob_enderman__mobs_refreshed",
+      "category": "mob_enderman",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 2924,
+      "sha256": "d8df2b31808ae20f2398f45b67902711a6d984934109c4f004bd49a8a6b09c6b"
+    },
+    {
+      "id": "mob_enderman__recrafted_mobs",
+      "category": "mob_enderman",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3004,
+      "sha256": "8ad2036d8f12d8f9caa4fa334c35d045e7c4e9967774dceee391884c3e2d7e07"
+    },
+    {
+      "id": "mob_endermite__mobs_refreshed",
+      "category": "mob_endermite",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 1635,
+      "sha256": "5e78edc31804cb6df67cb0a6b91b8247a59b1e3f82652e3af29500af21594778"
+    },
+    {
+      "id": "mob_endermite__recrafted_mobs",
+      "category": "mob_endermite",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3918,
+      "sha256": "55e07c1a1246f57945ddc584411e094007084e693ea1b1a19d2d7f3f237e649b"
+    },
+    {
+      "id": "mob_evoker__recrafted_mobs",
+      "category": "mob_evoker",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4351,
+      "sha256": "a7ab9e307dc8dd9d5776bd81b699cb367499556af9dad2d2a6c75991727ddb50"
+    },
+    {
+      "id": "mob_fox__recrafted_mobs",
+      "category": "mob_fox",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3989,
+      "sha256": "2c65de9cdabfdd633fd4528b9fa4e8db95764e00a9e3d98dbf2d6a2760b8e8dc"
+    },
+    {
+      "id": "mob_frog__recrafted_mobs",
+      "category": "mob_frog",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2756,
+      "sha256": "eca89897533b018042c844ac461b27c52a3441ef037815e7e4b94490ebd6b6fa"
+    },
+    {
+      "id": "mob_ghast__mobs_refreshed",
+      "category": "mob_ghast",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 6478,
+      "sha256": "a724d18de5f5a2a458fbaa1b6f515768fea7557d9a7510f2d5c57b3dd6385672"
+    },
+    {
+      "id": "mob_ghast__recrafted_mobs",
+      "category": "mob_ghast",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 8597,
+      "sha256": "614a88ce44222fc3815888651d00a1cecb3ed095860c41d3044321dc57868234"
+    },
+    {
+      "id": "mob_giant__recrafted_mobs",
+      "category": "mob_giant",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3596,
+      "sha256": "d6f4bdcb02c17b0ae2d373b4d106af082cf0ead622ffff6555d13614d865acb3"
+    },
+    {
+      "id": "mob_glow_squid__recrafted_mobs",
+      "category": "mob_glow_squid",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 1894,
+      "sha256": "574333ba211722aa55403a22fdae3322f2c4b53ec7bd522671d0d3255fa30cc6"
+    },
+    {
+      "id": "mob_guardian__mobs_refreshed",
+      "category": "mob_guardian",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 5747,
+      "sha256": "76802ceb201036c3a9e4ca0b27c1566d5cb31f9e421d1a14bdf22a64d0afc78b"
+    },
+    {
+      "id": "mob_happy_ghast__mobs_refreshed",
+      "category": "mob_happy_ghast",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4343,
+      "sha256": "e49d7a61fc2402174a40eaaf9d0b4a6a9b5921e85962b1eba5a7148e0ece3fd5"
+    },
+    {
+      "id": "mob_hoglin__mobs_refreshed",
+      "category": "mob_hoglin",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 5234,
+      "sha256": "ecdff9db351859ab162b11b5a698c6d234054e67eab6bd37ad2a6c1ce042f65d"
+    },
+    {
+      "id": "mob_horse__recrafted_mobs",
+      "category": "mob_horse",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6024,
+      "sha256": "2289a8ec5f993a85974eba595e9cfd2ba9001c07651224c7aa809fcc87c6dea4"
+    },
+    {
+      "id": "mob_husk__mobs_refreshed",
+      "category": "mob_husk",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3001,
+      "sha256": "9deaf0477f85df948c1e66310684891b8e7481b3acef856302a4e9322d167020"
+    },
+    {
+      "id": "mob_husk__recrafted_mobs",
+      "category": "mob_husk",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2980,
+      "sha256": "6f291818aa4a1ac57bda01b8a17c142859365432ff77c3e4c83a3b0181618cf5"
+    },
+    {
+      "id": "mob_illusioner__recrafted_mobs",
+      "category": "mob_illusioner",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3167,
+      "sha256": "e4dbf8ee8d1a1dc941cfcb39bc12cdd7802f6b7957ce0705543992873fe2e8a4"
+    },
+    {
+      "id": "mob_iron_golem__recrafted_mobs",
+      "category": "mob_iron_golem",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 7250,
+      "sha256": "d1ca3e9ee8bb6cc17c1dfdfda79f6e279fb9bb7f82a999f5b7d552ea2e649c13"
+    },
+    {
+      "id": "mob_llama__recrafted_mobs",
+      "category": "mob_llama",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6327,
+      "sha256": "60f81f7707038007a235e019199165f88c10f12a3dd560a0479b775e46dbd750"
+    },
+    {
+      "id": "mob_magma_cube__mobs_refreshed",
+      "category": "mob_magma_cube",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 1415,
+      "sha256": "3d0a33efdcaf267e6efef9a0a8664e83a20f88d615d15db7442b93e95c2391db"
+    },
+    {
+      "id": "mob_parrot__recrafted_mobs",
+      "category": "mob_parrot",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2596,
+      "sha256": "578e04a5f5021f626c8c9cc8fb95623fc2ff5adfbc164c9ce94bf916bc9902d8"
+    },
+    {
+      "id": "mob_pig__recrafted_mobs",
+      "category": "mob_pig",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3753,
+      "sha256": "461b88fc9699a960cf260f835f422a562eaabbf59900142f65c82aa3d139ee8e"
+    },
+    {
+      "id": "mob_piglin__mobs_refreshed",
+      "category": "mob_piglin",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4853,
+      "sha256": "f5b200df204b582b82c9ec4441ba9797d6dac9162fbf4e61a68f702400fb881f"
+    },
+    {
+      "id": "mob_piglin__recrafted_mobs",
+      "category": "mob_piglin",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4896,
+      "sha256": "ec9c92e807a81abeab46a68b330996fd712dbbfe9493bffd34e0cffc6c41da7c"
+    },
+    {
+      "id": "mob_piglin_brute__mobs_refreshed",
+      "category": "mob_piglin_brute",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4163,
+      "sha256": "8e0e65f3029918b7af891b00126480cced1beb3a4fd3ee780a47b5428adb03b8"
+    },
+    {
+      "id": "mob_piglin_brute__recrafted_mobs",
+      "category": "mob_piglin_brute",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 5623,
+      "sha256": "ae323d888db0a9156adcc38e40b1ce67b47d07957a140b5f41351cfc8cc7b687"
+    },
+    {
+      "id": "mob_pillager__recrafted_mobs",
+      "category": "mob_pillager",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6604,
+      "sha256": "08f77399f556dfa86866b66e4e8b30ba1ad791f30b1ecf243f265bb71f8ac850"
+    },
+    {
+      "id": "mob_rabbit__recrafted_mobs",
+      "category": "mob_rabbit",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3652,
+      "sha256": "b5ae8f66b5008c2c1eea26ddc94ab2777e7e76756d4b5c4172fbd89438fe3f18"
+    },
+    {
+      "id": "mob_ravager__recrafted_mobs",
+      "category": "mob_ravager",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 19271,
+      "sha256": "5ae0f7d5e42972266a23be892c53d845e773df83c83d1962932f9ee930d54758"
+    },
+    {
+      "id": "mob_salmon__recrafted_mobs",
+      "category": "mob_salmon",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6988,
+      "sha256": "552015836587c7fd1a2eb938e8ee3df5bccee4d8593ff681ef43e33819d6064f"
+    },
+    {
+      "id": "mob_sheep__recrafted_mobs",
+      "category": "mob_sheep",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 5675,
+      "sha256": "3941f8e67fc064b7fee44aaeb2b7549b2fd60ee7220371682ba513be6aef8ed5"
+    },
+    {
+      "id": "mob_shulker__mobs_refreshed",
+      "category": "mob_shulker",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 30242,
+      "sha256": "588d9ab850c502cf3713688dc2116e421061d1dc1430ad1a1d7cc1db6cd00f4e"
+    },
+    {
+      "id": "mob_skeleton__mobs_refreshed",
+      "category": "mob_skeleton",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3261,
+      "sha256": "3a5720919425edb856b2e6b6296fd838d7bd7be1a63b5abdc51618fade505893"
+    },
+    {
+      "id": "mob_skeleton__recrafted_mobs",
+      "category": "mob_skeleton",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4518,
+      "sha256": "62a1f402e915eaaa32a0dacb2743076a9c3dce17f4f2e0d7e8c3adcbfa5b7fd9"
+    },
+    {
+      "id": "mob_slime__mobs_refreshed",
+      "category": "mob_slime",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3591,
+      "sha256": "f6c26036fd10c23f3255f2b5def29f24ddae80f830728cad268843e6f11bdbfd"
+    },
+    {
+      "id": "mob_slime__recrafted_mobs",
+      "category": "mob_slime",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4161,
+      "sha256": "611cd47e5a0801dd6e49fc6c4309d3e8d97ba38f0b60e9f768d8faaca6fb2fc9"
+    },
+    {
+      "id": "mob_snow_golem__recrafted_mobs",
+      "category": "mob_snow_golem",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 1892,
+      "sha256": "f759d2820634fc7cb4f97ca56bd4524cb336748cb7b000d2a15efb3f17bdb8a8"
+    },
+    {
+      "id": "mob_spider__mobs_refreshed",
+      "category": "mob_spider",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3499,
+      "sha256": "f0b630044a61b60715e1849b5ac7443884ac61dd31029778eff494fe1f92e5b2"
+    },
+    {
+      "id": "mob_spider__recrafted_mobs",
+      "category": "mob_spider",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 2508,
+      "sha256": "223313468c03cfe7847eb9397783d17da0262c2f15710ef3f9fb8f86adc3062c"
+    },
+    {
+      "id": "mob_squid__recrafted_mobs",
+      "category": "mob_squid",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3278,
+      "sha256": "c509e5eed5a9352f1607dd3ef11510c571ba5766c5729fccaaa55196da10c0d1"
+    },
+    {
+      "id": "mob_stray__mobs_refreshed",
+      "category": "mob_stray",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4500,
+      "sha256": "38a3265c754d4111f647a73356e1b0f189c6e23c9cc36e2fbe89d2375756c1c9"
+    },
+    {
+      "id": "mob_stray__recrafted_mobs",
+      "category": "mob_stray",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4581,
+      "sha256": "a45068574f9d785a391290ed5c1e090e509e676974f34fa0e7ce7d444b7f9f91"
+    },
+    {
+      "id": "mob_strider__mobs_refreshed",
+      "category": "mob_strider",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 5513,
+      "sha256": "b990bef209637f0518cb29fa95c4e08e457c38f26021fa8150ce3675a5504b3a"
+    },
+    {
+      "id": "mob_villager__recrafted_mobs",
+      "category": "mob_villager",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4308,
+      "sha256": "95c07d8a4bc71c342512d7a4c26303780ee042f6ceec3fd6dad3e9a88931faf0"
+    },
+    {
+      "id": "mob_vindicator__recrafted_mobs",
+      "category": "mob_vindicator",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6505,
+      "sha256": "f8d526d109614b8d0f930f19760c680ffbc0d21834f2a1b7b66ac867e99c189e"
+    },
+    {
+      "id": "mob_wandering_trader__recrafted_mobs",
+      "category": "mob_wandering_trader",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 4609,
+      "sha256": "0a419de5587d6d06a9e332288370acbca77d5c3e7e7f1551bfd720186fd88686"
+    },
+    {
+      "id": "mob_warden__recrafted_mobs",
+      "category": "mob_warden",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 38442,
+      "sha256": "ff284bfe883ad303f426cb9aaf3007db40f7e265e4ae44d75f9eb7693cd6a908"
+    },
+    {
+      "id": "mob_witch__mobs_refreshed",
+      "category": "mob_witch",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 6195,
+      "sha256": "58827826a37d682d38a47cca64c32bee5b3ca68242fa0cee38af3aadb76886c1"
+    },
+    {
+      "id": "mob_witch__recrafted_mobs",
+      "category": "mob_witch",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6154,
+      "sha256": "3ded6f58eb797485703b9d5ca8943c9debdc441dedc11fbcc286d6c0dc3b56a9"
+    },
+    {
+      "id": "mob_wither__recrafted_mobs",
+      "category": "mob_wither",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3564,
+      "sha256": "9763f43c049a1e71d7aecfed89f8816e3f29cae9ceb547a96386aa816b09b9e7"
+    },
+    {
+      "id": "mob_wither_skeleton__mobs_refreshed",
+      "category": "mob_wither_skeleton",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 3294,
+      "sha256": "ec2a668b897fe0815d57a9b83d8bc7244e4bfe8b38e0c30b0514655a586e73fb"
+    },
+    {
+      "id": "mob_wolf__recrafted_mobs",
+      "category": "mob_wolf",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 7506,
+      "sha256": "d38dc7dbf51ba257956eb196e95aae7c52b594685599c30867fc74a99b691c38"
+    },
+    {
+      "id": "mob_zoglin__mobs_refreshed",
+      "category": "mob_zoglin",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 6522,
+      "sha256": "d724ad0bd419c2aa5175ba85137309fac4d8c140b7eb8faf5634b770a7d704ad"
+    },
+    {
+      "id": "mob_zombie__mobs_refreshed",
+      "category": "mob_zombie",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 4295,
+      "sha256": "742cb69ecd85afaee1440309f3da535b175599d2b7efb7ec847b27392d8e1956"
+    },
+    {
+      "id": "mob_zombie__recrafted_mobs",
+      "category": "mob_zombie",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 3598,
+      "sha256": "17f0be73caf90fc16ea1bd5f24cda0a1aa5b1bdc4d45b14bdc9a31058919846d"
+    },
+    {
+      "id": "mob_zombified_piglin__mobs_refreshed",
+      "category": "mob_zombified_piglin",
+      "name": " Mobs Refreshed",
+      "added": "2026-11-05",
+      "size": 5371,
+      "sha256": "0357d62366d2fa07258b84ee25cdfe5c44afef5abf553518594773a655cee9db"
+    },
+    {
+      "id": "mob_zombified_piglin__recrafted_mobs",
+      "category": "mob_zombified_piglin",
+      "name": " Recrafted Mobs",
+      "added": "2026-11-05",
+      "size": 6521,
+      "sha256": "ab8fada8baa58fe6f7264fec73161a6a642542becba37b854e4f0072789f9618"
     }
   ],
   "categories": [
@@ -6017,7 +6617,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(allay/allay\\.png|allay/grayscale_allay\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(allay/allay\\.png|allay/grayscale_allay\\.png|allay/soul_wizard\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6102,7 +6702,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(blaze\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(blaze\\.png|blaze/wildfire\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6119,7 +6719,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(skeleton/bogged\\.png|skeleton/bogged_e\\.png|skeleton/bogged_overlay\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(skeleton/bogged\\.png|skeleton/bogged_e\\.png|skeleton/bogged_outer\\.png|skeleton/bogged_overlay\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6136,7 +6736,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(breeze/breeze\\.png|breeze/breeze_eyes\\.png|breeze/breeze_head\\.png|breeze/breeze_head_e\\.png|breeze/breeze_rods\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(breeze/breeze\\.png|breeze/breeze_eyes\\.png|breeze/breeze_head\\.png|breeze/breeze_head_e\\.png|breeze/breeze_rods\\.png|breeze/breeze_wind\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6170,7 +6770,11 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(cat/all_black\\.png|cat/black\\.png|cat/british_shorthair\\.png|cat/calico\\.png|cat/cat_collar\\.png|cat/cat_eyes\\.png|cat/cat_eyes_e\\.png|cat/jellie\\.png|cat/persian\\.png|cat/ragdoll\\.png|cat/red\\.png|cat/siamese\\.png|cat/tabby\\.png|cat/whiskers\\.png|cat/white\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(cat/all_black\\.png|cat/black\\.png|cat/british_shorthair\\.png|cat/calico\\.png|cat/cat_collar\\.png|cat/cat_eyes\\.png|cat/cat_eyes_e\\.png|cat/jellie\\.png|cat/meerkat\\.png|cat/persian\\.png|cat/ragdoll\\.png|cat/red\\.png|cat/siamese\\.png|cat/tabby\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(cat/whiskers\\.png|cat/white\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6204,7 +6808,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(chicken\\.png|chicken/cold_chicken\\.png|chicken/temperate_chicken\\.png|chicken/warm_chicken\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(chicken\\.png|chicken/cold_chicken\\.png|chicken/temperate_chicken\\.png|chicken/warm_chicken\\.png|cluckshroom\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6238,7 +6842,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(cow/cold_cow\\.png|cow/cow\\.png|cow/cow_horn\\.png|cow/cow_udder\\.png|cow/temperate_cow\\.png|cow/warm_cow\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(cow/cold_cow\\.png|cow/cow\\.png|cow/cow_horn\\.png|cow/cow_udder\\.png|cow/moobloom\\.png|cow/temperate_cow\\.png|cow/warm_cow\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6255,7 +6859,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(creaking/creaking\\.png|creaking/creaking_eyes\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(creaking/creaking\\.png|creaking/creaking_e\\.png|creaking/creaking_eyes\\.png|creaking/the_hero\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6272,7 +6876,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(creeper/creeper\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(creeper/creeper\\.png|creeper/creeper_armor\\.png|creeper/head_creeper\\.png|creeper/icy_creeper\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6323,7 +6927,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/drowned\\.png|zombie/drowned_e\\.png|zombie/drowned_outer_layer\\.png|zombie/drowned_outer_layer_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/drowned\\.png|zombie/drowned_e\\.png|zombie/drowned_necromancer\\.png|zombie/drowned_necromancer_outer_layer\\.png|zombie/drowned_outer_layer\\.png|zombie/drowned_outer_layer_e\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6340,13 +6944,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(elder_guardian\\.png|guardian_elder\\.png|guardian_elder_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(ancient_guardian\\.png|elder_guardian\\.png|guardian_elder\\.png|guardian_elder_e\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/elder_guardian.png"
+        "texture": "assets/minecraft/textures/entity/ancient_guardian.png"
       }
     },
     {
@@ -6374,7 +6978,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(enderman/enderman\\.png|enderman/enderman_eyes\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(enderman/enderman\\.png|enderman/enderman_eyes\\.png|enderman/watchling\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6391,7 +6995,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(endermite\\.png|endermite_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(endermite\\.png|endermite/enderpod\\.png|endermite_e\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6408,7 +7012,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/evoker\\.png|illager/evoker_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/evoker\\.png|illager/evoker_e\\.png|illager/geomancer\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6425,13 +7029,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(fox/fox\\.png|fox/fox_sleep\\.png|fox/snow_fox\\.png|fox/snow_fox_sleep\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(fox/badger\\.png|fox/fox\\.png|fox/fox_sleep\\.png|fox/snow_fox\\.png|fox/snow_fox_sleep\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/fox/fox.png"
+        "texture": "assets/minecraft/textures/entity/fox/badger.png"
       }
     },
     {
@@ -6442,7 +7046,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(frog/cold_frog\\.png|frog/temperate_frog\\.png|frog/warm_frog\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(frog/cold_frog\\.png|frog/crab\\.png|frog/temperate_frog\\.png|frog/warm_frog\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6476,13 +7080,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(squid/glow_squid\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(squid/baby_glow_squid\\.png|squid/glow_squid\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/squid/glow_squid.png"
+        "texture": "assets/minecraft/textures/entity/squid/baby_glow_squid.png"
       }
     },
     {
@@ -6565,11 +7169,11 @@
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(horse/armor/horse_armor_leather\\.png|horse/horse_black\\.png|horse/horse_brown\\.png|horse/horse_chestnut\\.png|horse/horse_creamy\\.png|horse/horse_darkbrown\\.png|horse/horse_gray\\.png|horse/horse_markings_blackdots\\.png|horse/horse_markings_white\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(horse/armor/horse_armor_leather\\.png|horse/deer\\.png|horse/horse_black\\.png|horse/horse_brown\\.png|horse/horse_chestnut\\.png|horse/horse_creamy\\.png|horse/horse_darkbrown\\.png|horse/horse_gray\\.png|horse/horse_markings_blackdots\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(horse/horse_markings_whitedots\\.png|horse/horse_markings_whitefield\\.png|horse/horse_white\\.png|horse/saddle\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(horse/horse_markings_white\\.png|horse/horse_markings_whitedots\\.png|horse/horse_markings_whitefield\\.png|horse/horse_white\\.png|horse/saddle\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6586,7 +7190,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/husk\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/husk\\.png|zombie/zombie_armor\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6603,13 +7207,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(iron_golem/iron_golem\\.png|iron_golem/iron_golem_crackiness_high\\.png|iron_golem/iron_golem_crackiness_low\\.png|iron_golem/iron_golem_crackiness_medium\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(iron_golem/furnace_golem\\.png|iron_golem/iron_golem\\.png|iron_golem/iron_golem_crackiness_high\\.png|iron_golem/iron_golem_crackiness_low\\.png|iron_golem/iron_golem_crackiness_medium\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/iron_golem/iron_golem.png"
+        "texture": "assets/minecraft/textures/entity/iron_golem/furnace_golem.png"
       }
     },
     {
@@ -6628,7 +7232,7 @@
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(equipment/llama_body/yellow\\.png|llama/brown\\.png|llama/creamy\\.png|llama/creamy1\\.png|llama/gray\\.png|llama/white\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(equipment/llama_body/yellow\\.png|llama/brown\\.png|llama/creamy\\.png|llama/creamy1\\.png|llama/gray\\.png|llama/jolly_llama\\.png|llama/white\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6645,7 +7249,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(slime/magma_cube\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(slime/magma_cube\\.png|slime/magmacube\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6747,7 +7351,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(parrot/parrot_blue\\.png|parrot/parrot_green\\.png|parrot/parrot_grey\\.png|parrot/parrot_red_blue\\.png|parrot/parrot_yellow_blue\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(parrot/parrot_blue\\.png|parrot/parrot_green\\.png|parrot/parrot_grey\\.png|parrot/parrot_red_blue\\.png|parrot/parrot_variant\\.png|parrot/parrot_yellow_blue\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6764,7 +7368,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(pig/cold_pig\\.png|pig/pig\\.png|pig/pig_saddle\\.png|pig/pig_tusk\\.png|pig/temperate_pig\\.png|pig/warm_pig\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(pig/cold_pig\\.png|pig/muddy_pig\\.png|pig/pig\\.png|pig/pig_saddle\\.png|pig/pig_tusk\\.png|pig/temperate_pig\\.png|pig/warm_pig\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6781,7 +7385,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(piglin/piglin\\.png|piglin/piglin_tusk\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(piglin/piglin\\.png|piglin/piglin_fungus_thrower\\.png|piglin/piglin_fungus_thrower_bag\\.png|piglin/piglin_tusk\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6798,7 +7402,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(piglin/piglin_brute\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(piglin/piglin_brute\\.png|piglin/piglin_brute_armored\\.png|piglin/piglin_brute_armored_armor\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6815,13 +7419,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/pillager\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/armored_pillager\\.png|illager/pillager\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/illager/pillager.png"
+        "texture": "assets/minecraft/textures/entity/illager/armored_pillager.png"
       }
     },
     {
@@ -6866,7 +7470,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(rabbit/black\\.png|rabbit/brown\\.png|rabbit/caerbannog\\.png|rabbit/ears\\.png|rabbit/gold\\.png|rabbit/salt\\.png|rabbit/toast\\.png|rabbit/white\\.png|rabbit/white_splotched\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(rabbit/black\\.png|rabbit/brown\\.png|rabbit/caerbannog\\.png|rabbit/ears\\.png|rabbit/gold\\.png|rabbit/rabbit_variant\\.png|rabbit/salt\\.png|rabbit/toast\\.png|rabbit/white\\.png|rabbit/white_splotched\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6883,7 +7487,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/ravager\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/ravager\\.png|illager/redstone_golem\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6900,7 +7504,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(fish/salmon\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(fish/salmon\\.png|salmon/alligator\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6917,13 +7521,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(sheep/sheep\\.png|sheep/sheep_fur\\.png|sheep/sheep_horns\\.png|sheep/sheep_wool\\.png|sheep/sheep_wool_undercoat\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(sheep/horned_sheep\\.png|sheep/sheep\\.png|sheep/sheep_fur\\.png|sheep/sheep_fur_regular\\.png|sheep/sheep_horns\\.png|sheep/sheep_wool\\.png|sheep/sheep_wool_undercoat\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/sheep/sheep.png"
+        "texture": "assets/minecraft/textures/entity/sheep/horned_sheep.png"
       }
     },
     {
@@ -6934,13 +7538,17 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(shulker/shulker_eye\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(shulker/shulker\\.png|shulker/shulker_black\\.png|shulker/shulker_blue\\.png|shulker/shulker_brown\\.png|shulker/shulker_cyan\\.png|shulker/shulker_eye\\.png|shulker/shulker_gray\\.png|shulker/shulker_green\\.png|shulker/shulker_light_blue\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(shulker/shulker_light_gray\\.png|shulker/shulker_lime\\.png|shulker/shulker_magenta\\.png|shulker/shulker_orange\\.png|shulker/shulker_pink\\.png|shulker/shulker_purple\\.png|shulker/shulker_red\\.png|shulker/shulker_white\\.png|shulker/shulker_yellow\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/shulker/shulker_eye.png"
+        "texture": "assets/minecraft/textures/entity/shulker/shulker.png"
       }
     },
     {
@@ -6951,7 +7559,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(skeleton/skeleton\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(skeleton/skeleton\\.png|skeleton/skeleton_armor\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6985,13 +7593,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(slime/slime\\.png|slime/slime_eyes\\.png|slime/slime_mouth\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(slime/redstone_cube\\.png|slime/slime\\.png|slime/slime_eyes\\.png|slime/slime_mouth\\.png|slime/slime_outer\\.png|slime_outer\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/slime/slime.png"
+        "texture": "assets/minecraft/textures/entity/slime/redstone_cube.png"
       }
     },
     {
@@ -7019,7 +7627,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(snow_golem\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(snow_golem\\.png|snow_golem_head\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7036,13 +7644,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(spider/spider\\.png|spider_eyes\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(spider/great_hunger\\.png|spider/spider\\.png|spider_eyes\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/spider/spider.png"
+        "texture": "assets/minecraft/textures/entity/spider/great_hunger.png"
       }
     },
     {
@@ -7053,13 +7661,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(squid/squid\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(squid/barnacle\\.png|squid/squid\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/squid/squid.png"
+        "texture": "assets/minecraft/textures/entity/squid/barnacle.png"
       }
     },
     {
@@ -7070,13 +7678,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(skeleton/stray\\.png|skeleton/stray_e\\.png|skeleton/stray_overlay\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(skeleton/skeleton_armor\\.png|skeleton/stray\\.png|skeleton/stray_e\\.png|skeleton/stray_outer\\.png|skeleton/stray_overlay\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/skeleton/stray.png"
+        "texture": "assets/minecraft/textures/entity/skeleton/skeleton_armor.png"
       }
     },
     {
@@ -7176,7 +7784,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(villager/profession/armorer\\.png|villager/profession/butcher\\.png|villager/profession/cartographer\\.png|villager/profession/cleric\\.png|villager/profession/farmer\\.png|villager/profession/fisherman\\.png|villager/profession/fletcher\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(villager/npc_villager\\.png|villager/profession/armorer\\.png|villager/profession/butcher\\.png|villager/profession/cartographer\\.png|villager/profession/cleric\\.png|villager/profession/farmer\\.png|villager/profession/fisherman\\.png|villager/profession/fletcher\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
@@ -7194,7 +7802,7 @@
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/villager/profession/armorer.png"
+        "texture": "assets/minecraft/textures/entity/villager/npc_villager.png"
       }
     },
     {
@@ -7205,13 +7813,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/vindicator\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/royal_guard\\.png|illager/vindicator\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/illager/vindicator.png"
+        "texture": "assets/minecraft/textures/entity/illager/royal_guard.png"
       }
     },
     {
@@ -7222,7 +7830,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(wandering_trader\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wandering_trader\\.png|wandering_trader_black_smith\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7239,13 +7847,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(warden/warden\\.png|warden/warden_bioluminescent_layer\\.png|warden/warden_heart\\.png|warden/warden_pulsating_spots_1\\.png|warden/warden_pulsating_spots_2\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(warden/redstone_monstrosity\\.png|warden/warden\\.png|warden/warden_bioluminescent_layer\\.png|warden/warden_heart\\.png|warden/warden_pulsating_spots_1\\.png|warden/warden_pulsating_spots_2\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/warden/warden.png"
+        "texture": "assets/minecraft/textures/entity/warden/redstone_monstrosity.png"
       }
     },
     {
@@ -7256,7 +7864,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(witch\\.png|witch_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(witch\\.png|witch_e\\.png|witch_viler\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7273,13 +7881,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(wither/wither\\.png|wither/wither_invulnerable\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wither/command_block_wither_source\\.png|wither/wither\\.png|wither/wither_invulnerable\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/wither/wither.png"
+        "texture": "assets/minecraft/textures/entity/wither/command_block_wither_source.png"
       }
     },
     {
@@ -7319,7 +7927,7 @@
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(wolf/wolf_tame\\.png|wolf/wolf_woods\\.png|wolf/wolf_woods_angry\\.png|wolf/wolf_woods_tame\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wolf/wolf_tame\\.png|wolf/wolf_variant\\.png|wolf/wolf_variant_angry\\.png|wolf/wolf_variant_tame\\.png|wolf/wolf_woods\\.png|wolf/wolf_woods_angry\\.png|wolf/wolf_woods_tame\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7353,13 +7961,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/zombie\\.png|zombie/zombie_pants\\.png|zombie/zombie_shirt\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/head_zombie\\.png|zombie/zombie\\.png|zombie/zombie_armor\\.png|zombie/zombie_pants\\.png|zombie/zombie_shirt\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/zombie/zombie.png"
+        "texture": "assets/minecraft/textures/entity/zombie/head_zombie.png"
       }
     },
     {
@@ -7420,13 +8028,47 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(piglin/zombified_piglin\\.png|piglin/zombified_piglin_clothes\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(piglin/zombified_piglin\\.png|piglin/zombified_piglin_clothes\\.png|piglin/zombified_piglin_fungus_thrower\\.png|piglin/zombified_piglin_fungus_thrower_bag\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
         "texture": "assets/minecraft/textures/entity/piglin/zombified_piglin.png"
+      }
+    },
+    {
+      "id": "mob_giant",
+      "slot": 91,
+      "name": "Giant",
+      "icon": "minecraft:giant_spawn_egg",
+      "autoMob": true,
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/entity/(zombie/zombie\\.png|zombie/zombie_armor\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        }
+      ],
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/entity/zombie/zombie.png"
+      }
+    },
+    {
+      "id": "mob_illusioner",
+      "slot": 92,
+      "name": "Illusioner",
+      "icon": "minecraft:illusioner_spawn_egg",
+      "autoMob": true,
+      "files": [
+        {
+          "match": "^assets/minecraft/textures/entity/(illager/mage\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        }
+      ],
+      "preview": {
+        "type": "item",
+        "texture": "assets/minecraft/textures/entity/illager/mage.png"
       }
     }
   ],
