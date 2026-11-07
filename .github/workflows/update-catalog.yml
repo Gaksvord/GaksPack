@@ -7,6 +7,8 @@ on:
       - 'packs/**'
       - 'previews/**'
       - 'tools/sync_index.py'
+      - 'full-packs/**'
+      - 'tools/sync_full_packs.py'
   workflow_dispatch:
 
 permissions:
@@ -26,11 +28,13 @@ jobs:
           fetch-depth: 0
       - name: Validate packs and refresh index
         run: python3 tools/sync_index.py --write
+      - name: Validate full packs and refresh index
+        run: python3 tools/sync_full_packs.py
       - name: Publish index changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.json packs
+          git add index.json packs full-packs/index.json
           if ! git diff --cached --quiet; then
             git commit -m "Update GaksPack texture index"
             git push origin HEAD:main

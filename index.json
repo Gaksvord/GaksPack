@@ -4764,8 +4764,8 @@
       "category": "mob_allay",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3538,
-      "sha256": "0538c3a158da25661a5509d6c5a55c6f2d2782740f71f0fc40dab1e7986eec7f"
+      "size": 8239,
+      "sha256": "252acbef27da00b4bb6f2598349c984f8b78ecd49bfbbb346d11d3b79ea8b8a0"
     },
     {
       "id": "mob_armadillo__grays_overhaul",
@@ -4780,16 +4780,16 @@
       "category": "mob_axolotl",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 9563,
-      "sha256": "7b20c85ee39e92f78d2782dd02200a1848721166862400ebfa59e711190a2da0"
+      "size": 11997,
+      "sha256": "bcf85063d9977131d993f37ab3d04c31948fd73ae4e0f743f6771a6d39b9a1e7"
     },
     {
       "id": "mob_bat__grays_overhaul",
       "category": "mob_bat",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 1813,
-      "sha256": "6ed04cd40fb39fcf510d5262559ec65c3d126ca75a5ee07f998cf3517e4bdd49"
+      "size": 7318,
+      "sha256": "f13ed0ddf80e318ca262bb604d0df1b0e23c61bbdc5482f1ee1e2ec6fca6bd49"
     },
     {
       "id": "mob_bee__grays_overhaul",
@@ -4844,32 +4844,32 @@
       "category": "mob_camel",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 21141,
-      "sha256": "a6f58ac64eb828d9744ff155310aae2ae5138d3ee6758524f2253cf728da6ef6"
+      "size": 70860,
+      "sha256": "2cdec94b64804c05acb9e464bcc1207427c9059c69f7fd778d1987c747cb9c0c"
     },
     {
       "id": "mob_cat__grays_overhaul",
       "category": "mob_cat",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 27863,
-      "sha256": "5cc1e6376fe8d07a3bf69b53c3b1a1531b3f316f82e9e51fc41bf9f35ff2d643"
+      "size": 506980,
+      "sha256": "26ab80b7305cddfd0929852d46500fd094d1130de94fb6314ba1109d1b30eaf2"
     },
     {
       "id": "mob_cat__updated_mobs",
       "category": "mob_cat",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 19302,
-      "sha256": "6736c334690cfa7e4c6a2fbf868f5081375678e205964d5edaf06e23a1972260"
+      "size": 21361,
+      "sha256": "2a52c484f1f6374b197449eda5962e7c493270a93721c9c789365dfaf7efa1d1"
     },
     {
       "id": "mob_cave_spider__grays_overhaul",
       "category": "mob_cave_spider",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3734,
-      "sha256": "633b86c0ae2fa27273bae06f8d41e2b1ce2e9f911083a17d6d33640032aa08e3"
+      "size": 14966,
+      "sha256": "7957a5455c58c065d25ee16a6a2893a3b0d80d728881c06cf528ba19af01ad02"
     },
     {
       "id": "mob_cave_spider__updated_mobs",
@@ -4884,16 +4884,16 @@
       "category": "mob_chicken",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 8943,
-      "sha256": "a060974ae5a0f84fd9a73463d26bb13b1513e0e783d29b08bb0d5f66aa87df6d"
+      "size": 122793,
+      "sha256": "ae73ead0791e9c5c27cddae4769751f388dca4b9e67ee929a29b6a2de500425d"
     },
     {
       "id": "mob_chicken__updated_mobs",
       "category": "mob_chicken",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 7243,
-      "sha256": "15f23969366b322757cdeee6e0ede0f28d6f721cf3e2e1ddf1ee850e2d6b18e2"
+      "size": 14796,
+      "sha256": "938f048de5dd86928fe3405e509258c8eadeb1c234f20ef4689161b430a761d7"
     },
     {
       "id": "mob_cod__grays_overhaul",
@@ -4916,8 +4916,8 @@
       "category": "mob_cow",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 20565,
-      "sha256": "9d7897794749484217802fda5e4f70bf7f424c1e61e338550f944dedf73dfd0d"
+      "size": 244317,
+      "sha256": "4bc80b528a4b3e025e039522c0f70964454830d23efbb7825b8abab4a4608050"
     },
     {
       "id": "mob_cow__updated_mobs",
@@ -4932,16 +4932,16 @@
       "category": "mob_creaking",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 6167,
-      "sha256": "999a4dd9c7af003d3bd8010db7e57ccea8ec6c58ce1726ea18ed837aebaf867f"
+      "size": 8094,
+      "sha256": "f0362b5526b75ee745ea6372deb1155ce8961ab79bc3d28fd82c950aceee35c6"
     },
     {
       "id": "mob_creeper__grays_overhaul",
       "category": "mob_creeper",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3586,
-      "sha256": "e68e03802ea12830fb4453ebe4b9097c8cfce3f2c66b87477d52019f0ab913d8"
+      "size": 16641,
+      "sha256": "2bb018991881056cbc6c045340b2ea6b0a8bbab6d8dff7e3473c36258c86dd51"
     },
     {
       "id": "mob_creeper__updated_mobs",
@@ -4956,16 +4956,16 @@
       "category": "mob_dolphin",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 2771,
-      "sha256": "2de380916a13905e50a047d5823f73797b204d744a28525a505cfdc0f0c7a239"
+      "size": 10980,
+      "sha256": "ea3023374b7854ba59745cf06c318b70ff479636cf5cbde8381681693d2c6454"
     },
     {
       "id": "mob_donkey__grays_overhaul",
       "category": "mob_donkey",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 9418,
-      "sha256": "d2657a6b875915b0470cd8c548822a82b65ac1adcb5eb4621a38b02cee1f7f8d"
+      "size": 127431,
+      "sha256": "911c0bd63cf6898edfebaf88ba7ff1c64065b2f231828cd6e50f04b0da2b6104"
     },
     {
       "id": "mob_donkey__updated_mobs",
@@ -5060,24 +5060,24 @@
       "category": "mob_fox",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 8019,
-      "sha256": "3a51f168c8496b9fd87ecdf29fffc1708f843e3ca50160117cb266f147e47e4d"
+      "size": 38978,
+      "sha256": "6cf50ebb705ef28349ee5e33c1e5af02a1f5cb880be84fa976204c3a29167c64"
     },
     {
       "id": "mob_fox__updated_mobs",
       "category": "mob_fox",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 7332,
-      "sha256": "f96e189c552cbe3c6f249b45a364cfe307c8fc5ed40c6d5b3d45ffca641f0b0c"
+      "size": 8333,
+      "sha256": "7462f6b92da874fe9640958b18dd70ebe79878b27397bbbcd85d6f165bfecfe4"
     },
     {
       "id": "mob_frog__grays_overhaul",
       "category": "mob_frog",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 7113,
-      "sha256": "c72ee78991739dd8815cf86039cda758639a46023504fc24cd0cb164f3cd6dce"
+      "size": 11557,
+      "sha256": "ac3d699da9a6d187bc97db17d015bcd27c1dc8aeae42e85aa2289bf1939fe619"
     },
     {
       "id": "mob_ghast__grays_overhaul",
@@ -5100,8 +5100,8 @@
       "category": "mob_glow_squid",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3972,
-      "sha256": "cc0dc011b99459e1fb183cb76a71a2199f7321f1a8e32ff50a0c498b2e1ec445"
+      "size": 22548,
+      "sha256": "6242fc6c82ac1c0487d607b26814fd560a02310593d548428cde4c3ffdf64431"
     },
     {
       "id": "mob_glow_squid__updated_mobs",
@@ -5116,8 +5116,8 @@
       "category": "mob_goat",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4898,
-      "sha256": "413df70d71a550129b536a9a62decc6f2dc9f5af68422e9701d535edcd7a284f"
+      "size": 45717,
+      "sha256": "b207efa2cd8a8a984728ddc2068aecab566c31eff3bb8c14e577013922da59e4"
     },
     {
       "id": "mob_guardian__grays_overhaul",
@@ -5148,24 +5148,24 @@
       "category": "mob_hoglin",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 6244,
-      "sha256": "11d21f17a85ca9df74e2bb36fabb77ae8551bc2ed7e4a8a92252e573475628e0"
+      "size": 25969,
+      "sha256": "54ff56f85d0240f74a2bcfc70612f619c588a34b8287ab01881eb1c5f84bc471"
     },
     {
       "id": "mob_horse__grays_overhaul",
       "category": "mob_horse",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 96536,
-      "sha256": "0298a4154961e289a617785c7369df66d954480aaa2667dc979cf553545b575e"
+      "size": 1320821,
+      "sha256": "b8e89b54ead7f890c73eaf78c60e7c37c405803510546cf83484d87294f67f67"
     },
     {
       "id": "mob_horse__updated_mobs",
       "category": "mob_horse",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 47768,
-      "sha256": "110054b23fcbb9c0eebd2f30f75f100ca946c44ea1de2bcf31d3fbdb3575d94b"
+      "size": 50748,
+      "sha256": "20b5af8cb81948293ffea981957f98bc909a3f048678ae351e8b55d04ca8909c"
     },
     {
       "id": "mob_husk__grays_overhaul",
@@ -5188,16 +5188,16 @@
       "category": "mob_iron_golem",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 9570,
-      "sha256": "f3d4b86c1c24a73490a74d8fcbc0166f8d1a57b992e1b2e6e3779fc6966e26d2"
+      "size": 33123,
+      "sha256": "c7a532bc00e4dcb27676fac6605bfd72e7ee750878867f2989bae7bf0f0e4cbb"
     },
     {
       "id": "mob_llama__grays_overhaul",
       "category": "mob_llama",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 29895,
-      "sha256": "9b27a55700baa6309ff976102be9287d1f74c5a448e2a93336fb50f72fb0ef56"
+      "size": 76086,
+      "sha256": "2099de71436412bd7dcb304d4a6612254c472d334cc0d3d71243f4adf35d792f"
     },
     {
       "id": "mob_llama__updated_mobs",
@@ -5268,8 +5268,8 @@
       "category": "mob_panda",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 26754,
-      "sha256": "5b8f80e4aa86d3049bef39d43ff1faef66b0bea29ba503895a6525e78543a314"
+      "size": 29558,
+      "sha256": "daa06492e26d751bc6522866ddf4a13780214417ab080226fd9307ee50fc0cd7"
     },
     {
       "id": "mob_parched__grays_overhaul",
@@ -5284,24 +5284,24 @@
       "category": "mob_parrot",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 6322,
-      "sha256": "b849db1aea4e7c13e5da81ec8fb311d5ee16cb6188aad561817949d7408d29c1"
+      "size": 20524,
+      "sha256": "455f168e740a16036636f24405e7b9e6783c4645010f70c0299c48b3cfe028a5"
     },
     {
       "id": "mob_parrot__updated_mobs",
       "category": "mob_parrot",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 5271,
-      "sha256": "2400160bcb55308b3d06434bbfc47434fe9b0257b51cabdedbb22a88400d11f6"
+      "size": 6430,
+      "sha256": "887567fd77cf000e97f0610ea911577e06d31dd51c19ea7f9c81a9d45d6275e2"
     },
     {
       "id": "mob_pig__grays_overhaul",
       "category": "mob_pig",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 14226,
-      "sha256": "25d692f71185a1712b74cdffe79c6da123b0f641daefe256905361ede67e399e"
+      "size": 232522,
+      "sha256": "1a99b64ca96b8f2ef24eaac74b428167486b062015869b2702123bbfff46c9d1"
     },
     {
       "id": "mob_pig__updated_mobs",
@@ -5316,24 +5316,24 @@
       "category": "mob_piglin",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4133,
-      "sha256": "87288a409e23036b38d4e3c3f03c01bfd14d9590497e5f23b718f3db810b960f"
+      "size": 32936,
+      "sha256": "18425b1822779cffe4c2de4c97b3862611635b8927c056dae95576f07e4aa2ad"
     },
     {
       "id": "mob_piglin_brute__grays_overhaul",
       "category": "mob_piglin_brute",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4571,
-      "sha256": "c0124afdce89c98eeb69c3f470164e90dc13ea6c1bb0b056c62a4d1905613b28"
+      "size": 36836,
+      "sha256": "0819f2756f4f4cefd911eccf5f385066733757f05eb784835d48988b71486ecc"
     },
     {
       "id": "mob_pillager__grays_overhaul",
       "category": "mob_pillager",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4020,
-      "sha256": "a2c87514dabc05ee8653234d889746da56299a68950df0609882dabc5f9e5a10"
+      "size": 37125,
+      "sha256": "dadfac5b4c652bc88b356058e1c1931ac7331e5f5d8263dee82dcd36030f27cd"
     },
     {
       "id": "mob_polar_bear__grays_overhaul",
@@ -5372,32 +5372,32 @@
       "category": "mob_rabbit",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 18563,
-      "sha256": "11a0712c39373ee1e374d1790b8450979789cc5e9414342f30a811fbaf30391b"
+      "size": 146057,
+      "sha256": "ed12bfd779e24e0454218c3f0c81162ede585e4ba3d4016c9fd47e4d5946efa0"
     },
     {
       "id": "mob_rabbit__updated_mobs",
       "category": "mob_rabbit",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 12318,
-      "sha256": "a7e0efccc6a772ceb66758f478ca512c27728bca9fe6bfc8817b4d40e7a3fcf5"
+      "size": 13546,
+      "sha256": "d16c42024b88c5228e4039bda35e347cc4517eed60214d14b05df44636fadafb"
     },
     {
       "id": "mob_ravager__grays_overhaul",
       "category": "mob_ravager",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 11677,
-      "sha256": "c9ec43c52262f89139629c56907e498072ccc9c0524999810566de79299bd5ed"
+      "size": 28125,
+      "sha256": "65b71f6d6ce515a96f2fa1f784e5e10cd5286d132b0f3ddb647475ee28fc1048"
     },
     {
       "id": "mob_salmon__grays_overhaul",
       "category": "mob_salmon",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 2448,
-      "sha256": "a035ffe6921c4275cb7e76e6cbddb5b88a3c8438916737a9c35156c01c404564"
+      "size": 6668,
+      "sha256": "82593322e09966c3a29371100d06d97863705bb8929715b196fb95834ad8ff60"
     },
     {
       "id": "mob_salmon__updated_mobs",
@@ -5412,8 +5412,8 @@
       "category": "mob_sheep",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 11313,
-      "sha256": "a18b1d3d87426cd2119469fe6b2b205d8d0997d9f520df3c7006aa2629b87b26"
+      "size": 56904,
+      "sha256": "43884b7256bac2909a870bf8d7268c10d619ede516c6b5050ad7931ffe6a8c7d"
     },
     {
       "id": "mob_sheep__updated_mobs",
@@ -5436,8 +5436,8 @@
       "category": "mob_skeleton",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 2795,
-      "sha256": "2a783b0f5775b1b106d92a359d8c336c82144c61bf29303de4988ece1e1af356"
+      "size": 13614,
+      "sha256": "88bb40d4dcd00095b34b488a7dfb021e80775a14bf501e7be61574e249708aaa"
     },
     {
       "id": "mob_skeleton__updated_mobs",
@@ -5452,8 +5452,8 @@
       "category": "mob_skeleton_horse",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 5209,
-      "sha256": "0f67daa47e8af13d2efa456b50a63eb95f327b8ad87438635396a4433485ee76"
+      "size": 30594,
+      "sha256": "391928ba1abbfc06ff52019a54fe54a84d104a588d428c583d1b02ee45dc9fd3"
     },
     {
       "id": "mob_skeleton_horse__updated_mobs",
@@ -5468,8 +5468,8 @@
       "category": "mob_slime",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 2333,
-      "sha256": "3730dd0388b6b6478f69ad43b3e33a2ba78b7da9a7e97bdba377966cc42f2344"
+      "size": 9922,
+      "sha256": "c4ced0cc457e4c1903408cbaa3088dadd09250aa007125831f6145aff9cd624a"
     },
     {
       "id": "mob_slime__updated_mobs",
@@ -5508,8 +5508,8 @@
       "category": "mob_spider",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3608,
-      "sha256": "2199c99b35ba3218fd17ec35de7af4ca210547acb4c5ab1502e16df21c2be6be"
+      "size": 16950,
+      "sha256": "c5999bc4a66d4acf88f054d063358f1df941048e885c0fea23bc3590fdca315b"
     },
     {
       "id": "mob_spider__updated_mobs",
@@ -5524,8 +5524,8 @@
       "category": "mob_squid",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3256,
-      "sha256": "90af6574bb3eafe345e5f63ca56c6ff9bb2170fb387434caedf5de02287f9f8b"
+      "size": 12909,
+      "sha256": "c7e657d12d0b5b482b23c115b3cb341e72901b416f1e984aa0aae11a2ab3da16"
     },
     {
       "id": "mob_squid__updated_mobs",
@@ -5556,8 +5556,8 @@
       "category": "mob_strider",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 13593,
-      "sha256": "beb4a4c09c0ffef5947e7c1f5f2bd68b254fc25c358ae3d36d379af049949f6e"
+      "size": 31669,
+      "sha256": "400c2bbe6456d4b6cd8b9feae751b4c6e857ccaa09e8a296311c3091e079747c"
     },
     {
       "id": "mob_strider__updated_mobs",
@@ -5596,8 +5596,8 @@
       "category": "mob_turtle",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4793,
-      "sha256": "dd700e8d5679dfb6e20b33caa51aafe5ff47ba65fa3b2b7554554f3602e13d66"
+      "size": 19610,
+      "sha256": "25407a6f2d5cb52026d13705994f1ce8b0ad11979fa67243db4c53d587040ed1"
     },
     {
       "id": "mob_vex__grays_overhaul",
@@ -5612,24 +5612,24 @@
       "category": "mob_villager",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 41655,
-      "sha256": "6b5157bf9b1ac12d91c947f25a36bbd8f5e9b8ce3435b605e9c51798900a1717"
+      "size": 169353,
+      "sha256": "e189499c6ef29866118c7e9af4ceced59ad4cb265944b9cbc2f998eeb3d62d37"
     },
     {
       "id": "mob_vindicator__grays_overhaul",
       "category": "mob_vindicator",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4570,
-      "sha256": "0b376d28ec27d7815bc47d9b72ece40d947e4cda00a76d1460f7d47670da8024"
+      "size": 15265,
+      "sha256": "f7d3867c53f9466d58887a810d46666b24604693fb95fb6f8b462a97f6bd71a8"
     },
     {
       "id": "mob_wandering_trader__grays_overhaul",
       "category": "mob_wandering_trader",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 5177,
-      "sha256": "d042eac383498a92abe31ffd87ccff2508d6188afce71f3faab031ff5ee8b8b5"
+      "size": 22040,
+      "sha256": "f0df6f46745f239f837ecae96c139edc72b22a466bf3282c1ace90e25f4985bc"
     },
     {
       "id": "mob_warden__grays_overhaul",
@@ -5644,8 +5644,8 @@
       "category": "mob_witch",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 5809,
-      "sha256": "c60f60286b5b98e654fc6a63e08dfe5fc8ebc0be90fa5b9218f46e1d010444db"
+      "size": 20090,
+      "sha256": "c1a867c59d3020891514f90f2c19864c4883053f8d000d0ef763a9d6a05cd0e3"
     },
     {
       "id": "mob_wither__grays_overhaul",
@@ -5668,8 +5668,8 @@
       "category": "mob_wither_skeleton",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 3284,
-      "sha256": "b3743c3f39b103c7974272e9748f72d9155e46c0efc13af08fce498a80afa4cc"
+      "size": 17711,
+      "sha256": "af7ec2fdb1d1ea99999d4d94f02b44868fe13f268697a9c93fce1c383fdb97bd"
     },
     {
       "id": "mob_wither_skeleton__updated_mobs",
@@ -5684,48 +5684,48 @@
       "category": "mob_wolf",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 131323,
-      "sha256": "09eac4e7b4898f69a46a451d7f0a877ebc67b94c82c6ef391db852a2337a9d38"
+      "size": 277917,
+      "sha256": "610797f4cb3b947c8217dc2178312683f3d0c2ee4e36ec7403b10f1ff8d3f681"
     },
     {
       "id": "mob_wolf__updated_mobs",
       "category": "mob_wolf",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 67962,
-      "sha256": "c5175896d8fe71b459a222126ed005db4990fed9bf4177c61b1f184442979d3f"
+      "size": 70957,
+      "sha256": "243d8dd2cd3c631c443fdbdf680822327468d9bfb305171c9e910e34e9b6f75d"
     },
     {
       "id": "mob_zoglin__grays_overhaul",
       "category": "mob_zoglin",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 7766,
-      "sha256": "d97e6ec17a0edaf46f624c369e0cd1e1420d8dd05e39f76c74c3e624b2827a91"
+      "size": 32600,
+      "sha256": "657380caea2771370fe6b0df1fa238ef2e560dba39e8758ab43078a6e3b3e6e8"
     },
     {
       "id": "mob_zombie__grays_overhaul",
       "category": "mob_zombie",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 4318,
-      "sha256": "da6e2fed4a48b165a990e3afd72462cb1a72aa68596540330c5d09b192a22527"
+      "size": 27918,
+      "sha256": "c8542775f06372784f03d4596c26b440333fe0b7208e60456561109606ae34e1"
     },
     {
       "id": "mob_zombie__updated_mobs",
       "category": "mob_zombie",
       "name": " Updated Mobs",
       "added": "2026-11-05",
-      "size": 3209,
-      "sha256": "311e2ef19a8f56a04dba72b7410f8abd438113fd9885e3782d3a04b19a5eec1b"
+      "size": 28535,
+      "sha256": "574a06ffd5abfb133b0cecf3c1273f2152ae1038630e3cffa77627b4c6ae8b00"
     },
     {
       "id": "mob_zombie_horse__grays_overhaul",
       "category": "mob_zombie_horse",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 9333,
-      "sha256": "dcd363447fb62c83b56427b6986963c52cfef966c8133e6adb8b8129767ad2e1"
+      "size": 47231,
+      "sha256": "92189cb9d52d446cbd0196a1800f66538007fdb4f973c119f6d7527a211becce"
     },
     {
       "id": "mob_zombie_horse__updated_mobs",
@@ -5740,32 +5740,32 @@
       "category": "mob_zombie_villager",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 41838,
-      "sha256": "cf5b298af4b3a2befeeb3d272d4aaac6498ba641cbb7504f090c692884860771"
+      "size": 68757,
+      "sha256": "29473e52e29e099a721e366e69a58757bf30e4226ef9c76d687ae262d8d8b297"
     },
     {
       "id": "mob_zombified_piglin__grays_overhaul",
       "category": "mob_zombified_piglin",
       "name": " Grays Overhaul",
       "added": "2026-11-05",
-      "size": 6797,
-      "sha256": "eb280e52e55c44a698099e380ac750b421fc3990c10eb1623e6be418239e5e39"
+      "size": 52566,
+      "sha256": "4b54d2a9a843ce711f6e668841202276e55ec05737d8118fbf5459654afe5693"
     },
     {
       "id": "mob_allay__recrafted_mobs",
       "category": "mob_allay",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 7023,
-      "sha256": "774298f2acd35ae124a85d6e0234a76864829f02ed072d9b26bda4909b28f528"
+      "size": 17189,
+      "sha256": "c3454383c9104a759d9b4078398b1f1e1a9bfda2135c28e1dc52686ee90dd5bf"
     },
     {
       "id": "mob_bee__recrafted_mobs",
       "category": "mob_bee",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 8832,
-      "sha256": "02ac23e293af5783dd4a3d79cd5759a7516b4e185867c8ed58056cf7e3b11ffe"
+      "size": 13287,
+      "sha256": "829c81fd834c11bce1abf242847d9ff0da4dbd361c8798a993c87b1afbe57a1d"
     },
     {
       "id": "mob_blaze__mobs_refreshed",
@@ -5780,8 +5780,8 @@
       "category": "mob_blaze",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3797,
-      "sha256": "920742a38149e6058797e093a7033f2f8d05d662f808c8c881920593752e1075"
+      "size": 4875,
+      "sha256": "9be190684a9ebc1adc23b79a40bcc199497616522f5b737f6c708851bf7a9e06"
     },
     {
       "id": "mob_bogged__mobs_refreshed",
@@ -5804,8 +5804,8 @@
       "category": "mob_cat",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2483,
-      "sha256": "a4a36c22199ab0839fbe3c98700d42709787c6380701ee529b8dac5273e84985"
+      "size": 101783,
+      "sha256": "6b02a642d6a47bda94d93f3506aef039c27c189e4c660c42b09deed79980e5bf"
     },
     {
       "id": "mob_cave_spider__mobs_refreshed",
@@ -5820,16 +5820,16 @@
       "category": "mob_chicken",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2952,
-      "sha256": "68a4010f637babc951f16f055201a547163dcafe103085ebee11a507cd1a31a2"
+      "size": 94876,
+      "sha256": "4861d867788d8514aa304a58de411222119f8760beabbced495ddf60da40be8b"
     },
     {
       "id": "mob_cow__recrafted_mobs",
       "category": "mob_cow",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3226,
-      "sha256": "b4205163a07c7724cd33cad83a7e82166be33f934582ca59a6c65d6af7fb2a41"
+      "size": 69719,
+      "sha256": "78a4f44170d2b0d7f54d2c39c893d4a036628ff47b039a8e66cccf72f0cf7853"
     },
     {
       "id": "mob_creaking__mobs_refreshed",
@@ -5844,24 +5844,24 @@
       "category": "mob_creaking",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4044,
-      "sha256": "3cd6207d887b595005ac046b276394d1fc0c07fc4e80bab8a19c554b601c2ef0"
+      "size": 5192,
+      "sha256": "d8275eb097a6ca148d32c6648ea36c274e294de93b8b4abfec449435738713a8"
     },
     {
       "id": "mob_creeper__mobs_refreshed",
       "category": "mob_creeper",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 5222,
-      "sha256": "572781ad5dec2d8b2270d215b3c1c7378e89aba2071a1bb0e525f27a77cd340c"
+      "size": 7875,
+      "sha256": "9b03df0814c280a2770d5d1dce6d2589aef369e82789f4fef3ce5b56d7ef5a57"
     },
     {
       "id": "mob_creeper__recrafted_mobs",
       "category": "mob_creeper",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 15526,
-      "sha256": "d0f990bd95e52e4f146f44083118bc5401f7756b5f4cb9b8fa357ca13138bfeb"
+      "size": 32991,
+      "sha256": "3184cea5640a2c97df3804a449ddc0dd215d5e103e5cdc94b4e984fd039af748"
     },
     {
       "id": "mob_drowned__mobs_refreshed",
@@ -5876,16 +5876,16 @@
       "category": "mob_drowned",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 7358,
-      "sha256": "25ae2ba8aa2f8d4919d4041a61a1d0bbff77f45d9c6d1fbec51708ccae850a06"
+      "size": 47914,
+      "sha256": "818d2f1c580e29f57c71ef22b6aa6c171211a25496bff5c3ff016b29e577f60a"
     },
     {
       "id": "mob_elder_guardian__recrafted_mobs",
       "category": "mob_elder_guardian",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 74221,
-      "sha256": "b294b1283adccd139bb58c1cb6a49c6047aa7d4ffebbc2ab9938892c890285fe"
+      "size": 75749,
+      "sha256": "441b5ed0629518cb47f2b42ea8d2c1db29723aa69de8c2bee728cd83545bd6f6"
     },
     {
       "id": "mob_enderman__mobs_refreshed",
@@ -5900,8 +5900,8 @@
       "category": "mob_enderman",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3004,
-      "sha256": "8ad2036d8f12d8f9caa4fa334c35d045e7c4e9967774dceee391884c3e2d7e07"
+      "size": 34727,
+      "sha256": "f4b675882e8f81f2471e8ac6dd9a06a7b9bcb1502332d3756c4bdde458d06020"
     },
     {
       "id": "mob_endermite__mobs_refreshed",
@@ -5916,32 +5916,32 @@
       "category": "mob_endermite",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3918,
-      "sha256": "55e07c1a1246f57945ddc584411e094007084e693ea1b1a19d2d7f3f237e649b"
+      "size": 6863,
+      "sha256": "a70ae3eaebb3e276b713507cfb7cb55917d641a50725b4d11851d8c8d0cf2545"
     },
     {
       "id": "mob_evoker__recrafted_mobs",
       "category": "mob_evoker",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4351,
-      "sha256": "a7ab9e307dc8dd9d5776bd81b699cb367499556af9dad2d2a6c75991727ddb50"
+      "size": 95367,
+      "sha256": "5e86e04b5e2f86a5fcef714e4d83135150209400e96f2fec300266f6086dd1d5"
     },
     {
       "id": "mob_fox__recrafted_mobs",
       "category": "mob_fox",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3989,
-      "sha256": "2c65de9cdabfdd633fd4528b9fa4e8db95764e00a9e3d98dbf2d6a2760b8e8dc"
+      "size": 18711,
+      "sha256": "f26a5f70f998611aa4cb5526aa83812b4dc5b958073086546d0bc835c01708fc"
     },
     {
       "id": "mob_frog__recrafted_mobs",
       "category": "mob_frog",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2756,
-      "sha256": "eca89897533b018042c844ac461b27c52a3441ef037815e7e4b94490ebd6b6fa"
+      "size": 6452,
+      "sha256": "7a552cef61029684f0a1d9a0a6a2fd42e26bc6a3c6ed94bd9c12938e6e85d81c"
     },
     {
       "id": "mob_ghast__mobs_refreshed",
@@ -5956,24 +5956,24 @@
       "category": "mob_ghast",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 8597,
-      "sha256": "614a88ce44222fc3815888651d00a1cecb3ed095860c41d3044321dc57868234"
+      "size": 17916,
+      "sha256": "27358a1665d54b86c9fd06d84a5398d952f589552adb74bf6a7587be1e4ed6a7"
     },
     {
       "id": "mob_giant__recrafted_mobs",
       "category": "mob_giant",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3596,
-      "sha256": "d6f4bdcb02c17b0ae2d373b4d106af082cf0ead622ffff6555d13614d865acb3"
+      "size": 13090,
+      "sha256": "c567d0d61713db6feb7379975de0e0a04f3d1b9a3cae2a0660cabd7eb382b26d"
     },
     {
       "id": "mob_glow_squid__recrafted_mobs",
       "category": "mob_glow_squid",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 1894,
-      "sha256": "574333ba211722aa55403a22fdae3322f2c4b53ec7bd522671d0d3255fa30cc6"
+      "size": 3707,
+      "sha256": "3439eca18a447fc62878eed0162fe0eb54502e3ba9e16ba1e275916038975941"
     },
     {
       "id": "mob_guardian__mobs_refreshed",
@@ -6004,8 +6004,8 @@
       "category": "mob_horse",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6024,
-      "sha256": "2289a8ec5f993a85974eba595e9cfd2ba9001c07651224c7aa809fcc87c6dea4"
+      "size": 7377,
+      "sha256": "b0c3bb9580785ba2fea3453d76dfa53138c14c2c4b881de7c816b3ef23c19e3d"
     },
     {
       "id": "mob_husk__mobs_refreshed",
@@ -6020,56 +6020,56 @@
       "category": "mob_husk",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2980,
-      "sha256": "6f291818aa4a1ac57bda01b8a17c142859365432ff77c3e4c83a3b0181618cf5"
+      "size": 3987,
+      "sha256": "0cd76f4283493313f5283f82dbc484aa053d7794cefdab1a4265ca53a1f46c62"
     },
     {
       "id": "mob_illusioner__recrafted_mobs",
       "category": "mob_illusioner",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3167,
-      "sha256": "e4dbf8ee8d1a1dc941cfcb39bc12cdd7802f6b7957ce0705543992873fe2e8a4"
+      "size": 4528,
+      "sha256": "9845827ff93958843a067b17d6596661f0b76430bf639d037525359b17382e42"
     },
     {
       "id": "mob_iron_golem__recrafted_mobs",
       "category": "mob_iron_golem",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 7250,
-      "sha256": "d1ca3e9ee8bb6cc17c1dfdfda79f6e279fb9bb7f82a999f5b7d552ea2e649c13"
+      "size": 490892,
+      "sha256": "93ac45eb70d6a801568678714e2248dd8a8aa7cdffd14ee7960b3339d7585024"
     },
     {
       "id": "mob_llama__recrafted_mobs",
       "category": "mob_llama",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6327,
-      "sha256": "60f81f7707038007a235e019199165f88c10f12a3dd560a0479b775e46dbd750"
+      "size": 190999,
+      "sha256": "3848a27e103fe0c0eb02cf8fa92f5f05ed631345da55dc4336e9a832038678e0"
     },
     {
       "id": "mob_magma_cube__mobs_refreshed",
       "category": "mob_magma_cube",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 1415,
-      "sha256": "3d0a33efdcaf267e6efef9a0a8664e83a20f88d615d15db7442b93e95c2391db"
+      "size": 8173,
+      "sha256": "f3648cfd74b0271d2f1a3e97a8df837fc46e741a612c8dd1fa2d22e58928c906"
     },
     {
       "id": "mob_parrot__recrafted_mobs",
       "category": "mob_parrot",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2596,
-      "sha256": "578e04a5f5021f626c8c9cc8fb95623fc2ff5adfbc164c9ce94bf916bc9902d8"
+      "size": 7922,
+      "sha256": "32d876003cda7094a5a525fe4c85bbf75ee6a6b2da9ed96c943cebd572af1fd3"
     },
     {
       "id": "mob_pig__recrafted_mobs",
       "category": "mob_pig",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3753,
-      "sha256": "461b88fc9699a960cf260f835f422a562eaabbf59900142f65c82aa3d139ee8e"
+      "size": 73037,
+      "sha256": "71d22766b9c8e7259963b126dc2e3e18e270c935521ce40e87493a7af71c0d3e"
     },
     {
       "id": "mob_piglin__mobs_refreshed",
@@ -6084,8 +6084,8 @@
       "category": "mob_piglin",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4896,
-      "sha256": "ec9c92e807a81abeab46a68b330996fd712dbbfe9493bffd34e0cffc6c41da7c"
+      "size": 6110,
+      "sha256": "d46b000d00ce980d012915ffcc871e4f9b2fa18262872e15ed22c8a02f0e872e"
     },
     {
       "id": "mob_piglin_brute__mobs_refreshed",
@@ -6100,56 +6100,56 @@
       "category": "mob_piglin_brute",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 5623,
-      "sha256": "ae323d888db0a9156adcc38e40b1ce67b47d07957a140b5f41351cfc8cc7b687"
+      "size": 17615,
+      "sha256": "639851c2a25f850074997957877a28e73758503d91b300a152412e1263c4fb87"
     },
     {
       "id": "mob_pillager__recrafted_mobs",
       "category": "mob_pillager",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6604,
-      "sha256": "08f77399f556dfa86866b66e4e8b30ba1ad791f30b1ecf243f265bb71f8ac850"
+      "size": 7689,
+      "sha256": "fe7dada98a3a34ff9bb0410c3a751368ec3f673ab40b180858e0a3c987a22cca"
     },
     {
       "id": "mob_rabbit__recrafted_mobs",
       "category": "mob_rabbit",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3652,
-      "sha256": "b5ae8f66b5008c2c1eea26ddc94ab2777e7e76756d4b5c4172fbd89438fe3f18"
+      "size": 31620,
+      "sha256": "818aeeb943f93b7179a4dc9f3dac442bbbc5ae8037621aa2d552743542e4a951"
     },
     {
       "id": "mob_ravager__recrafted_mobs",
       "category": "mob_ravager",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 19271,
-      "sha256": "5ae0f7d5e42972266a23be892c53d845e773df83c83d1962932f9ee930d54758"
+      "size": 58992,
+      "sha256": "797b7e0b7ab291c6bdd994fa7d7c2d436da8bd8eac7bc556d4aa51b514bd0a67"
     },
     {
       "id": "mob_salmon__recrafted_mobs",
       "category": "mob_salmon",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6988,
-      "sha256": "552015836587c7fd1a2eb938e8ee3df5bccee4d8593ff681ef43e33819d6064f"
+      "size": 8097,
+      "sha256": "a9c8cd484950b1367a48c110f232548810595eee1dc5f01f6ae3c10c054384d4"
     },
     {
       "id": "mob_sheep__recrafted_mobs",
       "category": "mob_sheep",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 5675,
-      "sha256": "3941f8e67fc064b7fee44aaeb2b7549b2fd60ee7220371682ba513be6aef8ed5"
+      "size": 99470,
+      "sha256": "a8d9cf912aaa4a791db75639e505b7221f52ac03a8404f629a8981c006c462c2"
     },
     {
       "id": "mob_shulker__mobs_refreshed",
       "category": "mob_shulker",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 30242,
-      "sha256": "588d9ab850c502cf3713688dc2116e421061d1dc1430ad1a1d7cc1db6cd00f4e"
+      "size": 30651,
+      "sha256": "ac60a1fc26513b57ca051335852a6d89542799758c537cfaa29572ef32f754f3"
     },
     {
       "id": "mob_skeleton__mobs_refreshed",
@@ -6164,32 +6164,32 @@
       "category": "mob_skeleton",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4518,
-      "sha256": "62a1f402e915eaaa32a0dacb2743076a9c3dce17f4f2e0d7e8c3adcbfa5b7fd9"
+      "size": 36356,
+      "sha256": "4853ed9e6ca4af1fa564bf555fc9887153142265e1bdc92b3a6896d552171d5f"
     },
     {
       "id": "mob_slime__mobs_refreshed",
       "category": "mob_slime",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 3591,
-      "sha256": "f6c26036fd10c23f3255f2b5def29f24ddae80f830728cad268843e6f11bdbfd"
+      "size": 11993,
+      "sha256": "897da4ff108b305791b0085b92a9b44a28a8d316d3bb6b4c8823075812e753b1"
     },
     {
       "id": "mob_slime__recrafted_mobs",
       "category": "mob_slime",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4161,
-      "sha256": "611cd47e5a0801dd6e49fc6c4309d3e8d97ba38f0b60e9f768d8faaca6fb2fc9"
+      "size": 21402,
+      "sha256": "d64a564d1e59fa7b909b3170e6539cf0ef9ca22c704cd2ac6ca86468a8cf2721"
     },
     {
       "id": "mob_snow_golem__recrafted_mobs",
       "category": "mob_snow_golem",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 1892,
-      "sha256": "f759d2820634fc7cb4f97ca56bd4524cb336748cb7b000d2a15efb3f17bdb8a8"
+      "size": 14183,
+      "sha256": "6f39bcc56f04ececa934114c0459ba859d36551069a64c2e9258b9f8a4578b8b"
     },
     {
       "id": "mob_spider__mobs_refreshed",
@@ -6204,16 +6204,16 @@
       "category": "mob_spider",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 2508,
-      "sha256": "223313468c03cfe7847eb9397783d17da0262c2f15710ef3f9fb8f86adc3062c"
+      "size": 25273,
+      "sha256": "5f7e3ca9a0eada32153d399250106b64a3c288ef6cc6bcb0b937835e2c22ef64"
     },
     {
       "id": "mob_squid__recrafted_mobs",
       "category": "mob_squid",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3278,
-      "sha256": "c509e5eed5a9352f1607dd3ef11510c571ba5766c5729fccaaa55196da10c0d1"
+      "size": 5648,
+      "sha256": "665adfbc2562bb121ffd09ccae1f43ebe0918ae1889b398516a32505ec013cbb"
     },
     {
       "id": "mob_stray__mobs_refreshed",
@@ -6228,8 +6228,8 @@
       "category": "mob_stray",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4581,
-      "sha256": "a45068574f9d785a391290ed5c1e090e509e676974f34fa0e7ce7d444b7f9f91"
+      "size": 6476,
+      "sha256": "9058467cf6790d967e8815c1994eb7a15f2c10cd37800633e9003a582ffa294a"
     },
     {
       "id": "mob_strider__mobs_refreshed",
@@ -6244,32 +6244,32 @@
       "category": "mob_villager",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4308,
-      "sha256": "95c07d8a4bc71c342512d7a4c26303780ee042f6ceec3fd6dad3e9a88931faf0"
+      "size": 671575,
+      "sha256": "b3e10d685117f53aa11c92470db855a2f47ca45a2b53f9f51e1d3123f7df8f66"
     },
     {
       "id": "mob_vindicator__recrafted_mobs",
       "category": "mob_vindicator",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6505,
-      "sha256": "f8d526d109614b8d0f930f19760c680ffbc0d21834f2a1b7b66ac867e99c189e"
+      "size": 32705,
+      "sha256": "83e9d8656adec76a516339a94bff135af6d81c7c59f7296e90554e3674b93f69"
     },
     {
       "id": "mob_wandering_trader__recrafted_mobs",
       "category": "mob_wandering_trader",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 4609,
-      "sha256": "0a419de5587d6d06a9e332288370acbca77d5c3e7e7f1551bfd720186fd88686"
+      "size": 74339,
+      "sha256": "677b9ef620b6f76f70158f5abbfd026325e049a4b30aaa228385a8a505797c9e"
     },
     {
       "id": "mob_warden__recrafted_mobs",
       "category": "mob_warden",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 38442,
-      "sha256": "ff284bfe883ad303f426cb9aaf3007db40f7e265e4ae44d75f9eb7693cd6a908"
+      "size": 331683,
+      "sha256": "abcb2c1ac5c5c162ea8f9403f0ac49ddd72949954bf9312612986510dffde619"
     },
     {
       "id": "mob_witch__mobs_refreshed",
@@ -6284,16 +6284,16 @@
       "category": "mob_witch",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6154,
-      "sha256": "3ded6f58eb797485703b9d5ca8943c9debdc441dedc11fbcc286d6c0dc3b56a9"
+      "size": 7499,
+      "sha256": "2617f6a594bb2f61d589d4377559b1170ac3f4b317351056dab140bfa4074e42"
     },
     {
       "id": "mob_wither__recrafted_mobs",
       "category": "mob_wither",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3564,
-      "sha256": "9763f43c049a1e71d7aecfed89f8816e3f29cae9ceb547a96386aa816b09b9e7"
+      "size": 152353,
+      "sha256": "f391c84141e6f26353c4975a4dd05272e2867560e510d1eb259d8df62cb03278"
     },
     {
       "id": "mob_wither_skeleton__mobs_refreshed",
@@ -6308,48 +6308,48 @@
       "category": "mob_wolf",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 7506,
-      "sha256": "d38dc7dbf51ba257956eb196e95aae7c52b594685599c30867fc74a99b691c38"
+      "size": 26473,
+      "sha256": "91f96bd8b728a5b1e407be2fece6e0ec7d1a861edbd858bda00321feab15db0e"
     },
     {
       "id": "mob_zoglin__mobs_refreshed",
       "category": "mob_zoglin",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 6522,
-      "sha256": "d724ad0bd419c2aa5175ba85137309fac4d8c140b7eb8faf5634b770a7d704ad"
+      "size": 11652,
+      "sha256": "feaf7d646e513e59aa9fac28801cdc3015c0de1ffd54ea285eb691c88d9d848f"
     },
     {
       "id": "mob_zombie__mobs_refreshed",
       "category": "mob_zombie",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 4295,
-      "sha256": "742cb69ecd85afaee1440309f3da535b175599d2b7efb7ec847b27392d8e1956"
+      "size": 18087,
+      "sha256": "237fd0c66606123c78c74acfd29095600629c2907f08bc25928b9f111fee4dc8"
     },
     {
       "id": "mob_zombie__recrafted_mobs",
       "category": "mob_zombie",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 3598,
-      "sha256": "17f0be73caf90fc16ea1bd5f24cda0a1aa5b1bdc4d45b14bdc9a31058919846d"
+      "size": 28956,
+      "sha256": "58bd4eb54375f27622bda0aed19ad3e5ce8766dca1f7cbf96bd61d0af7449782"
     },
     {
       "id": "mob_zombified_piglin__mobs_refreshed",
       "category": "mob_zombified_piglin",
       "name": " Mobs Refreshed",
       "added": "2026-11-05",
-      "size": 5371,
-      "sha256": "0357d62366d2fa07258b84ee25cdfe5c44afef5abf553518594773a655cee9db"
+      "size": 8638,
+      "sha256": "154998731beac2e3f6346eedb6262506ceffd54453094bcd37f0743bc638d2e0"
     },
     {
       "id": "mob_zombified_piglin__recrafted_mobs",
       "category": "mob_zombified_piglin",
       "name": " Recrafted Mobs",
       "added": "2026-11-05",
-      "size": 6521,
-      "sha256": "ab8fada8baa58fe6f7264fec73161a6a642542becba37b854e4f0072789f9618"
+      "size": 31855,
+      "sha256": "f9a41c9e91bcb085a254f534b2498e8d8ae39c921cc03482529acd71b509ecf1"
     }
   ],
   "categories": [
@@ -6617,7 +6617,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(allay/allay\\.png|allay/grayscale_allay\\.png|allay/soul_wizard\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(allay/allay\\.png|allay/grayscale_allay\\.png|allay/guardian_vex\\.png|allay/nether_baby_ghast\\.png|allay/soul_wizard\\.png|allay/wisp\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6685,7 +6685,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(bee/bee\\.png|bee/bee_angry\\.png|bee/bee_angry_nectar\\.png|bee/bee_nectar\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(bee/bee\\.png|bee/bee_angry\\.png|bee/bee_angry_nectar\\.png|bee/bee_nectar\\.png|bee/gakspack_variant\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6770,11 +6770,11 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(cat/all_black\\.png|cat/black\\.png|cat/british_shorthair\\.png|cat/calico\\.png|cat/cat_collar\\.png|cat/cat_eyes\\.png|cat/cat_eyes_e\\.png|cat/jellie\\.png|cat/meerkat\\.png|cat/persian\\.png|cat/ragdoll\\.png|cat/red\\.png|cat/siamese\\.png|cat/tabby\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(cat/all_black\\.png|cat/black\\.png|cat/british_shorthair\\.png|cat/calico\\.png|cat/cat_collar\\.png|cat/cat_eyes\\.png|cat/cat_eyes_e\\.png|cat/ferret\\.png|cat/jellie\\.png|cat/meerkat\\.png|cat/persian\\.png|cat/ragdoll\\.png|cat/red\\.png|cat/siamese\\.png|cat/tabby\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(cat/whiskers\\.png|cat/white\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(cat/weasel\\.png|cat/whiskers\\.png|cat/white\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6808,7 +6808,11 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(chicken\\.png|chicken/cold_chicken\\.png|chicken/temperate_chicken\\.png|chicken/warm_chicken\\.png|cluckshroom\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(chicken\\.png|chicken/cold_chicken\\.png|chicken/temperate_chicken\\.png|chicken/warm_chicken\\.png|chicken_benedict\\.png|chicken_fancy\\.png|chicken_key\\.png|chicken_ministrosity\\.png|chicken_penguin\\.png|cluckshroom\\.png|warm_chicken\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(warm_chicken_ministrosity\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6842,7 +6846,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(cow/cold_cow\\.png|cow/cow\\.png|cow/cow_horn\\.png|cow/cow_udder\\.png|cow/moobloom\\.png|cow/temperate_cow\\.png|cow/warm_cow\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(cow/cold_cow\\.png|cow/cow\\.png|cow/cow_horn\\.png|cow/cow_udder\\.png|cow/earth_cow\\.png|cow/horse_cow\\.png|cow/magma_cow\\.png|cow/moobloom\\.png|cow/mooboom\\.png|cow/moolip\\.png|cow/temperate_cow\\.png|cow/warm_cow\\.png|cow/wooly_cow\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6876,13 +6880,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(creeper/creeper\\.png|creeper/creeper_armor\\.png|creeper/head_creeper\\.png|creeper/icy_creeper\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(creeper/creeder\\.png|creeper/creeper\\.png|creeper/creeper_armor\\.png|creeper/head_creeper\\.png|creeper/icy_creeper\\.png|creeper/prismarine_creeper\\.png|creeper/reality_creeper\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/creeper/creeper.png"
+        "texture": "assets/minecraft/textures/entity/creeper/creeder.png"
       }
     },
     {
@@ -6910,7 +6914,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(horse/donkey\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(horse/donkey\\.png|horse/saddle\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6927,7 +6931,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/drowned\\.png|zombie/drowned_e\\.png|zombie/drowned_necromancer\\.png|zombie/drowned_necromancer_outer_layer\\.png|zombie/drowned_outer_layer\\.png|zombie/drowned_outer_layer_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/drowned\\.png|zombie/drowned_e\\.png|zombie/drowned_necromancer\\.png|zombie/drowned_necromancer_outer_layer\\.png|zombie/drowned_outer_layer\\.png|zombie/drowned_outer_layer_e\\.png|zombie/prismarine_soldier\\.png|zombie/prismarine_soldier_outer_layer\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -6978,13 +6982,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(enderman/enderman\\.png|enderman/enderman_eyes\\.png|enderman/watchling\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(enderman/blastling\\.png|enderman/enderman\\.png|enderman/enderman_eyes\\.png|enderman/endersent\\.png|enderman/pearl_endersent\\.png|enderman/reality_enderman\\.png|enderman/snareling\\.png|enderman/watchling\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/enderman/enderman.png"
+        "texture": "assets/minecraft/textures/entity/enderman/blastling.png"
       }
     },
     {
@@ -7012,13 +7016,17 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/evoker\\.png|illager/evoker_e\\.png|illager/geomancer\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/enchanter\\.png|illager/evoker\\.png|illager/evoker_e\\.png|illager/evoker_fangs_bomb\\.png|illager/evoker_fangs_fire\\.png|illager/evoker_fangs_ice\\.png|illager/evoker_fangs_ice_snow\\.png|illager/evoker_fangs_vine\\.png|illager/evoker_fangs_wind\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(illager/geomancer\\.png|illager/iceologer\\.png|illager/tower_wraith\\.png|illager/whisperer\\.png|illager/wind_caller\\.png|illager/wraith\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/illager/evoker.png"
+        "texture": "assets/minecraft/textures/entity/illager/enchanter.png"
       }
     },
     {
@@ -7029,7 +7037,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(fox/badger\\.png|fox/fox\\.png|fox/fox_sleep\\.png|fox/snow_fox\\.png|fox/snow_fox_sleep\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(fox/badger\\.png|fox/fox\\.png|fox/fox_sleep\\.png|fox/marmot\\.png|fox/otter\\.png|fox/raccoon\\.png|fox/red_panda\\.png|fox/skunk\\.png|fox/snow_fox\\.png|fox/snow_fox_sleep\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7063,13 +7071,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(ghast/ghast\\.png|ghast/ghast_shooting\\.png|ghast/ghast_shooting_e\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(ghast/gakspack_variant\\.png|ghast/ghast\\.png|ghast/ghast_shooting\\.png|ghast/ghast_shooting_e\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/ghast/ghast.png"
+        "texture": "assets/minecraft/textures/entity/ghast/gakspack_variant.png"
       }
     },
     {
@@ -7207,13 +7215,17 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(iron_golem/furnace_golem\\.png|iron_golem/iron_golem\\.png|iron_golem/iron_golem_crackiness_high\\.png|iron_golem/iron_golem_crackiness_low\\.png|iron_golem/iron_golem_crackiness_medium\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(iron_golem/agent\\.png|iron_golem/copper_golem\\.png|iron_golem/first_of_brick\\.png|iron_golem/first_of_diorite\\.png|iron_golem/first_of_oak\\.png|iron_golem/first_of_stone\\.png|iron_golem/furnace_golem\\.png|iron_golem/icy_golem\\.png|iron_golem/iron_golem\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(iron_golem/iron_golem_crackiness_high\\.png|iron_golem/iron_golem_crackiness_low\\.png|iron_golem/iron_golem_crackiness_medium\\.png|iron_golem/iron_robot\\.png|iron_golem/pama\\.png|iron_golem/pama_face\\.png|iron_golem/tuff_golem\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/iron_golem/furnace_golem.png"
+        "texture": "assets/minecraft/textures/entity/iron_golem/agent.png"
       }
     },
     {
@@ -7232,7 +7244,7 @@
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(equipment/llama_body/yellow\\.png|llama/brown\\.png|llama/creamy\\.png|llama/creamy1\\.png|llama/gray\\.png|llama/jolly_llama\\.png|llama/white\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(equipment/llama_body/yellow\\.png|llama/brown\\.png|llama/creamy\\.png|llama/creamy1\\.png|llama/gray\\.png|llama/jolly_llama\\.png|llama/mobbo\\.png|llama/white\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7351,13 +7363,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(parrot/parrot_blue\\.png|parrot/parrot_green\\.png|parrot/parrot_grey\\.png|parrot/parrot_red_blue\\.png|parrot/parrot_variant\\.png|parrot/parrot_yellow_blue\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(parrot/crow\\.png|parrot/parrot_blue\\.png|parrot/parrot_green\\.png|parrot/parrot_grey\\.png|parrot/parrot_red_blue\\.png|parrot/parrot_variant\\.png|parrot/parrot_yellow_blue\\.png|parrot/toucan\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/parrot/parrot_blue.png"
+        "texture": "assets/minecraft/textures/entity/parrot/crow.png"
       }
     },
     {
@@ -7368,13 +7380,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(pig/cold_pig\\.png|pig/muddy_pig\\.png|pig/pig\\.png|pig/pig_saddle\\.png|pig/pig_tusk\\.png|pig/temperate_pig\\.png|pig/warm_pig\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(pig/chest_pig\\.png|pig/cold_pig\\.png|pig/muddy_pig\\.png|pig/pig\\.png|pig/pig_chest_closed\\.png|pig/pig_pony\\.png|pig/pig_saddle\\.png|pig/pig_tusk\\.png|pig/temperate_pig\\.png|pig/warm_muddy_pig\\.png|pig/warm_pig\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/pig/cold_pig.png"
+        "texture": "assets/minecraft/textures/entity/pig/chest_pig.png"
       }
     },
     {
@@ -7402,7 +7414,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(piglin/piglin_brute\\.png|piglin/piglin_brute_armored\\.png|piglin/piglin_brute_armored_armor\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(piglin/piglin_brute\\.png|piglin/piglin_brute_armored\\.png|piglin/piglin_brute_armored_armor\\.png|piglin/piglin_tusk\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7470,7 +7482,11 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(rabbit/black\\.png|rabbit/brown\\.png|rabbit/caerbannog\\.png|rabbit/ears\\.png|rabbit/gold\\.png|rabbit/rabbit_variant\\.png|rabbit/salt\\.png|rabbit/toast\\.png|rabbit/white\\.png|rabbit/white_splotched\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(rabbit/black\\.png|rabbit/brown\\.png|rabbit/caerbannog\\.png|rabbit/ears\\.png|rabbit/gold\\.png|rabbit/rabbit_golden_monkey\\.png|rabbit/rabbit_hedgehog\\.png|rabbit/rabbit_hyper\\.png|rabbit/rabbit_jumbo\\.png|rabbit/rabbit_variant\\.png|rabbit/salt\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(rabbit/toast\\.png|rabbit/white\\.png|rabbit/white_splotched\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7487,13 +7503,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/ravager\\.png|illager/redstone_golem\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/imperfect\\.png|illager/leapleaf\\.png|illager/ravager\\.png|illager/redstone_golem\\.png|illager/squall_golem\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/illager/ravager.png"
+        "texture": "assets/minecraft/textures/entity/illager/imperfect.png"
       }
     },
     {
@@ -7521,7 +7537,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(sheep/horned_sheep\\.png|sheep/sheep\\.png|sheep/sheep_fur\\.png|sheep/sheep_fur_regular\\.png|sheep/sheep_horns\\.png|sheep/sheep_wool\\.png|sheep/sheep_wool_undercoat\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(sheep/horned_sheep\\.png|sheep/rainbow_sheep\\.png|sheep/rainbow_sheep_fur\\.png|sheep/sheep\\.png|sheep/sheep_fur\\.png|sheep/sheep_fur_regular\\.png|sheep/sheep_horns\\.png|sheep/sheep_moss\\.png|sheep/sheep_wool\\.png|sheep/sheep_wool_undercoat\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7559,7 +7575,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(skeleton/skeleton\\.png|skeleton/skeleton_armor\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(skeleton/skeleton\\.png|skeleton/skeleton_armor\\.png|skeleton/skeleton_spyglass\\.png|skeleton/skeleton_vision\\.png|skeleton/sunken_skeleton\\.png|skeleton/vanguard_armor\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7576,7 +7592,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(horse/horse_skeleton\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(horse/horse_skeleton\\.png|horse/saddle\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7593,13 +7609,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(slime/redstone_cube\\.png|slime/slime\\.png|slime/slime_eyes\\.png|slime/slime_mouth\\.png|slime/slime_outer\\.png|slime_outer\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(slime/corrupted_cauldron\\.png|slime/prismarine_slime\\.png|slime/redstone_cube\\.png|slime/slime\\.png|slime/slime_eyes\\.png|slime/slime_mouth\\.png|slime/slime_outer\\.png|slime_outer\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/slime/redstone_cube.png"
+        "texture": "assets/minecraft/textures/entity/slime/corrupted_cauldron.png"
       }
     },
     {
@@ -7627,7 +7643,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(snow_golem\\.png|snow_golem_head\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(snow_golem\\.png|snow_golem_evil_snow_admin\\.png|snow_golem_head\\.png|snow_golem_jack_o_trap\\.png|snow_golem_snow_admin\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7661,13 +7677,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(squid/barnacle\\.png|squid/squid\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(squid/baby_squid\\.png|squid/barnacle\\.png|squid/squid\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/squid/barnacle.png"
+        "texture": "assets/minecraft/textures/entity/squid/baby_squid.png"
       }
     },
     {
@@ -7784,7 +7800,11 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(villager/npc_villager\\.png|villager/profession/armorer\\.png|villager/profession/butcher\\.png|villager/profession/cartographer\\.png|villager/profession/cleric\\.png|villager/profession/farmer\\.png|villager/profession/fisherman\\.png|villager/profession/fletcher\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(villager/business_jug\\.png|villager/fish_in_chaps\\.png|villager/kiosk1_k\\.png|villager/kiosk2_k\\.png|villager/kiosk3_k\\.png|villager/kiosk4_k\\.png|villager/kiosk5_k\\.png|villager/npc_villager\\.png|villager/nurm_village\\.png|villager/player_villager\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(villager/profession/armorer\\.png|villager/profession/butcher\\.png|villager/profession/cartographer\\.png|villager/profession/cleric\\.png|villager/profession/farmer\\.png|villager/profession/fisherman\\.png|villager/profession/fletcher\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
@@ -7802,7 +7822,7 @@
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/villager/npc_villager.png"
+        "texture": "assets/minecraft/textures/entity/villager/business_jug.png"
       }
     },
     {
@@ -7813,13 +7833,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(illager/royal_guard\\.png|illager/vindicator\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(illager/armored_mountaineer\\.png|illager/armored_vindicator\\.png|illager/chef\\.png|illager/mountaineer\\.png|illager/mountaineer_backpack\\.png\\.png|illager/royal_guard\\.png|illager/tower_guard\\.png|illager/vindicator\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/illager/royal_guard.png"
+        "texture": "assets/minecraft/textures/entity/illager/armored_mountaineer.png"
       }
     },
     {
@@ -7830,7 +7850,15 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(wandering_trader\\.png|wandering_trader_black_smith\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wandering_trader\\.png|wandering_trader_black_smith\\.png|wandering_trader_enchanter_merchant\\.png|wandering_trader_enchanter_merchant_accessories\\.png|wandering_trader_gift_wraper\\.png|wandering_trader_luxury_merchant\\.png|wandering_trader_mystery_merchant\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(wandering_trader_piglin_merchant\\.png|wandering_trader_rascal\\.png|wandering_trader_retired_adventurer\\.png|wandering_trader_tower_gildsmith\\.png|wandering_trader_tower_powersmith\\.png|wandering_trader_tower_tower_keeper\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(wandering_trader_tower_uniquesmith\\.png|wandering_trader_village_merchant\\.png|wandering_trader_village_merchant_magnifying_glass\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7847,13 +7875,17 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(warden/redstone_monstrosity\\.png|warden/warden\\.png|warden/warden_bioluminescent_layer\\.png|warden/warden_heart\\.png|warden/warden_pulsating_spots_1\\.png|warden/warden_pulsating_spots_2\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(warden/jungle_abomination\\.png|warden/mooshroom_monstrosity\\.png|warden/obsidian_monstrosity\\.png|warden/redstone_monstrosity\\.png|warden/tempest_golem\\.png|warden/warden\\.png|warden/warden_bioluminescent_layer\\.png|warden/warden_heart\\.png)$",
+          "to": "assets/minecraft/textures/entity/$1"
+        },
+        {
+          "match": "^assets/minecraft/textures/entity/(warden/warden_pulsating_spots_1\\.png|warden/warden_pulsating_spots_2\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/warden/redstone_monstrosity.png"
+        "texture": "assets/minecraft/textures/entity/warden/jungle_abomination.png"
       }
     },
     {
@@ -7919,15 +7951,15 @@
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(wolf/wolf_black_angry\\.png|wolf/wolf_black_tame\\.png|wolf/wolf_chestnut\\.png|wolf/wolf_chestnut_angry\\.png|wolf/wolf_chestnut_tame\\.png|wolf/wolf_collar\\.png|wolf/wolf_ears2\\.png|wolf/wolf_rusty\\.png|wolf/wolf_rusty_angry\\.png|wolf/wolf_rusty_tame\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wolf/wolf_black_angry\\.png|wolf/wolf_black_tame\\.png|wolf/wolf_chestnut\\.png|wolf/wolf_chestnut_angry\\.png|wolf/wolf_chestnut_tame\\.png|wolf/wolf_collar\\.png|wolf/wolf_crown\\.png|wolf/wolf_ears2\\.png|wolf/wolf_rusty\\.png|wolf/wolf_rusty_angry\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(wolf/wolf_snowy\\.png|wolf/wolf_snowy_angry\\.png|wolf/wolf_snowy_tame\\.png|wolf/wolf_spotted\\.png|wolf/wolf_spotted_angry\\.png|wolf/wolf_spotted_tame\\.png|wolf/wolf_striped\\.png|wolf/wolf_striped_angry\\.png|wolf/wolf_striped_tame\\.png|wolf/wolf_stripped\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wolf/wolf_rusty_tame\\.png|wolf/wolf_snowy\\.png|wolf/wolf_snowy_angry\\.png|wolf/wolf_snowy_tame\\.png|wolf/wolf_spotted\\.png|wolf/wolf_spotted_angry\\.png|wolf/wolf_spotted_tame\\.png|wolf/wolf_striped\\.png|wolf/wolf_striped_angry\\.png|wolf/wolf_striped_tame\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         },
         {
-          "match": "^assets/minecraft/textures/entity/(wolf/wolf_tame\\.png|wolf/wolf_variant\\.png|wolf/wolf_variant_angry\\.png|wolf/wolf_variant_tame\\.png|wolf/wolf_woods\\.png|wolf/wolf_woods_angry\\.png|wolf/wolf_woods_tame\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(wolf/wolf_stripped\\.png|wolf/wolf_tame\\.png|wolf/wolf_variant\\.png|wolf/wolf_variant_angry\\.png|wolf/wolf_variant_tame\\.png|wolf/wolf_woods\\.png|wolf/wolf_woods_angry\\.png|wolf/wolf_woods_tame\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7961,7 +7993,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/head_zombie\\.png|zombie/zombie\\.png|zombie/zombie_armor\\.png|zombie/zombie_pants\\.png|zombie/zombie_shirt\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/head_zombie\\.png|zombie/zombie\\.png|zombie/zombie_armor\\.png|zombie/zombie_bouldering\\.png|zombie/zombie_lobber\\.png|zombie/zombie_pants\\.png|zombie/zombie_shirt\\.png|zombie/zombie_vision\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -7978,7 +8010,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(horse/horse_zombie\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(horse/horse_zombie\\.png|horse/saddle\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
@@ -8028,13 +8060,13 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(piglin/zombified_piglin\\.png|piglin/zombified_piglin_clothes\\.png|piglin/zombified_piglin_fungus_thrower\\.png|piglin/zombified_piglin_fungus_thrower_bag\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(piglin/piglin_tusk\\.png|piglin/zombified_armored_piglin\\.png|piglin/zombified_armored_piglin_armor\\.png|piglin/zombified_piglin\\.png|piglin/zombified_piglin_clothes\\.png|piglin/zombified_piglin_fungus_thrower\\.png|piglin/zombified_piglin_fungus_thrower_bag\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
       "preview": {
         "type": "item",
-        "texture": "assets/minecraft/textures/entity/piglin/zombified_piglin.png"
+        "texture": "assets/minecraft/textures/entity/piglin/piglin_tusk.png"
       }
     },
     {
@@ -8045,7 +8077,7 @@
       "autoMob": true,
       "files": [
         {
-          "match": "^assets/minecraft/textures/entity/(zombie/zombie\\.png|zombie/zombie_armor\\.png)$",
+          "match": "^assets/minecraft/textures/entity/(zombie/zombie\\.png|zombie/zombie_armor\\.png|zombie/zombie_bouldering\\.png|zombie/zombie_lobber\\.png|zombie/zombie_vision\\.png)$",
           "to": "assets/minecraft/textures/entity/$1"
         }
       ],
