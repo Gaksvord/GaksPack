@@ -1,7 +1,7 @@
 {
-  "version": "1.0.28+mc1.21.11",
+  "version": "1.0.30-rc1+mc1.21.11",
   "minecraft": "1.21.11",
-  "url": "https://raw.githubusercontent.com/Gaksvord/GaksPack/main/release/mc/1.21.11/GaksPack-1.0.28+mc1.21.11.jar",
-  "sha256": "534efe305848115697b6a80133b68139cc91701d6b023c99cb235f7d9fd1c40a",
-  "size": 10893736
+  "url": "https://raw.githubusercontent.com/Gaksvord/GaksPack/main/release/mc/1.21.11/GaksPack-1.0.30-rc1+mc1.21.11.jar",
+  "sha256": "1c99a47c0c79e6667149b059becca4a7b99990e736fdb4a247a697798f88e712",
+  "size": 10882895
 }
