@@ -1306,38 +1306,6 @@
       "source": "Bauloo Styles"
     },
     {
-      "id": "obsidian_gakspack_primed_up",
-      "category": "obsidian",
-      "name": "GaksPack Primed Up",
-      "sha256": "cd5d1f3c33249f98cd262084284f7b2d19d65a510c9cd39177b3b54ea6a4a738",
-      "size": 987,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/obsidian_gakspack_primed_up.png"
-    },
-    {
-      "id": "obsidian_gubi_fortnite7",
-      "category": "obsidian",
-      "name": "gubi fortnite7",
-      "sha256": "ee28076b1544b66556bbd3831401412a4f9043bf816830335ed1e41215564011",
-      "size": 548,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/obsidian_gubi_fortnite7.png",
-      "source": "Bauloo Styles"
-    },
-    {
-      "id": "obsidian_ituspremade",
-      "category": "obsidian",
-      "name": "ituspremade",
-      "sha256": "e3ad8fc34cdbf6e917c83641aea41f3cb18afb695c8ae2fcb76645c2c4e77f61",
-      "size": 482,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/obsidian_ituspremade.png",
-      "source": "Bauloo Styles"
-    },
-    {
       "id": "obsidian_aiimgod_gakspack_s_x",
       "category": "obsidian",
       "name": "AiimGod GaksPack S*x",
@@ -1841,17 +1809,6 @@
       "preview": "previews/gap_tostertobi_the_nn.png"
     },
     {
-      "id": "pearl_14lm_pwiwate",
-      "category": "pearl",
-      "name": "14lm Pwiwate",
-      "sha256": "ec9aaf4007abc986d6507462888767a3d1bc5c707c905292617aa3c92da91582",
-      "size": 599,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/pearl_14lm_pwiwate.png",
-      "source": "Bauloo Styles"
-    },
-    {
       "id": "pearl_black_white_new",
       "category": "pearl",
       "name": "Black White New",
@@ -1915,17 +1872,6 @@
       "added": "2026-10-23",
       "by": "aiimgod",
       "preview": "previews/pearl_pokemon_blue.png",
-      "source": "Bauloo Styles"
-    },
-    {
-      "id": "pearl_gubi_fortnite7",
-      "category": "pearl",
-      "name": "gubi fortnite7",
-      "sha256": "b3366b87d5bf56cd92db7e6929b54a2da58764bd75ee39cb9f66f85f7c9bc575",
-      "size": 601,
-      "added": "2026-10-23",
-      "by": "aiimgod",
-      "preview": "previews/pearl_gubi_fortnite7.png",
       "source": "Bauloo Styles"
     },
     {
@@ -51710,46 +51656,6 @@
       "size": 14466,
       "added": "2026-11-26",
       "preview": "previews/tntcart_crystalanchor_private.png"
-    },
-    {
-      "id": "anchor_198m_blackie",
-      "category": "anchor",
-      "source": "Bauloo Styles",
-      "name": "198M Blackie",
-      "sha256": "17a7cc1844306ef4a037dde0450b237dbdc4e9169ff1cbcfd517de3607ef8e69",
-      "size": 104719,
-      "added": "2026-11-26",
-      "preview": "previews/anchor_198m_blackie.png"
-    },
-    {
-      "id": "obsidian_bauloo_primed_up",
-      "category": "obsidian",
-      "source": "Bauloo Styles",
-      "name": "Bauloo Primed Up",
-      "sha256": "1dcd88db33f473d0f20b3aa6ed296843bc721fe4a96e76acf5930ae494ed21a4",
-      "size": 28881,
-      "added": "2026-11-26",
-      "preview": "previews/obsidian_bauloo_primed_up.png"
-    },
-    {
-      "id": "obsidian_fortnite_pack",
-      "category": "obsidian",
-      "source": "Bauloo Styles",
-      "name": "Fortnite Pack",
-      "sha256": "7744e23f1de55eb058819e8a8cec2948b3e1b20500101681c4ae5f4dd50c2d52",
-      "size": 560892,
-      "added": "2026-11-26",
-      "preview": "previews/obsidian_fortnite_pack.png"
-    },
-    {
-      "id": "obsidian_pepe",
-      "category": "obsidian",
-      "source": "Bauloo Styles",
-      "name": "PEPE",
-      "sha256": "6eca8c25311e2cfc62c3fdefbe58ecf6db0479ec56b3838e23d79ac1cde9a582",
-      "size": 15471,
-      "added": "2026-11-26",
-      "preview": "previews/obsidian_pepe.png"
     },
     {
       "id": "obsidian_aiimgod_bauloo_s_x",
